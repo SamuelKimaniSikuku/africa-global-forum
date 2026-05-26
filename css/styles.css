@@ -392,6 +392,15 @@ nav{
   background:rgba(244,239,230,0.15);
   border:1px solid rgba(244,239,230,0.15);
 }
+.pillars-grid-3{grid-template-columns:repeat(3,1fr)}
+.pillar-feature{
+  margin-top:auto;
+  color:var(--ochre);
+  font-size:11px;
+  padding-top:18px;
+  border-top:1px solid rgba(244,239,230,0.15);
+  align-self:flex-start;
+}
 .pillar{
   background:var(--ink);
   padding:52px 44px;
@@ -1211,7 +1220,7 @@ footer{
   .partner-row .name{font-size:24px}
   .networks-grid{grid-template-columns:repeat(2,1fr)}
   .networks-header{margin-bottom:48px}
-  .pillars-grid{grid-template-columns:1fr}
+  .pillars-grid,.pillars-grid-3{grid-template-columns:1fr}
   .numbers-inner{grid-template-columns:1fr;gap:40px}
   .numbers-grid{grid-template-columns:repeat(2,1fr)}
   .init-grid{grid-template-columns:1fr}
