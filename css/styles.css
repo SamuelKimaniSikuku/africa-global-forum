@@ -237,6 +237,38 @@ nav{
 }
 .marquee-item span.sep{color:var(--ochre);font-style:normal}
 
+/* ============ BELIEF / MANIFESTO ============ */
+.belief{
+  padding:90px 40px;
+  background:var(--paper);
+  position:relative;
+  border-bottom:1px solid var(--line-soft);
+}
+.belief-inner{
+  max-width:1100px;margin:0 auto;
+  text-align:center;
+}
+.belief .section-label{
+  justify-content:center;
+  margin-bottom:24px;
+}
+.belief .section-label::before{display:none}
+.belief-line{
+  font-family:'Fraunces',serif;
+  font-weight:400;
+  font-size:clamp(28px,3.6vw,52px);
+  line-height:1.2;
+  letter-spacing:-0.015em;
+  color:var(--ink);
+  max-width:900px;
+  margin:0 auto;
+}
+.belief-line em{
+  font-style:italic;
+  font-weight:300;
+  color:var(--terracotta);
+}
+
 /* ============ MISSION ============ */
 .mission{
   padding:140px 40px;
@@ -656,6 +688,89 @@ nav{
   color:rgba(14,11,8,0.55);
 }
 
+/* ============ VOICES / TESTIMONIALS ============ */
+.voices{
+  padding:140px 40px;
+  background:var(--ink);
+  color:var(--paper);
+  position:relative;
+  overflow:hidden;
+}
+.voices::before{
+  content:"";
+  position:absolute;
+  top:-180px;left:50%;
+  width:600px;height:600px;border-radius:50%;
+  transform:translateX(-50%);
+  background:radial-gradient(circle,rgba(216,155,44,0.10),transparent 60%);
+  pointer-events:none;
+}
+.voices-inner{
+  max-width:1400px;margin:0 auto;
+  position:relative;z-index:2;
+}
+.voices-header{
+  text-align:center;
+  margin-bottom:64px;
+}
+.voices-header .section-label{
+  color:var(--ochre);
+  justify-content:center;
+}
+.voices-header .section-label::before{display:none}
+.voices-header h2{
+  font-size:clamp(36px,4.5vw,68px);
+}
+.voices-header h2 em{font-style:italic;color:var(--ochre);font-weight:300}
+.voices-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+.testimonial{
+  position:relative;
+  padding:40px 32px 32px;
+  border:1px solid rgba(244,239,230,0.15);
+  border-radius:8px;
+  background:rgba(244,239,230,0.03);
+  transition:border-color 0.3s,transform 0.3s;
+}
+.testimonial:hover{
+  border-color:var(--ochre);
+  transform:translateY(-4px);
+}
+.testimonial .quote-glyph{
+  font-family:'Fraunces',serif;
+  font-size:64px;line-height:0.6;
+  color:var(--ochre);
+  position:absolute;
+  top:20px;right:24px;
+  opacity:0.6;
+}
+.testimonial blockquote{
+  font-family:'Fraunces',serif;
+  font-size:19px;
+  line-height:1.45;
+  font-weight:400;
+  color:rgba(244,239,230,0.92);
+  margin-bottom:28px;
+}
+.testimonial figcaption{
+  border-top:1px solid rgba(244,239,230,0.15);
+  padding-top:18px;
+  display:flex;flex-direction:column;gap:4px;
+}
+.testimonial figcaption strong{
+  font-family:'Manrope',sans-serif;
+  font-size:13px;font-weight:600;
+  color:var(--paper);
+}
+.testimonial figcaption span{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;letter-spacing:0.14em;text-transform:uppercase;
+  color:rgba(244,239,230,0.55);
+}
+
 /* ============ FOUNDER ============ */
 .founder{
   padding:140px 40px;
@@ -807,6 +922,20 @@ nav{
 }
 
 /* Pitch + benefits */
+.season-badge{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--paper);
+  border:1px solid var(--line);
+  padding:9px 16px;border-radius:100px;
+  color:var(--ink);
+  font-size:10px;
+  margin-bottom:20px;
+}
+.season-badge .dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--terracotta);
+  animation:pulse 2s infinite;
+}
 .join-pitch h2{
   font-size:clamp(36px,5vw,68px);
   margin-bottom:24px;
@@ -1071,7 +1200,10 @@ footer{
     gap:50px;
   }
   .mission-aside{position:static}
-  .pillars,.founder,.initiatives,.numbers,.join,.networks,.partners{padding:80px 20px}
+  .pillars,.founder,.initiatives,.numbers,.join,.networks,.partners,.voices{padding:80px 20px}
+  .belief{padding:64px 20px}
+  .voices-grid{grid-template-columns:1fr;gap:16px}
+  .voices-header{margin-bottom:40px}
   .partners-inner,.founder-inner{grid-template-columns:1fr;gap:56px}
   .founder-portrait{max-width:280px}
   .founder-name{font-size:clamp(36px,9vw,52px)}
