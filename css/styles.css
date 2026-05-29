@@ -545,6 +545,11 @@ nav{
   line-height:1.55;
   max-width:460px;
 }
+.report-list{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
 .report-card{
   display:grid;
   grid-template-columns:240px 1fr;
@@ -557,6 +562,13 @@ nav{
   text-decoration:none;
   color:var(--ink);
   transition:transform 0.4s,box-shadow 0.4s,border-color 0.4s;
+}
+.report-card-archive .report-cover{
+  background:
+    linear-gradient(160deg, var(--ochre) 0%, var(--clay) 60%, var(--rust) 100%);
+}
+.report-eyebrow-archive{
+  color:rgba(14,11,8,0.5);
 }
 .report-card:hover{
   transform:translateY(-4px);
