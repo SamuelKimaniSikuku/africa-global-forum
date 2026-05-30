@@ -575,6 +575,14 @@ nav{
   background:
     linear-gradient(160deg, var(--clay) 0%, var(--rust) 55%, #3a1408 100%);
 }
+.report-card-gold .report-cover{
+  background:
+    linear-gradient(160deg, var(--gold) 0%, var(--clay) 55%, var(--rust) 100%);
+}
+.report-card-ink .report-cover{
+  background:
+    linear-gradient(160deg, var(--terracotta) 0%, var(--rust) 45%, var(--ink) 100%);
+}
 .report-eyebrow-archive{
   color:rgba(14,11,8,0.5);
 }
