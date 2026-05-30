@@ -988,6 +988,47 @@ nav{
   line-height:1.5;
 }
 
+/* Join form - 'coming soon' placeholder */
+.join-form-soon{display:flex;flex-direction:column}
+.join-form-soon .join-form-head{margin-bottom:32px}
+.soon-badge{
+  display:inline-flex;align-items:center;gap:10px;
+  align-self:flex-start;
+  background:var(--paper-warm);
+  border:1px solid var(--line);
+  padding:9px 16px;border-radius:100px;
+  color:var(--ink);
+  font-size:10px;
+  margin-bottom:24px;
+}
+.soon-badge .dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--terracotta);
+  animation:pulse 2s infinite;
+}
+.soon-lede{
+  font-family:'Fraunces',serif;
+  font-size:20px;
+  line-height:1.4;
+  color:rgba(14,11,8,0.85);
+  margin-bottom:28px;
+  max-width:440px;
+}
+.soon-cta{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--ink);
+  color:var(--paper);
+  padding:16px 28px;border-radius:100px;
+  font-family:'Manrope',sans-serif;
+  font-weight:500;font-size:14px;
+  text-decoration:none;
+  transition:background 0.3s,transform 0.3s;
+  margin-bottom:8px;
+}
+.soon-cta:hover{background:var(--terracotta);transform:translateY(-1px)}
+.soon-cta svg{transition:transform 0.3s}
+.soon-cta:hover svg{transform:translate(3px,-3px)}
+
 /* ============ FOOTER ============ */
 footer{
   background:var(--ink);
