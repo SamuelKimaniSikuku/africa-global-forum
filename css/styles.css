@@ -571,6 +571,10 @@ nav{
   background:
     linear-gradient(160deg, var(--forest) 0%, #1a2818 70%, #0E0B08 100%);
 }
+.report-card-deep .report-cover{
+  background:
+    linear-gradient(160deg, var(--clay) 0%, var(--rust) 55%, #3a1408 100%);
+}
 .report-eyebrow-archive{
   color:rgba(14,11,8,0.5);
 }
