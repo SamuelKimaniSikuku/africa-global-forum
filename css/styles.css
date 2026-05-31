@@ -520,23 +520,20 @@ nav{
   color:rgba(14,11,8,0.55);
 }
 
-/* ============ REPORTS ============ */
+/* ============ REPORTS (minimalist editorial list) ============ */
 .reports{
-  padding:120px 40px;
+  padding:140px 40px;
   background:var(--paper);
   border-top:1px solid var(--line-soft);
 }
 .reports-inner{
-  max-width:1400px;margin:0 auto;
+  max-width:920px;margin:0 auto;
 }
 .reports-header{
   text-align:center;
-  max-width:720px;
-  margin:0 auto 64px;
+  margin:0 auto 72px;
 }
-.reports-header .section-label{
-  justify-content:center;
-}
+.reports-header .section-label{justify-content:center}
 .reports-header .section-label::before{display:none}
 .reports-header h2{
   font-size:clamp(36px,4.5vw,64px);
@@ -546,134 +543,96 @@ nav{
 .reports-header h2 em{font-style:italic;color:var(--terracotta);font-weight:300}
 .reports-header p{
   font-size:16px;
-  color:rgba(14,11,8,0.65);
+  color:rgba(14,11,8,0.6);
   line-height:1.55;
 }
 
-.report-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:24px;
+.report-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+  border-top:1px solid var(--line-soft);
 }
-.report-tile{
-  display:flex;
-  flex-direction:column;
-  background:var(--paper);
-  border:1px solid var(--line-soft);
-  border-radius:14px;
-  overflow:hidden;
+.report-item{
+  border-bottom:1px solid var(--line-soft);
+}
+.report-link{
+  display:grid;
+  grid-template-columns:148px 1fr 80px;
+  gap:40px;
+  padding:28px 12px;
   text-decoration:none;
   color:var(--ink);
-  transition:transform 0.4s,box-shadow 0.4s,border-color 0.4s;
+  align-items:start;
+  transition:padding 0.4s ease, background 0.4s ease;
 }
-.report-tile:hover{
-  transform:translateY(-6px);
-  border-color:var(--line);
-  box-shadow:0 30px 60px -30px rgba(14,11,8,0.2);
+.report-link:hover{
+  padding-left:24px;
+  background:linear-gradient(to right, rgba(200,66,26,0.04), transparent 70%);
 }
-
-/* Tile cover -- 'book cover' panel */
-.report-tile-cover{
-  position:relative;
-  aspect-ratio:4/3;
-  padding:22px 24px;
-  color:var(--paper);
+.report-side{
   display:flex;
   flex-direction:column;
-  justify-content:space-between;
-  background:
-    linear-gradient(160deg, var(--terracotta) 0%, var(--rust) 70%, #4a1a08 100%);
-  overflow:hidden;
+  gap:10px;
+  padding-top:6px;
 }
-.report-tile-cover::after{
-  content:"";
-  position:absolute;
-  top:-50px;right:-50px;
-  width:160px;height:160px;border-radius:50%;
-  background:radial-gradient(circle,rgba(216,155,44,0.38),transparent 65%);
-  pointer-events:none;
-}
-.tile-head{
-  position:relative;z-index:1;
-  display:flex;justify-content:space-between;align-items:flex-start;gap:12px;
-}
-.tile-tag{
+.report-year{
   font-size:10px;
-  color:rgba(244,239,230,0.78);
+  color:rgba(14,11,8,0.5);
 }
-.tile-new{
+.report-status{
   display:inline-flex;align-items:center;gap:6px;
-  background:rgba(14,11,8,0.35);
-  backdrop-filter:blur(8px);
-  -webkit-backdrop-filter:blur(8px);
-  padding:5px 10px;border-radius:100px;
-  font-size:9px;
-  color:var(--paper);
+  font-size:10px;
+  align-self:flex-start;
 }
-.tile-new .dot{
+.report-status-new{color:var(--terracotta)}
+.report-status-new .dot{
   width:5px;height:5px;border-radius:50%;
   background:var(--terracotta);
   animation:pulse 2s infinite;
 }
-.tile-archive{
-  background:rgba(244,239,230,0.18);
-  backdrop-filter:blur(8px);
-  -webkit-backdrop-filter:blur(8px);
-  padding:5px 10px;border-radius:100px;
-  font-size:9px;
-  color:rgba(244,239,230,0.85);
-}
-.tile-title{
-  position:relative;z-index:1;
+.report-status-archive{color:rgba(14,11,8,0.35)}
+
+.report-body{}
+.report-title{
   font-family:'Fraunces',serif;
-  font-size:22px;
-  font-weight:500;
-  line-height:1.05;
+  font-size:clamp(22px,2.4vw,30px);
+  font-weight:400;
+  line-height:1.1;
   letter-spacing:-0.015em;
-  max-width:92%;
-}
-
-/* Cover variants */
-.report-tile-deep .report-tile-cover{
-  background:linear-gradient(160deg, var(--clay) 0%, var(--rust) 55%, #3a1408 100%);
-}
-.report-tile-gold .report-tile-cover{
-  background:linear-gradient(160deg, var(--gold) 0%, var(--clay) 55%, var(--rust) 100%);
-}
-.report-tile-ink .report-tile-cover{
-  background:linear-gradient(160deg, var(--terracotta) 0%, var(--rust) 45%, var(--ink) 100%);
-}
-.report-tile-forest .report-tile-cover{
-  background:linear-gradient(160deg, var(--forest) 0%, #1a2818 70%, #0E0B08 100%);
-}
-.report-tile-ochre .report-tile-cover{
-  background:linear-gradient(160deg, var(--ochre) 0%, var(--clay) 60%, var(--rust) 100%);
-}
-
-/* Tile meta -- caption strip below cover */
-.report-tile-meta{
-  padding:20px 22px 22px;
-  display:flex;flex-direction:column;
-  gap:14px;
-  flex:1;
-}
-.report-tile-meta p{
-  font-size:13.5px;
-  line-height:1.45;
-  color:rgba(14,11,8,0.68);
-  flex:1;
-}
-.tile-cta{
-  display:inline-flex;align-items:center;gap:8px;
+  margin-bottom:10px;
   color:var(--ink);
-  font-family:'Manrope',sans-serif;
-  font-size:12px;font-weight:500;
-  padding-top:14px;
-  margin-top:auto;
-  border-top:1px solid var(--line-soft);
+  transition:color 0.3s;
 }
-.tile-cta svg{transition:transform 0.3s}
-.report-tile:hover .tile-cta svg{transform:translateY(2px)}
+.report-title em{
+  font-style:italic;
+  color:rgba(14,11,8,0.45);
+  font-weight:300;
+}
+.report-link:hover .report-title{color:var(--terracotta)}
+.report-link:hover .report-title em{color:rgba(200,66,26,0.55)}
+.report-desc{
+  font-size:14px;
+  color:rgba(14,11,8,0.6);
+  line-height:1.5;
+  max-width:540px;
+}
+
+.report-foot{
+  text-align:right;
+  padding-top:8px;
+}
+.report-download{
+  font-size:11px;
+  color:rgba(14,11,8,0.55);
+  transition:color 0.3s;
+  white-space:nowrap;
+}
+.report-link:hover .report-download{color:var(--terracotta)}
+
+/* Subtler archive rows */
+.report-item-archive .report-title{color:rgba(14,11,8,0.7)}
+.report-item-archive .report-desc{color:rgba(14,11,8,0.45)}
 
 /* ============ FOUNDER ============ */
 .founder{
@@ -1142,8 +1101,10 @@ footer{
   .pillars{padding:100px 20px}
   .founder,.numbers,.join,.partners,.reports{padding:80px 20px}
   .reports-header{margin-bottom:48px}
-  .report-grid{grid-template-columns:repeat(2,1fr);gap:18px}
-  .tile-title{font-size:20px}
+  .report-link{grid-template-columns:1fr;gap:14px;padding:24px 4px}
+  .report-link:hover{padding-left:14px}
+  .report-side{flex-direction:row;justify-content:space-between;padding-top:0}
+  .report-foot{text-align:left;padding-top:0}
   .belief{padding:56px 20px}
   .partners-inner,.founder-inner{grid-template-columns:1fr;gap:56px}
   .founder-portrait{max-width:280px}
@@ -1165,7 +1126,6 @@ footer{
   .footer-top{grid-template-columns:1fr}
   .num-cell .big{font-size:44px}
   .num-cell{padding:24px 18px}
-  .report-grid{grid-template-columns:1fr}
 }
 
 /* Reveal animation */
