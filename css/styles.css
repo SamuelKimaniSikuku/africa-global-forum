@@ -624,6 +624,9 @@ nav{
 .report-thumb-blockchain{
   background:linear-gradient(140deg, var(--forest) 0%, #1a2818 100%);
 }
+.report-thumb-apps{
+  background:linear-gradient(140deg, var(--gold) 0%, var(--rust) 100%);
+}
 .report-item-archive .report-thumb{
   filter:saturate(0.75);
   opacity:0.85;
