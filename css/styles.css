@@ -662,8 +662,14 @@ nav{
 }
 .founder-avatar{
   width:100%;height:100%;
-  background:
-    radial-gradient(circle at 32% 30%, var(--ochre) 0%, var(--terracotta) 55%, var(--rust) 100%);
+  display:block;
+  object-fit:cover;
+  object-position:center top;
+  background:var(--paper-warm);
+  transition:transform 0.8s cubic-bezier(.2,.8,.2,1);
+}
+.founder-portrait:hover .founder-avatar{
+  transform:scale(1.03);
 }
 
 .founder-detail{
