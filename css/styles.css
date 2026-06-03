@@ -802,13 +802,34 @@ nav{
   line-height:1.5;
 }
 .credit-loc{color:rgba(200,66,26,0.7)}
-.credit-prev{
-  margin-top:6px;
+.credit-linkedin{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:14px;
+  align-self:flex-start;
+  padding:8px 14px 8px 12px;
+  border:1px solid var(--line);
+  border-radius:100px;
+  font-family:'Manrope',sans-serif;
   font-size:13px;
-  color:rgba(14,11,8,0.5);
-  line-height:1.5;
-  max-width:560px;
+  font-weight:500;
+  color:var(--ink);
+  text-decoration:none;
+  transition:background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
 }
+.credit-linkedin svg{
+  flex:none;
+  color:var(--terracotta);
+  transition:color 0.25s ease;
+}
+.credit-linkedin:hover{
+  background:var(--ink);
+  border-color:var(--ink);
+  color:var(--paper);
+  transform:translateY(-1px);
+}
+.credit-linkedin:hover svg{color:var(--ochre)}
 
 .founder-quote-glyph{
   position:absolute;
