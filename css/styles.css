@@ -799,15 +799,12 @@ nav{
   line-height:1.5;
 }
 .credit-loc{color:rgba(200,66,26,0.7)}
-.credit-bio{
-  margin-top:18px;
-  padding-top:18px;
-  border-top:1px solid var(--line-soft);
+.credit-prev{
+  margin-top:6px;
+  font-size:13px;
+  color:rgba(14,11,8,0.5);
+  line-height:1.5;
   max-width:560px;
-  font-family:'Manrope',sans-serif;
-  font-size:14px;
-  line-height:1.65;
-  color:rgba(14,11,8,0.7);
 }
 
 .founder-quote-glyph{
