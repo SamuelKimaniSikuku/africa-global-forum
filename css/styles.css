@@ -755,15 +755,18 @@ nav{
 .founder-intro{
   font-size:16px;
   color:rgba(14,11,8,0.7);
-  line-height:1.6;
-  margin-bottom:44px;
+  line-height:1.65;
+  margin-bottom:18px;
   max-width:560px;
+}
+.founder-intro + .founder-intro{
+  margin-bottom:44px;
 }
 .founder-pull{
   font-family:'Fraunces',serif;
   font-size:clamp(22px,2.4vw,30px);
-  font-weight:500;
-  line-height:1.25;
+  font-weight:600;
+  line-height:1.3;
   letter-spacing:-0.015em;
   color:var(--ink);
   margin-bottom:32px;
@@ -772,7 +775,7 @@ nav{
 .founder-pull em{
   font-style:italic;
   color:var(--terracotta);
-  font-weight:400;
+  font-weight:500;
 }
 .founder-divider{
   border:none;
