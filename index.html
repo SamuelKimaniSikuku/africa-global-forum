@@ -692,7 +692,7 @@
 
       <div class="join-pitch">
         <div class="section-label mono">Membership</div>
-        <div class="season-badge mono"><span class="dot"></span>Season 01 &middot; Now accepting applications</div>
+        <div class="season-badge mono"><span class="dot"></span>Applications open &middot; Season 01</div>
         <h2 class="display">Step into <em>the network.</em></h2>
         <p class="join-lede">Application only. Fellowships available &mdash; no one turned away for cost.</p>
 
@@ -703,25 +703,30 @@
         </ul>
       </div>
 
-      <div class="join-form join-form-soon">
+      <div class="join-form join-form-apply">
         <div class="join-form-head">
-          <h3>Registration</h3>
-          <span class="form-time mono">Coming soon</span>
+          <h3>Application</h3>
+          <span class="form-time mono">~3 minutes</span>
         </div>
 
         <div class="soon-badge mono">
           <span class="dot"></span>
-          The application is being polished
+          Now open &middot; Apply to join the network
         </div>
 
-        <p class="soon-lede">We&rsquo;re putting the new application flow together. Follow us in the meantime &mdash; we&rsquo;ll announce the day it opens.</p>
+        <p class="soon-lede">A short application, then a personal review. Fellowships available &mdash; no member turned away for cost.</p>
 
-        <a class="soon-cta" href="https://www.linkedin.com/company/98224182/" target="_blank" rel="noopener">
-          Follow on LinkedIn
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        <a class="soon-cta apply-cta"
+           href="https://form.typeform.com/to/zKmIFOmA"
+           data-tf-popup="zKmIFOmA"
+           data-tf-iframe-props="title=Africa Global Forum &mdash; Apply"
+           data-tf-medium="snippet"
+           target="_blank" rel="noopener">
+          Apply to join
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </a>
 
-        <p class="form-note">When it opens, we&rsquo;ll review every application within two weeks.</p>
+        <p class="form-note">We review every application within two weeks. Application powered by Typeform.</p>
       </div>
 
     </div>
@@ -768,5 +773,7 @@
 </footer>
 
 <script src="js/main.js"></script>
+<!-- Typeform popup: intercepts the .apply-cta click, falls back to href in a new tab if blocked -->
+<script src="//embed.typeform.com/next/embed.js" defer></script>
 </body>
 </html>
