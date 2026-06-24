@@ -633,6 +633,9 @@ nav{
 .report-thumb-sending{
   background:linear-gradient(140deg, var(--clay) 0%, var(--terracotta) 50%, var(--rust) 100%);
 }
+.report-thumb-identity{
+  background:linear-gradient(140deg, var(--gold) 0%, var(--clay) 50%, var(--forest) 100%);
+}
 .report-thumb-stadium{
   background:linear-gradient(140deg, var(--ochre) 0%, var(--rust) 50%, var(--ink) 100%);
 }
