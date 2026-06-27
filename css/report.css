@@ -295,6 +295,40 @@
   text-transform: uppercase;
 }
 
+/* ---------- STUB layout (no TOC) ---------- */
+.report-stub-wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 0 60px;
+}
+.report-stub-wrapper .report-body-content {
+  max-width: none;
+  font-size: 17.5px;
+}
+.report-stub-cta {
+  margin: 56px 0 8px;
+  padding: 40px 36px;
+  background: var(--paper-warm);
+  border-radius: 12px;
+  text-align: center;
+}
+.report-stub-cta h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  margin-bottom: 10px;
+  line-height: 1.15;
+}
+.report-stub-cta p {
+  font-size: 15px;
+  color: rgba(14,11,8,0.7);
+  margin-bottom: 24px;
+}
+.report-stub-cta .btn-primary {
+  display: inline-flex;
+}
+
 /* ---------- FOOTER CTA (end of report) ---------- */
 .report-end {
   max-width: 1100px;
