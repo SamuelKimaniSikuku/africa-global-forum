@@ -811,12 +811,16 @@ nav{
   line-height:1.5;
 }
 .credit-loc{color:rgba(200,66,26,0.7)}
-.credit-linkedin{
+.credit-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:14px;
+}
+.credit-pill{
   display:inline-flex;
   align-items:center;
   gap:8px;
-  margin-top:14px;
-  align-self:flex-start;
   padding:8px 14px 8px 12px;
   border:1px solid var(--line);
   border-radius:100px;
@@ -827,18 +831,24 @@ nav{
   text-decoration:none;
   transition:background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
 }
-.credit-linkedin svg{
+.credit-pill svg{
   flex:none;
   color:var(--terracotta);
   transition:color 0.25s ease;
 }
-.credit-linkedin:hover{
+.credit-pill:hover{
   background:var(--ink);
   border-color:var(--ink);
   color:var(--paper);
   transform:translateY(-1px);
 }
-.credit-linkedin:hover svg{color:var(--ochre)}
+.credit-pill:hover svg{color:var(--ochre)}
+/* Legacy single-class fallback (kept in case any other page references .credit-linkedin directly) */
+.credit-linkedin:not(.credit-pill){
+  display:inline-flex;align-items:center;gap:8px;margin-top:14px;align-self:flex-start;
+  padding:8px 14px 8px 12px;border:1px solid var(--line);border-radius:100px;
+  font-family:'Manrope',sans-serif;font-size:13px;font-weight:500;color:var(--ink);text-decoration:none;
+}
 
 .founder-quote-glyph{
   position:absolute;
