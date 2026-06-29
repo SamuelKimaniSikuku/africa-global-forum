@@ -147,7 +147,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/styles.css?v=20260626">
+<link rel="stylesheet" href="css/styles.css?v=20260627">
 </head>
 <body>
 
@@ -341,9 +341,19 @@
       <h2 class="display">What we see in the <em>corridor.</em></h2>
       <p>Research from the network &mdash; free to read.</p>
     </div>
+
+    <nav class="report-filter" aria-label="Filter reports by topic" id="reportFilter">
+      <button class="report-filter-btn is-active" data-category="all" aria-pressed="true" type="button">All <span>13</span></button>
+      <button class="report-filter-btn" data-category="money" aria-pressed="false" type="button">Money <span>4</span></button>
+      <button class="report-filter-btn" data-category="migration" aria-pressed="false" type="button">Migration <span>3</span></button>
+      <button class="report-filter-btn" data-category="business" aria-pressed="false" type="button">Business <span>2</span></button>
+      <button class="report-filter-btn" data-category="tech" aria-pressed="false" type="button">Tech <span>2</span></button>
+      <button class="report-filter-btn" data-category="culture" aria-pressed="false" type="button">Culture <span>2</span></button>
+    </nav>
+
     <ol class="report-list">
 
-      <li class="report-item">
+      <li class="report-item" data-category="culture">
         <a class="report-link" href="reports/african-footballers-world-cup-social-media-2026/">
           <div class="report-thumb report-thumb-stadium" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -360,6 +370,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Briefing</span>
             <span class="report-status report-status-new mono"><span class="dot"> &middot; Web</span>New</span>
+          
+            <span class="report-category mono" data-cat="culture">Culture</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">African Footballers &amp; Social-Media Fame <em>&mdash; World Cup 2026</em></h3>
@@ -371,7 +383,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="migration">
         <a class="report-link" href="reports/african-migrants-top-destinations-2026/">
           <div class="report-thumb report-thumb-migrants" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -386,6 +398,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Atlas</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="migration">Migration</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">African Migrants &middot; Top Destinations <em>&mdash; 2026</em></h3>
@@ -397,7 +411,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="business">
         <a class="report-link" href="reports/africa-growing-economies-2026/">
           <div class="report-thumb report-thumb-growth" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -412,6 +426,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Outlook</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="business">Business</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Africa&rsquo;s Growing Economies <em>&mdash; 2026</em></h3>
@@ -423,7 +439,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="money">
         <a class="report-link" href="reports/remittance-apps-africa-2026-ytd/">
           <div class="report-thumb report-thumb-remittance" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -437,6 +453,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; YTD</span>
             <span class="report-status report-status-new mono"><span class="dot"> &middot; Web</span>New</span>
+          
+            <span class="report-category mono" data-cat="money">Money</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Remittance Apps in Africa <em>&mdash; 2026 YTD</em></h3>
@@ -448,7 +466,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="money">
         <a class="report-link" href="reports/african-currency-remittance-tracker-2026/">
           <div class="report-thumb report-thumb-currency" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -464,6 +482,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Tracker</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="money">Money</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">African Currency &amp; Remittance Tracker <em>&mdash; 2026</em></h3>
@@ -475,7 +495,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="money">
         <a class="report-link" href="reports/sending-money-home-to-africa-2026.pdf" target="_blank" rel="noopener">
           <div class="report-thumb report-thumb-sending" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -490,6 +510,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Community guide</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New</span>
+          
+            <span class="report-category mono" data-cat="money">Money</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Sending Money Home to Africa <em>&mdash; 2026</em></h3>
@@ -501,7 +523,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="tech">
         <a class="report-link" href="reports/best-apps-africans-abroad-by-region-2026/">
           <div class="report-thumb report-thumb-apps" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -516,6 +538,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Field guide</span>
             <span class="report-status report-status-new mono"><span class="dot"> &middot; Web</span>New</span>
+          
+            <span class="report-category mono" data-cat="tech">Tech</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Best Apps for Africans Abroad &middot; By Region <em>&mdash; 2026</em></h3>
@@ -527,7 +551,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="migration">
         <a class="report-link" href="reports/best-countries-african-students-2026/">
           <div class="report-thumb report-thumb-students" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -540,6 +564,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Guide</span>
             <span class="report-status report-status-new mono"><span class="dot"> &middot; Web</span>New</span>
+          
+            <span class="report-category mono" data-cat="migration">Migration</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Best Countries for African Students <em>&mdash; 2026</em></h3>
@@ -551,7 +577,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="business">
         <a class="report-link" href="reports/african-diaspora-entrepreneurs-2026/">
           <div class="report-thumb report-thumb-entrepreneurs" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -561,6 +587,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Field guide</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="business">Business</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">African Diaspora Entrepreneurs <em>&mdash; 2026</em></h3>
@@ -572,7 +600,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="migration">
         <a class="report-link" href="reports/return-migration-africa-2026/">
           <div class="report-thumb report-thumb-return" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -584,6 +612,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Briefing</span>
             <span class="report-status report-status-new mono"><span class="dot"> &middot; Web</span>New</span>
+          
+            <span class="report-category mono" data-cat="migration">Migration</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Return Migration &middot; Africa <em>&mdash; 2026</em></h3>
@@ -595,7 +625,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="culture">
         <a class="report-link" href="reports/navigating-cultural-identity-2026/">
           <div class="report-thumb report-thumb-identity" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -608,6 +638,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Field guide</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="culture">Culture</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Navigating Cultural Identity <em>&mdash; 2026</em></h3>
@@ -619,7 +651,7 @@
         </a>
       </li>
 
-      <li class="report-item">
+      <li class="report-item" data-category="tech">
         <a class="report-link" href="reports/africa-ai-landscape-2026/">
           <div class="report-thumb report-thumb-ai" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -634,6 +666,8 @@
           <div class="report-side">
             <span class="report-year mono">2026 &middot; Landscape</span>
             <span class="report-status report-status-new mono"><span class="dot"></span>New &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="tech">Tech</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Africa AI Landscape <em>&mdash; 2026</em></h3>
@@ -645,7 +679,7 @@
         </a>
       </li>
 
-      <li class="report-item report-item-archive">
+      <li class="report-item report-item-archive" data-category="money">
         <a class="report-link" href="reports/blockchain-cross-border-africa-2025/">
           <div class="report-thumb report-thumb-blockchain" aria-hidden="true">
             <svg viewBox="0 0 32 36" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -660,6 +694,8 @@
           <div class="report-side">
             <span class="report-year mono">2025 &middot; Primer</span>
             <span class="report-status report-status-archive mono">Archive &middot; Web</span>
+          
+            <span class="report-category mono" data-cat="money">Money</span>
           </div>
           <div class="report-body">
             <h3 class="report-title">Blockchain &amp; Cross-Border Africa <em>&mdash; 2025</em></h3>
@@ -883,7 +919,7 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=20260627"></script>
 <!-- Typeform popup: intercepts the .apply-cta click, falls back to href in a new tab if blocked -->
 <script src="//embed.typeform.com/next/embed.js" defer></script>
 </body>

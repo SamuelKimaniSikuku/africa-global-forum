@@ -35,6 +35,25 @@
       });
   }
 
+  // ---------- Reports topic filter ----------
+  const filterBar = document.getElementById('reportFilter');
+  if (filterBar) {
+    const buttons = filterBar.querySelectorAll('.report-filter-btn');
+    const items = document.querySelectorAll('.report-item');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const cat = btn.dataset.category;
+        buttons.forEach((b) =>
+          b.setAttribute('aria-pressed', b === btn ? 'true' : 'false')
+        );
+        items.forEach((item) => {
+          const itemCat = item.getAttribute('data-category');
+          item.classList.toggle('is-hidden', cat !== 'all' && itemCat !== cat);
+        });
+      });
+    });
+  }
+
   // ---------- Footer year ----------
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();

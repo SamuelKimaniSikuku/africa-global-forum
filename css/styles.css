@@ -520,6 +520,86 @@ nav{
   color:rgba(14,11,8,0.55);
 }
 
+/* ============ REPORT FILTER (topic pills) ============ */
+.report-filter{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:8px;
+  max-width:900px;
+  margin:0 auto 48px;
+  padding:0 4px;
+}
+.report-filter-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 16px;
+  border:1px solid var(--line);
+  background:var(--paper);
+  border-radius:100px;
+  font-family:'Manrope',sans-serif;
+  font-size:13px;
+  font-weight:500;
+  color:var(--ink);
+  cursor:pointer;
+  transition:background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+  white-space:nowrap;
+}
+.report-filter-btn:hover{
+  border-color:var(--terracotta);
+  color:var(--terracotta);
+  transform:translateY(-1px);
+}
+.report-filter-btn[aria-pressed="true"]{
+  background:var(--ink);
+  border-color:var(--ink);
+  color:var(--paper);
+}
+.report-filter-btn[aria-pressed="true"]:hover{
+  background:var(--terracotta);
+  border-color:var(--terracotta);
+  color:var(--paper);
+}
+.report-filter-btn span{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  opacity:0.55;
+  letter-spacing:0.04em;
+}
+.report-filter-btn[aria-pressed="true"] span{opacity:0.75}
+
+.report-item.is-hidden{display:none}
+
+/* Tiny category chip inside each row's side column */
+.report-category{
+  font-size:10px;
+  letter-spacing:0.16em;
+  text-transform:uppercase;
+  color:rgba(14,11,8,0.5);
+  padding-top:4px;
+}
+.report-category[data-cat="money"]{color:var(--terracotta)}
+.report-category[data-cat="migration"]{color:var(--clay)}
+.report-category[data-cat="business"]{color:var(--ochre)}
+.report-category[data-cat="tech"]{color:var(--forest)}
+.report-category[data-cat="culture"]{color:var(--rust)}
+
+@media (max-width:720px){
+  .report-filter{
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    overflow-x:auto;
+    padding-bottom:8px;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding-left:20px;
+    padding-right:20px;
+    -webkit-overflow-scrolling:touch;
+  }
+  .report-filter-btn{flex:0 0 auto}
+}
+
 /* ============ REPORTS (minimalist editorial list) ============ */
 .reports{
   padding:140px 40px;
