@@ -240,11 +240,19 @@ nav{
   color:var(--ink);
   max-width:900px;
   margin:0 auto;
+  /* Even, phrase-aware line breaks so the italic phrase stays whole */
+  text-wrap:balance;
 }
 .belief-line em{
   font-style:italic;
   font-weight:300;
   color:var(--terracotta);
+  /* Belt-and-braces: keep the italic phrase from breaking across lines */
+  white-space:nowrap;
+}
+/* On narrower screens the italic phrase must be allowed to wrap or it overflows */
+@media (max-width:640px){
+  .belief-line em{white-space:normal}
 }
 
 /* ============ SHARED ============ */
