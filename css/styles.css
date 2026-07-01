@@ -718,6 +718,9 @@ nav{
 .report-thumb-currency{
   background:linear-gradient(140deg, var(--ochre) 0%, var(--rust) 100%);
 }
+.report-thumb-banks{
+  background:linear-gradient(140deg, var(--rust) 0%, var(--terracotta) 55%, #4a1a08 100%);
+}
 .report-thumb-sending{
   background:linear-gradient(140deg, var(--clay) 0%, var(--terracotta) 50%, var(--rust) 100%);
 }
