@@ -89,6 +89,10 @@
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/0.9">
+      <image:loc>https://africaglobalforum.com/reports/banks-vs-stablecoins-europe-africa-2026/img/image-5-1.png</image:loc>
+      <image:caption>Cost to send €1,000 across Africa's 10 biggest economies</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://africaglobalforum.com/reports/banks-vs-stablecoins-europe-africa-2026.pdf</loc>
