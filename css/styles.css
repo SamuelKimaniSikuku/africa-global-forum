@@ -592,6 +592,7 @@ nav{
 .report-category[data-cat="business"]{color:var(--ochre)}
 .report-category[data-cat="tech"]{color:var(--forest)}
 .report-category[data-cat="culture"]{color:var(--rust)}
+.report-category[data-cat="honest-qa"]{color:var(--ink)}
 
 @media (max-width:720px){
   .report-filter{
