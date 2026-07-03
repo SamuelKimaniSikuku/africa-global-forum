@@ -608,6 +608,45 @@ nav{
   .report-filter-btn{flex:0 0 auto}
 }
 
+/* ============ MONEY SERIES (Fable cards feature) ============ */
+.money-series{
+  padding:140px 40px 100px;
+  background:var(--paper-warm, #EFE9DB);
+  border-top:1px solid var(--line-soft);
+  position:relative;
+}
+.money-series-inner{
+  max-width:820px;margin:0 auto;
+}
+.money-series-header{
+  text-align:center;
+  margin:0 auto 56px;
+}
+.money-series-header .section-label{justify-content:center;color:var(--terracotta)}
+.money-series-header .section-label::before{background:var(--terracotta)}
+.money-series-header h2{
+  font-size:clamp(36px,4.5vw,64px);
+  margin-bottom:18px;
+  line-height:1;
+}
+.money-series-header h2 em{font-style:italic;color:var(--terracotta);font-weight:300}
+.money-series-header p{
+  font-size:16px;
+  color:rgba(14,11,8,0.6);
+  line-height:1.55;
+  max-width:520px;
+  margin:0 auto;
+}
+.money-series-cards{
+  margin:0 0 48px;
+}
+.money-series-cta{
+  text-align:center;
+}
+@media (max-width:720px){
+  .money-series{padding:96px 20px 72px}
+}
+
 /* ============ REPORTS (minimalist editorial list) ============ */
 .reports{
   padding:140px 40px;
