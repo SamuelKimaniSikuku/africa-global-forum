@@ -1572,3 +1572,6 @@ footer{
   transition:opacity 0.8s ease,transform 0.8s ease;
 }
 .reveal.in{opacity:1;transform:translateY(0)}
+.report-thumb-rooms{
+  background:linear-gradient(140deg, var(--rust) 0%, var(--terracotta) 45%, var(--gold) 100%);
+}
