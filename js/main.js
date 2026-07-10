@@ -27,7 +27,7 @@
     }, { threshold: 0.1 });
 
     document
-      .querySelectorAll('.pillar, .voice-card, .init-card, .num-cell, .quote-card')
+      .querySelectorAll('.pillar, .voice-card, .init-card, .num-cell, .quote-card, .footer-ball')
       .forEach((el, i) => {
         el.classList.add('reveal');
         el.style.transitionDelay = (i * 30) + 'ms';

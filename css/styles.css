@@ -1506,6 +1506,40 @@ footer{
 }
 .footer-wordmark em{font-style:italic;color:rgba(216,155,44,0.15);font-weight:300}
 
+/* ============ FOOTER BALL ============ */
+.footer-ball{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:0 0 30px;
+  overflow:hidden;
+}
+.footer-ball-svg{
+  display:block;
+  transform:translateX(-240px) rotate(0deg);
+  opacity:0;
+  transition:transform 2.4s cubic-bezier(0.22,1,0.36,1),opacity 0.6s ease-out;
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+  cursor:pointer;
+}
+.footer-ball.in .footer-ball-svg{
+  transform:translateX(0) rotate(1440deg);
+  opacity:0.92;
+}
+.footer-ball-svg:hover{
+  animation:ballBounce 0.9s cubic-bezier(0.34,1.56,0.64,1);
+}
+@keyframes ballBounce{
+  0%{transform:translateX(0) rotate(1440deg)}
+  40%{transform:translateX(0) translateY(-14px) rotate(1620deg)}
+  70%{transform:translateX(0) translateY(-4px) rotate(1740deg)}
+  100%{transform:translateX(0) rotate(1800deg)}
+}
+@media (prefers-reduced-motion:reduce){
+  .footer-ball-svg{transform:none;opacity:0.92;transition:none}
+  .footer-ball-svg:hover{animation:none}
+}
+
 /* ============ RESPONSIVE ============ */
 @media (max-width:980px){
   nav{padding:16px 20px}
