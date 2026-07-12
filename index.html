@@ -18,6 +18,18 @@
 <link rel="apple-touch-icon" href="/favicon.svg">
 <link rel="mask-icon" href="/favicon.svg" color="#0E0B08">
 
+<!-- Web app manifest -->
+<link rel="manifest" href="/manifest.webmanifest">
+
+<!-- Mobile & format meta -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Africa Global Forum">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Africa Global Forum">
+<meta name="format-detection" content="telephone=no">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
 <!-- Open Graph / Social -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Africa Global Forum">
@@ -41,41 +53,106 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "NGO"],
       "@id": "https://africaglobalforum.com/#organization",
       "name": "Africa Global Forum",
-      "alternateName": "AGF",
+      "alternateName": ["AGF", "Africa Global Forum (AGF)"],
       "url": "https://africaglobalforum.com/",
-      "logo": "https://africaglobalforum.com/favicon.svg",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://africaglobalforum.com/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://africaglobalforum.com/og-image.svg",
       "description": "Africa Global Forum is a peer network for the African diaspora driven by one belief: we exist to create opportunity among ourselves — then with the world. We believe Africa's century will be shaped by its people abroad, and we are the network where they meet, help and back each other. We shape opportunity through community, live talks and free research across the Africa ⇄ Abroad corridor.",
+      "slogan": "We exist to create opportunity among ourselves — then with the world.",
       "founder": { "@id": "https://africaglobalforum.com/#samuel" },
       "foundingDate": "2025",
-      "areaServed": "Worldwide",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Paris, France"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Africa" },
+        { "@type": "AdministrativeArea", "name": "Europe" },
+        { "@type": "AdministrativeArea", "name": "North America" },
+        { "@type": "AdministrativeArea", "name": "Gulf" },
+        { "@type": "AdministrativeArea", "name": "Asia" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "African diaspora — Africans living, working and studying outside the continent"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "admin@africaglobalforum.com",
+          "contactType": "customer service",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English", "French"]
+        },
+        {
+          "@type": "ContactPoint",
+          "email": "samuel@africaglobalforum.com",
+          "contactType": "founder",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English", "French"]
+        }
+      ],
       "knowsAbout": [
         "African diaspora",
         "Diaspora remittance",
+        "Diaspora investment",
         "Cross-border finance",
         "African migration",
         "African entrepreneurs",
         "Return migration",
         "African students abroad",
-        "Africa-Abroad corridor"
+        "Africa-Abroad corridor",
+        "AfCFTA",
+        "Value addition in Africa",
+        "African industrialization",
+        "Stablecoins Africa",
+        "African footballers"
       ],
+      "knowsLanguage": ["English", "French"],
+      "keywords": "African diaspora network, Africans abroad, diaspora peer network, Africa Abroad corridor, African diaspora research, remittance Africa, AfCFTA, African industrialization, diaspora investment, honest questions AI",
       "sameAs": [
         "https://www.linkedin.com/company/98224182/"
-      ]
+      ],
+      "brand": {
+        "@type": "Brand",
+        "name": "Africa Global Forum",
+        "slogan": "The diaspora helps the diaspora."
+      }
     },
     {
       "@type": "Person",
       "@id": "https://africaglobalforum.com/#samuel",
       "name": "Samuel Kimani Sikuku",
       "givenName": "Samuel",
+      "additionalName": "Kimani",
       "familyName": "Sikuku",
       "jobTitle": "Founder",
       "email": "samuel@africaglobalforum.com",
-      "image": "https://africaglobalforum.com/img/samuel.png",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://africaglobalforum.com/img/samuel.png",
+        "width": 504,
+        "height": 508,
+        "caption": "Samuel Kimani Sikuku, Founder of Africa Global Forum"
+      },
       "description": "Kenyan operator based in Paris with nine years scaling fintech, e-commerce and operations across the Africa-Europe corridor. Previously: order processing at Jumia, B2B fulfillment at Sendy ($20K to $2M GMV), cross-border business development at LemFi, and Founders Running Club's Nairobi chapter.",
-      "nationality": "Kenyan",
+      "nationality": {
+        "@type": "Country",
+        "name": "Kenya"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Paris, France"
+      },
+      "knowsLanguage": ["English", "French", "Swahili"],
       "knowsAbout": [
         "Growth marketing",
         "Business development",
@@ -84,6 +161,7 @@
         "Diaspora remittance",
         "Africa-Europe corridor",
         "Community building",
+        "African diaspora",
         "Web3"
       ],
       "alumniOf": [
@@ -100,8 +178,80 @@
       "@id": "https://africaglobalforum.com/#website",
       "url": "https://africaglobalforum.com/",
       "name": "Africa Global Forum",
+      "alternateName": "AGF",
+      "description": "The home of the African diaspora — a peer network for Africans abroad. Help each other. Sit together. Bounce ideas. Free research on the Africa ⇄ Abroad corridor.",
       "publisher": { "@id": "https://africaglobalforum.com/#organization" },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "copyrightHolder": { "@id": "https://africaglobalforum.com/#organization" },
+      "copyrightYear": "2025",
+      "about": { "@id": "https://africaglobalforum.com/#organization" },
+      "keywords": "African diaspora, African diaspora network, Africans abroad, remittance Africa, AfCFTA, diaspora investment, honest questions AI, Africa Abroad corridor",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": [
+          "https://africaglobalforum.com/#reports"
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://africaglobalforum.com/#webpage",
+      "url": "https://africaglobalforum.com/",
+      "name": "Africa Global Forum — A Network for the African Diaspora",
+      "description": "The home of the African diaspora — a peer network for Africans abroad. Help each other. Sit together. Bounce ideas. Free research on remittance, migration, capital, entrepreneurship, and Africa's value-addition opportunity.",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://africaglobalforum.com/#website" },
+      "about": { "@id": "https://africaglobalforum.com/#organization" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://africaglobalforum.com/og-image.svg",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2025-01-01",
+      "dateModified": "2026-07-06",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".hero-text .display", ".hero-text .lede", ".belief-line"]
+      },
+      "significantLink": [
+        "https://africaglobalforum.com/#reports",
+        "https://africaglobalforum.com/#pillars",
+        "https://africaglobalforum.com/#founder",
+        "https://africaglobalforum.com/#partners",
+        "https://africaglobalforum.com/#faq",
+        "https://africaglobalforum.com/code-of-conduct/",
+        "https://africaglobalforum.com/terms/"
+      ],
+      "mainEntity": { "@id": "https://africaglobalforum.com/#organization" }
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://africaglobalforum.com/#aboutpage",
+      "url": "https://africaglobalforum.com/#founder",
+      "name": "About Africa Global Forum — Founder",
+      "description": "Africa Global Forum is founded by Samuel Kimani Sikuku, a Kenyan operator based in Paris with nine years scaling fintech, e-commerce and operations across the Africa-Europe corridor.",
+      "isPartOf": { "@id": "https://africaglobalforum.com/#website" },
+      "about": [
+        { "@id": "https://africaglobalforum.com/#organization" },
+        { "@id": "https://africaglobalforum.com/#samuel" }
+      ],
+      "mainEntity": { "@id": "https://africaglobalforum.com/#samuel" }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://africaglobalforum.com/#sitenav",
+      "name": "Africa Global Forum — main navigation",
+      "itemListElement": [
+        { "@type": "SiteNavigationElement", "position": 1, "name": "What We Do", "url": "https://africaglobalforum.com/#pillars" },
+        { "@type": "SiteNavigationElement", "position": 2, "name": "Reports", "url": "https://africaglobalforum.com/#reports" },
+        { "@type": "SiteNavigationElement", "position": 3, "name": "Partners", "url": "https://africaglobalforum.com/#partners" },
+        { "@type": "SiteNavigationElement", "position": 4, "name": "Founder", "url": "https://africaglobalforum.com/#founder" },
+        { "@type": "SiteNavigationElement", "position": 5, "name": "FAQ", "url": "https://africaglobalforum.com/#faq" },
+        { "@type": "SiteNavigationElement", "position": 6, "name": "Join the Forum", "url": "https://form.typeform.com/to/zKmIFOmA" },
+        { "@type": "SiteNavigationElement", "position": 7, "name": "Code of Conduct", "url": "https://africaglobalforum.com/code-of-conduct/" },
+        { "@type": "SiteNavigationElement", "position": 8, "name": "Terms & Conditions", "url": "https://africaglobalforum.com/terms/" }
+      ]
     },
     {
       "@type": "ItemList",
@@ -162,9 +312,9 @@
 </head>
 <body>
 
-<nav>
-  <a class="logo" href="#">
-    <div class="logo-mark"></div>
+<nav aria-label="Main navigation">
+  <a class="logo" href="/" aria-label="Africa Global Forum — home">
+    <div class="logo-mark" aria-hidden="true"></div>
     <div class="logo-text">Africa Global Forum<small>EST · The Diaspora Network</small></div>
   </a>
   <div class="nav-links" id="navLinks">

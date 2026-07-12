@@ -1,0 +1,36 @@
+{
+  "name": "Africa Global Forum",
+  "short_name": "AGF",
+  "description": "A peer network for the African diaspora — help each other, sit together, bounce ideas. Free research on the Africa ⇄ Abroad corridor.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4EFE6",
+  "theme_color": "#0E0B08",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["news", "education", "social", "business"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Reports",
+      "short_name": "Reports",
+      "description": "Read Africa Global Forum research on the Africa ⇄ Abroad corridor",
+      "url": "/#reports"
+    },
+    {
+      "name": "Apply to join",
+      "short_name": "Apply",
+      "description": "Apply to the Africa Global Forum peer network",
+      "url": "https://form.typeform.com/to/zKmIFOmA"
+    }
+  ]
+}

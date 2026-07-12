@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/0.9">
   <url>
     <loc>https://africaglobalforum.com/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/og-image.svg</image:loc>
+      <image:title>Africa Global Forum — A Network for the African Diaspora</image:title>
+      <image:caption>The home of the African diaspora. Help each other. Sit together. Bounce ideas.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/img/samuel.png</image:loc>
+      <image:title>Samuel Kimani Sikuku, Founder of Africa Global Forum</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://africaglobalforum.com/code-of-conduct/</loc>
@@ -47,6 +57,26 @@
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/africa-under-processed-2026/img/donut_categories.png</image:loc>
+      <image:title>51 of 54 African countries export a raw commodity as their top export</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/africa-under-processed-2026/img/grip_supply.png</image:loc>
+      <image:title>Africa's share of world cobalt, platinum, cocoa and mineral reserves</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/africa-under-processed-2026/img/cocoa_gap.png</image:loc>
+      <image:title>Cocoa value-addition gap: ~$10bn earned vs. ~$130bn global chocolate market</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/africa-under-processed-2026/img/value_ladder.png</image:loc>
+      <image:title>The value-addition ladder: raw 1× → processed 3× → manufactured 8× → owned & branded 15×</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/africa-under-processed-2026/img/diaspora_finance.png</image:loc>
+      <image:title>Diaspora remittances ($95bn/yr) outpace FDI and official development assistance to Africa</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://africaglobalforum.com/reports/africa-under-processed-2026.pdf</loc>
