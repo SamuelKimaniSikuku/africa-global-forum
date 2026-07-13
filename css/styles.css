@@ -1615,3 +1615,6 @@ footer{
 .report-thumb-leftbehind{
   background:linear-gradient(140deg, var(--ink) 0%, var(--rust) 55%, var(--gold) 100%);
 }
+.report-thumb-degrees{
+  background:linear-gradient(140deg, var(--terracotta) 0%, var(--rust) 50%, var(--ink) 100%);
+}
