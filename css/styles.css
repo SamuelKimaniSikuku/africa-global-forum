@@ -1618,3 +1618,6 @@ footer{
 .report-thumb-degrees{
   background:linear-gradient(140deg, var(--terracotta) 0%, var(--rust) 50%, var(--ink) 100%);
 }
+.report-thumb-otherside{
+  background:linear-gradient(140deg, var(--clay) 0%, var(--forest) 55%, var(--ink) 100%);
+}
