@@ -826,6 +826,9 @@ nav{
 .report-thumb-weddings{
   background:linear-gradient(140deg, var(--gold) 0%, var(--terracotta) 55%, var(--rust) 100%);
 }
+.report-thumb-time{
+  background:linear-gradient(140deg, var(--ochre) 0%, var(--ink) 60%, #12192C 100%);
+}
 .report-item-archive .report-thumb{
   filter:saturate(0.75);
   opacity:0.85;
