@@ -295,6 +295,254 @@
   text-transform: uppercase;
 }
 
+/* ---------- DATA COMPONENTS (stat tiles, ranked lists, bar charts, tables, callouts) ---------- */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 2rem 0;
+}
+.stat-tile {
+  background: var(--paper-warm);
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  padding: 18px 20px 20px;
+}
+.stat-tile .stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin-bottom: 10px;
+}
+.stat-tile .stat-num {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: var(--ink);
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+.stat-tile .stat-sub {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem;
+  color: rgba(14, 11, 8, 0.62);
+  line-height: 1.5;
+}
+.stat-tile.stat-tile-route {
+  border-top: 3px solid var(--ochre);
+}
+
+.callout {
+  background: var(--paper-warm);
+  border-left: 3px solid var(--ochre);
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin: 1.75rem 0;
+}
+.callout-dark {
+  background: var(--ink);
+  color: var(--paper);
+  border-left: 3px solid var(--terracotta);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin: 1.75rem 0;
+}
+.callout-dark strong { color: #fff; }
+.callout .callout-label,
+.callout-dark .callout-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin-bottom: 8px;
+  display: block;
+}
+.callout-dark .callout-label { color: var(--ochre); }
+.callout p, .callout-dark p { margin: 0; font-size: 0.96rem; line-height: 1.6; }
+
+.rank-list { list-style: none; margin: 1.5rem 0; padding: 0; }
+.rank-item {
+  display: flex;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.rank-item:last-child { border-bottom: none; }
+.rank-badge {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  margin-top: 2px;
+}
+.rank-item h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--ink);
+  margin: 0 0 4px;
+}
+.rank-item p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.88rem;
+  color: rgba(14, 11, 8, 0.62);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.bar-chart { margin: 1.75rem 0; }
+.bar-chart-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(14, 11, 8, 0.5);
+  margin-bottom: 14px;
+}
+.bar-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.bar-row .bar-name {
+  flex: 0 0 108px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.bar-track {
+  flex: 1 1 auto;
+  background: var(--paper-warm);
+  border-radius: 5px;
+  height: 18px;
+  position: relative;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+  background: var(--ochre);
+}
+.bar-row .bar-value {
+  flex: 0 0 auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  color: rgba(14, 11, 8, 0.6);
+  white-space: nowrap;
+  min-width: 64px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.84rem;
+}
+.data-table th {
+  text-align: left;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(14, 11, 8, 0.5);
+  padding: 0 10px 10px 0;
+  border-bottom: 2px solid var(--ink);
+  font-weight: 500;
+}
+.data-table td {
+  padding: 12px 10px 12px 0;
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--ink);
+  vertical-align: top;
+  line-height: 1.45;
+}
+.data-table td strong { font-weight: 600; }
+.data-table tr:last-child td { border-bottom: none; }
+.data-table .ease-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: #fff;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 1.75rem 0;
+}
+.profile-card {
+  background: var(--paper-warm);
+  border-left: 3px solid var(--clay);
+  border-radius: 4px 10px 10px 4px;
+  padding: 18px 20px 20px;
+}
+.profile-card .profile-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.profile-card h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 1.08rem;
+  color: var(--ink);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.profile-card .profile-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+}
+.profile-card p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: rgba(14, 11, 8, 0.72);
+  margin: 0 0 12px;
+}
+.profile-card .profile-facts {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: rgba(14, 11, 8, 0.55);
+  line-height: 1.9;
+  border-top: 1px solid var(--line-soft);
+  padding-top: 10px;
+}
+.profile-card .profile-facts b { color: rgba(14, 11, 8, 0.4); font-weight: 500; margin-right: 6px; }
+
+@media (max-width: 980px) {
+  .stat-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+  .bar-row .bar-name { flex-basis: 82px; font-size: 0.76rem; }
+  .data-table { font-size: 0.78rem; }
+  .profile-grid { grid-template-columns: 1fr; }
+}
+@media print {
+  .stat-tile, .callout, .profile-card { border: 1px solid #ccc; background: #fafafa; }
+  .callout-dark { background: #eee; color: #000; border-left-color: #999; }
+  .bar-track { background: #eee; }
+}
+
 /* ---------- STUB layout (no TOC) ---------- */
 .report-stub-wrapper {
   max-width: 760px;

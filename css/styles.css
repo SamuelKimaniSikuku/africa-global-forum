@@ -829,6 +829,9 @@ nav{
 .report-thumb-time{
   background:linear-gradient(140deg, var(--ochre) 0%, var(--ink) 60%, #12192C 100%);
 }
+.report-thumb-fintech{
+  background:linear-gradient(140deg, var(--clay) 0%, var(--rust) 55%, var(--ink) 100%);
+}
 .report-item-archive .report-thumb{
   filter:saturate(0.75);
   opacity:0.85;
