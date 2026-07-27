@@ -1633,3 +1633,6 @@ footer{
 .report-thumb-borders{
   background:linear-gradient(140deg, var(--terracotta) 0%, var(--gold) 55%, var(--forest) 100%);
 }
+.report-thumb-faith{
+  background:linear-gradient(140deg, var(--ink) 0%, var(--forest) 50%, var(--ochre) 100%);
+}
