@@ -1250,7 +1250,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/styles.css?v=20260810b">
+<link rel="stylesheet" href="css/styles.css?v=20260810c">
 </head>
 <body>
 
@@ -1455,7 +1455,7 @@
       <button class="report-filter-btn" data-category="honest-qa" aria-pressed="false" type="button">Honest Questions Answered by AI <span>7</span></button>
     </div>
 
-    <ol class="report-list">
+    <ol class="report-list is-collapsed" id="reportList" data-visible-count="6">
 
       <li class="report-item" data-category="money">
         <a class="report-link" href="reports/africa-household-saving-2026/">
@@ -2371,6 +2371,17 @@
       </li>
 
     </ol>
+
+    <div class="report-expand" id="reportExpand">
+      <button type="button" class="report-expand-btn" id="reportExpandBtn" aria-controls="reportList">
+        <span class="report-expand-label">Show all <span id="reportExpandCount">34</span> reports</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <button type="button" class="report-expand-btn is-collapse" id="reportCollapseBtn" hidden>
+        <span>Show fewer</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+      </button>
+    </div>
   </div>
 </section>
 
@@ -2677,7 +2688,7 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=20260706"></script>
+<script src="js/main.js?v=20260810c"></script>
 <!-- Typeform popup: intercepts the .apply-cta click, falls back to href in a new tab if blocked -->
 <script src="//embed.typeform.com/next/embed.js" defer></script>
 </body>
