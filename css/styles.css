@@ -611,6 +611,138 @@ nav{
   color:rgba(14,11,8,0.55);
 }
 
+/* ============ SISTER PROJECTS ============ */
+.sisters{
+  padding:120px 40px;
+  background:var(--paper);
+  border-top:1px solid var(--line-soft);
+  border-bottom:1px solid var(--line-soft);
+}
+.sisters-inner{
+  max-width:1400px;margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr 1.4fr;
+  gap:80px;
+  align-items:start;
+}
+.sisters-text{
+  position:sticky;
+  top:120px;
+}
+.sisters-text h2{
+  font-size:clamp(36px,4.5vw,64px);
+  margin-bottom:24px;
+  line-height:1;
+}
+.sisters-text h2 em{font-style:italic;color:var(--terracotta);font-weight:300}
+.sisters-text p{
+  font-size:17px;
+  color:rgba(14,11,8,0.7);
+  line-height:1.6;
+  max-width:460px;
+}
+.sisters-list{
+  list-style:none;
+  padding:0;margin:0;
+  border-top:1px solid var(--line);
+}
+.sister-row{
+  border-bottom:1px solid var(--line-soft);
+}
+.sister-link{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:28px;
+  align-items:center;
+  padding:26px 4px;
+  text-decoration:none;
+  color:var(--ink);
+  transition:padding-left 0.3s,background 0.2s;
+}
+.sister-link:hover{
+  padding-left:14px;
+  background:linear-gradient(90deg, rgba(200,66,26,0.03), transparent);
+}
+.sister-num{
+  font-size:12px;
+  letter-spacing:0.14em;
+  color:rgba(14,11,8,0.35);
+  align-self:flex-start;
+  padding-top:6px;
+}
+.sister-body{min-width:0}
+.sister-name{
+  font-family:'Fraunces',serif;
+  font-size:clamp(22px,2.4vw,30px);
+  font-weight:500;
+  letter-spacing:-0.015em;
+  color:var(--ink);
+  line-height:1.15;
+  margin-bottom:6px;
+}
+.sister-link:hover .sister-name{color:var(--terracotta)}
+.sister-desc{
+  font-size:15px;
+  line-height:1.55;
+  color:rgba(14,11,8,0.65);
+  max-width:520px;
+}
+.sister-meta{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:12px;
+  flex-shrink:0;
+}
+.sister-tag{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10.5px;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:rgba(14,11,8,0.55);
+  white-space:nowrap;
+}
+.sister-tag-scope{
+  color:var(--terracotta);
+  padding:3px 8px;
+  border:1px solid rgba(200,66,26,0.3);
+  border-radius:3px;
+}
+.sister-arrow{
+  color:rgba(14,11,8,0.4);
+  transition:transform 0.3s,color 0.2s;
+  display:flex;
+  align-items:center;
+}
+.sister-link:hover .sister-arrow{
+  color:var(--terracotta);
+  transform:translate(3px,-3px);
+}
+@media (max-width:900px){
+  .sisters-inner{
+    grid-template-columns:1fr;
+    gap:48px;
+  }
+  .sisters-text{position:static}
+}
+@media (max-width:640px){
+  .sisters{padding:80px 20px}
+  .sister-link{
+    grid-template-columns:auto 1fr;
+    gap:16px;
+    padding:22px 4px;
+  }
+  .sister-meta{
+    grid-column:1 / -1;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:44px;
+    margin-top:-6px;
+  }
+  .sister-desc{font-size:14.5px}
+}
+
 /* ============ REPORT FILTER (topic pills) ============ */
 .report-filter{
   display:flex;
