@@ -165,6 +165,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://africaglobalforum.com/reports/visa-treadmill-2026.pdf</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://africaglobalforum.com/reports/africa-household-saving-2026/</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
