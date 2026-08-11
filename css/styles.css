@@ -1824,3 +1824,7 @@ footer{
 .report-thumb-saving{
   background:linear-gradient(140deg, var(--ochre) 0%, var(--clay) 45%, var(--forest) 100%);
 }
+
+.report-thumb-visa{
+  background:linear-gradient(140deg, var(--terracotta) 0%, var(--clay) 50%, var(--ink) 100%);
+}
