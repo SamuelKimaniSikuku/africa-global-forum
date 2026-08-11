@@ -1828,3 +1828,7 @@ footer{
 .report-thumb-visa{
   background:linear-gradient(140deg, var(--terracotta) 0%, var(--clay) 50%, var(--ink) 100%);
 }
+
+.report-thumb-opendoor{
+  background:linear-gradient(140deg, var(--forest) 0%, var(--gold) 55%, var(--ochre) 100%);
+}
