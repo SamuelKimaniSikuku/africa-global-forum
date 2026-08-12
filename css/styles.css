@@ -1836,3 +1836,7 @@ footer{
 .report-thumb-creator{
   background:linear-gradient(140deg, var(--ochre) 0%, var(--terracotta) 50%, var(--rust) 100%);
 }
+
+.report-thumb-counted{
+  background:linear-gradient(140deg, var(--forest) 0%, var(--clay) 50%, var(--terracotta) 100%);
+}
