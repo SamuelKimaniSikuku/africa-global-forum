@@ -1840,3 +1840,7 @@ footer{
 .report-thumb-counted{
   background:linear-gradient(140deg, var(--forest) 0%, var(--clay) 50%, var(--terracotta) 100%);
 }
+
+.report-thumb-marries{
+  background:linear-gradient(140deg, var(--ochre) 0%, var(--clay) 45%, var(--forest) 100%);
+}
