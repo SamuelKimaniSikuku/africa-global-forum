@@ -1844,3 +1844,7 @@ footer{
 .report-thumb-marries{
   background:linear-gradient(140deg, var(--ochre) 0%, var(--clay) 45%, var(--forest) 100%);
 }
+
+.report-thumb-ladder{
+  background:linear-gradient(140deg, var(--terracotta) 0%, var(--ochre) 50%, var(--forest) 100%);
+}
