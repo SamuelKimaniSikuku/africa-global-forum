@@ -1848,3 +1848,7 @@ footer{
 .report-thumb-ladder{
   background:linear-gradient(140deg, var(--terracotta) 0%, var(--ochre) 50%, var(--forest) 100%);
 }
+.report-thumb-music{
+  background:linear-gradient(145deg,#7A2E12 0%,#C8421A 55%,#D89B2C 100%);
+  color:#F4EFE6;
+}
