@@ -438,8 +438,9 @@ story += [
         "not — a country can have a narrow pay gap and a punishing retention rate.", body),
     fig("scorecard.png",
         "Fig 10 — AGF's scorecard, built from the sourced figures across this report and its "
-        "companions. A judgement, not a measured index — the underlying data is cited, the weighting "
-        "is ours.", max_w=150 * mm),
+        "companions. A judgement, not a measured index. “Staying” uses measured five-year exit rates "
+        "for Europe, the US and Canada; for Australia, Japan, Singapore and the Gulf it is an estimate "
+        "from settlement design.", max_w=138 * mm),
     Paragraph(
         "<b>Germany is the best place to arrive and one of the worst places to stay.</b> It scores top on "
         "entry (the Opportunity Card lets you come without a job offer), top on cost (€0 tuition, low fees) "
@@ -463,7 +464,86 @@ story += [
 
 # ================= 09 =================
 story += [
-    Paragraph("11 · What Actually Moves It", h2),
+    Paragraph("11 · Asia, the Gulf &amp; Australia", h2),
+    Paragraph(
+        "The scorecard above now includes them, but three of those rows need explaining, because two of "
+        "them do not behave like the others at all.", body),
+    Paragraph("Australia — slow, expensive, and it holds people", h3),
+    Paragraph(
+        "Australia runs a points test with a nominal floor of <b>65 points</b>, though real invitation "
+        "scores sit well above that because of competition, and the government has confirmed a points-test "
+        "reform in the 2026–27 Budget aimed at younger, higher-skilled, stronger-English applicants. The "
+        "detail is not published yet, which is itself worth knowing if you are planning around it.", body),
+    Paragraph(
+        "The clock is long: <b>four years of lawful residence plus twelve months holding permanent "
+        "residence</b>, and then a citizenship application that currently takes <b>12 to 20 months</b> from "
+        "lodgement to ceremony. Call it six to seven years in practice — slower than Germany, Ireland or "
+        "France, faster than the UK's 10-year route.", body),
+    Paragraph(
+        "The African population is real and growing but heavily skewed: <b>224,160 South African-born "
+        "people</b> lived in Australia at June 2024, up 28.1% in a decade, and sub-Saharan African ancestry "
+        "accounted for about <b>1.3%</b> of the population at the 2021 census. Australian research finds the "
+        "same pattern this whole report describes — some strong integration outcomes alongside a "
+        "substantial group facing persistent barriers to work matching their skills, plus documented racism "
+        "and social isolation. <b>The honest read:</b> Australia is a settlement country by design, so the "
+        "ladder's top rungs genuinely exist. It is just a long, competitive, expensive climb.", body),
+    Paragraph("Japan, Singapore and the rest of Asia — cheap, orderly, hard to enter", h3),
+    Paragraph(
+        "Asia's striking feature is cost. As <i>The Visa Treadmill</i> found, the all-in government fee bill "
+        "to citizenship for a family of four is roughly <b>$780 in Japan</b> — the cheapest complete path in "
+        "the world we costed, with naturalisation itself free — and about <b>$2,890 in Singapore</b> and "
+        "<b>$2,420 in South Korea</b>. Against the UK's £77,414, that is not a rounding difference.", body),
+    Paragraph(
+        "What Asia charges instead is difficulty of entry and difficulty of belonging. Japan and Korea have "
+        "small, tightly-managed skilled-migration channels and expect working-level language. Malaysia "
+        "requires ten of the preceding twelve years before naturalisation is even possible. <b>China is the "
+        "second-largest destination for African students in the world</b> — about 81,500 — but study there "
+        "rarely converts into settlement.", body),
+    Paragraph("The Gulf — where the ladder ends at rung two", h3),
+    Paragraph(
+        "This is the part of the picture the diaspora conversation most consistently ignores, and it "
+        "involves roughly <b>three million Africans</b> working in the Middle East and the GCC.", body),
+    fig("gulf_ladder.png",
+        "Fig 11 — The same four rungs, applied to the Gulf. Rungs three and four are not slow there "
+        "— they are absent."),
+    Paragraph(
+        "Every timeline in this report assumes the ladder has four rungs. In the Gulf it has two. There is "
+        "no path to pay parity with nationals, because pay is structured by nationality rather than by role; "
+        "and there is no naturalisation to speak of, so the second-generation return that Section 08 "
+        "identified as the real payoff of migration simply does not arrive. Children born there do not "
+        "become citizens.", body),
+    Paragraph(
+        "<b>There is genuine reform to report.</b> Saudi Arabia formally abolished the <i>kafala</i> "
+        "sponsorship system for private-sector expatriate workers in June 2025, replacing employer-tied "
+        "residency with contract-based employment covering roughly 13 million foreign workers, with "
+        "guaranteed annual leave, rest days and wage protection.", body),
+    Paragraph(
+        "<b>And there is a caveat that matters enormously for Africans specifically.</b> The reform covers "
+        "private-sector employees on formally registered contracts. <b>Domestic workers — household staff, "
+        "drivers, caregivers — are on a separate implementation schedule with different eligibility.</b> "
+        "That is precisely where most African women in the Gulf are working. Saudi Arabia hosts nearly four "
+        "million migrant domestic workers, including an estimated <b>150,000 Kenyans</b>; more than "
+        "<b>350,000 Ugandans</b> work abroad, largely in the Gulf, remitting about <b>$1.7 billion</b> a "
+        "year.", body),
+    Paragraph(
+        "The documented conditions in that sector are serious and should not be softened: passport "
+        "confiscation, unpaid wages, withheld food, and physical and sexual violence against domestic "
+        "workers. One Ugandan monitoring initiative recorded <b>at least 164 migrant worker deaths in 2025 "
+        "alone</b>.", body),
+    Paragraph(
+        "For a professional on a Gulf contract, the trade is explicit and can be a good one: high tax-free "
+        "pay, no permanence, and a plan to leave. For a domestic worker it is frequently not a trade at "
+        "all.", pull),
+    Paragraph(
+        "The practical conclusion is not “avoid the Gulf”. Millions of families are sustained by those "
+        "remittances and the professional streams can pay very well. It is that <b>the Gulf should be "
+        "entered as a fixed-term earning decision with an exit date, never as a settlement plan</b> — and "
+        "that anyone advising a family member heading into domestic work there should check the contract, "
+        "the recruiter and the destination country's bilateral labour agreement before anyone gets on a "
+        "plane.", body),
+
+    PageBreak(),
+    Paragraph("12 · What Actually Moves It", h2),
     Paragraph("Sorted by how much difference each makes, based on the effect sizes in the data:", body),
 ]
 story += bullets([
@@ -487,7 +567,7 @@ story += [Paragraph(
 
 # ================= 10 =================
 story += [
-    Paragraph("12 · Who Has It Hardest", h2),
+    Paragraph("13 · Who Has It Hardest", h2),
 ]
 story += bullets([
     "<b>Women.</b> Over-qualification is highest of all among non-EU-born women. They carry the skills "
@@ -502,12 +582,12 @@ story += bullets([
     "outcomes.",
     "<b>Those in the Gulf.</b> Nearly 7 million Africans live in Asia, largely in states with no realistic "
     "citizenship pathway at all. Rungs three and four are not available at any price there — the ladder "
-    "simply ends at two.",
+    "simply ends at two. Covered in full in Section 11.",
 ])
 
 # ================= 11 =================
 story += [
-    Paragraph("13 · The Playbook", h2),
+    Paragraph("14 · The Playbook", h2),
 ]
 story += bullets([
     "<b>Choose the country for retention and permanence, not prestige.</b> This is the biggest lever you "
@@ -531,7 +611,7 @@ story += bullets([
 
 # ================= 12 =================
 story += [
-    Paragraph("14 · Method &amp; Limits", h2),
+    Paragraph("15 · Method &amp; Limits", h2),
     Paragraph(
         "<b>What this report is:</b> a synthesis of OECD, Eurostat and national data on immigrant "
         "labour-market outcomes, assembled into a four-rung model and a timeline. Data as at "
@@ -559,6 +639,12 @@ story += bullets([
     "complementary, not contradictory, and should not be compared directly.",
     "<b>Corridor ranks are among African corridors</b>, and exact migrant counts are published for only "
     "some of them. We give numbers where they exist and ranks where they do not.",
+    "<b>Australia, Japan, Singapore and the Gulf have no measured five-year exit rate</b> in the OECD "
+    "series used here, and the Nature pay-gap study does not cover them either. Their scorecard rows are "
+    "estimates from settlement design and fee data, and are flagged as such on the chart.",
+    "<b>Gulf conditions data is drawn from IOM, monitoring organisations and journalism</b> rather than "
+    "from official labour statistics, which those states largely do not publish. Death and abuse figures "
+    "are documented cases, not comprehensive counts — the true totals are very likely higher.",
     "<b>Selection effects run through everything.</b> People who stay are not a random sample of people who "
     "arrived, so ten-year outcomes describe survivors.",
 ])
@@ -570,7 +656,8 @@ story += [
         "integration statistics; CReAM/RFBerlin on EU migrant employment; OECD on return migration; "
         "Nature (2025) on the immigrant–native pay gap across nine countries, summarised by IESE; "
         "UN DESA International Migrant Stock 2024 and the IOM World Migration Report on destinations "
-        "and corridors. Full inline links in the web edition.", small),
+        "and corridors; Walk Free and IOM on the Gulf; Australian Bureau of Statistics and the Journal of "
+        "Intercultural Studies on Australia. Full inline links in the web edition.", small),
     Spacer(1, 6 * mm),
     HRFlowable(width="100%", thickness=1, color=OCHRE, spaceAfter=8),
 ]
