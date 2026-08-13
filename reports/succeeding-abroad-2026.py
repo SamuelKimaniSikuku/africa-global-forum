@@ -159,12 +159,12 @@ story += [
 
 kpi = Table([[
     Paragraph("70.9%", big_num), Paragraph("41.4%", big_num),
-    Paragraph("17%", big_num), Paragraph("1 in 5", big_num),
+    Paragraph("26.1%", big_num), Paragraph("75%", big_num),
 ], [
     Paragraph("of immigrants are<br/>employed — getting a<br/>job is not the problem", big_lbl),
     Paragraph("work below the level<br/>they are qualified for", big_lbl),
-    Paragraph("pay gap remaining<br/>after ten years", big_lbl),
-    Paragraph("of their children reach a<br/>higher-skilled job than<br/>their father", big_lbl),
+    Paragraph("pay gap for sub-Saharan<br/>African origin — against<br/>9.0% for Europeans", big_lbl),
+    Paragraph("of that gap is not getting<br/>the same jobs, not being<br/>paid less for them", big_lbl),
 ]], colWidths=[CONTENT_W / 4] * 4)
 kpi.setStyle(TableStyle([
     ("BACKGROUND", (0, 0), (-1, -1), INK),
@@ -202,6 +202,10 @@ story += bullets([
     "<b>1.3 more years of schooling than their own parents</b> against 0.7 for children of the native-born "
     "— yet <b>only 1 in 5</b> of those with non-EU-born parents ends up in a higher-skilled occupation than "
     "their father held.",
+    "<b>And it is measurably harder for Africans than for other migrants.</b> Workers of sub-Saharan "
+    "African origin face a <b>26.1% pay gap</b> against native-born workers — against 9.0% for European "
+    "or North American arrivals in the same countries. <b>Three-quarters of that gap is not getting the "
+    "same jobs; only a quarter is being paid less for the same job.</b>",
     "<b>Which country you choose changes the answer more than anything you personally do.</b> Five-year "
     "exit rates run from <b>15% in the United States to 75% in the Netherlands</b>; the government fee bill "
     "for a family of four runs from <b>$510 to $122,000</b>; time to citizenship from <b>3 years to 11</b>.",
@@ -220,9 +224,38 @@ story += [
         "which arrives twenty years after the decision that caused it.", body),
 
     PageBreak(),
-    Paragraph("03 · Rung 1 — A Job", h2),
+    Paragraph("03 · Where Africans Actually Go", h2),
+    Paragraph(
+        "Before the rungs, the map. There were <b>45.8 million international migrants from Africa</b> by "
+        "mid-2024 — and the single biggest fact about them is that most never left the continent.", body),
+    fig("destinations.png",
+        "Fig 2 — Where African migrants are, and the corridors they travel (UN DESA 2024; IOM World "
+        "Migration Report). Corridor ranks are among African corridors."),
+    Paragraph(
+        "<b>The largest African migration corridor on earth is Burkina Faso to Côte d'Ivoire</b> — not any "
+        "route to Europe. Free movement under ECOWAS, geographic proximity and long-standing labour ties do "
+        "the work. The biggest corridors leaving the continent are North African and post-colonial: "
+        "<b>Algeria→France at about 1.5 million</b> (fourth largest), <b>Morocco→Spain</b> and "
+        "<b>Morocco→France</b> at over a million each.", body),
+    Paragraph(
+        "The largest African countries of origin in 2024 were <b>Egypt, Sudan and Morocco</b>, ahead of "
+        "South Sudan, the DRC, Nigeria, Burkina Faso, Somalia, Algeria and Zimbabwe — a list dominated by "
+        "North Africa, conflict-affected states and the Sahel rather than by the Anglophone West and East "
+        "African countries that dominate diaspora conversation in London and Houston.", body),
+    Paragraph(
+        "If you are reading this in Europe or North America, you are in the minority of a minority: "
+        "outside the continent at all, and outside the largest corridors within it.", pull),
+    Paragraph(
+        "One destination deserves separate mention because it is systematically under-discussed. Saudi "
+        "Arabia's 2022 census recorded <b>715,000 nationals of sub-Saharan African countries</b>, 5.3% of "
+        "the Kingdom's foreign population. As <i>The Visa Treadmill</i> found, the Gulf states offer no "
+        "realistic citizenship pathway at any price. For millions of Africans abroad, rungs three and four "
+        "of this report are not available at all.", body),
+
+    PageBreak(),
+    Paragraph("04 · Rung 1 — A Job", h2),
     fig("job_vs_right_job.png",
-        "Fig 2 — Employment against skill match (OECD; Eurostat). The two numbers describe "
+        "Fig 3 — Employment against skill match (OECD; Eurostat). The two numbers describe "
         "different regions and cannot be combined — but they describe the same experience.",
         max_w=150 * mm),
     Paragraph(
@@ -236,7 +269,7 @@ story += [
         "employment rate of non-EU immigrants rose <b>6.6 points in eight years</b>, from 59.4% in 2017 to "
         "66.0% in 2025.", body),
     fig("eu_progress.png",
-        "Fig 3 — Employment rate of non-EU immigrants in the EU (CReAM/RFBerlin).", max_w=145 * mm),
+        "Fig 4 — Employment rate of non-EU immigrants in the EU (CReAM/RFBerlin).", max_w=145 * mm),
     Paragraph(
         "<b>Verdict on rung one: easy, and getting easier.</b> If your fear about moving is that you will "
         "not find work, the data says that is the wrong thing to be afraid of.", body),
@@ -244,7 +277,7 @@ story += [
 
 # ================= 04 =================
 story += [
-    Paragraph("04 · Rung 2 — The Right Job", h2),
+    Paragraph("05 · Rung 2 — The Right Job", h2),
     Paragraph(
         "Here is where it breaks. <b>41.4% of non-EU citizens in the EU are over-qualified for the job they "
         "hold.</b> Highest of any group, and highest of all among non-EU-born women. It has improved slowly "
@@ -268,9 +301,9 @@ story += [
         "abroad, and it is boring enough that most people postpone it until the first job has already set "
         "their trajectory.", body),
 
-    Paragraph("05 · Rung 3 — Equal Pay", h2),
+    Paragraph("06 · Rung 3 — Equal Pay", h2),
     fig("earnings_clock.png",
-        "Fig 4 — The immigrant earnings gap over time, across the 15 OECD countries with comparable "
+        "Fig 5 — The immigrant earnings gap over time, across the 15 OECD countries with comparable "
         "data (OECD International Migration Outlook 2025)."),
     Paragraph(
         "On arrival, an immigrant earns <b>34% less</b> than a native-born worker of the same age and sex. "
@@ -292,12 +325,64 @@ story += [
 
 # ================= 06 =================
 story += [
-    Paragraph("06 · Rung 4 — Your Children", h2),
+    PageBreak(),
+    Paragraph("07 · The Africa Penalty, Measured", h2),
+    Paragraph(
+        "Everything so far describes immigrants in general. A 2025 study in <i>Nature</i> covering "
+        "<b>13.5 million individuals across nine countries</b> answers the Africa-specific question, and "
+        "the answer is not comfortable.", body),
+    fig("africa_penalty.png",
+        "Fig 6 — The immigrant–native pay gap by origin, and its causes (Nature, 2025, summarised by "
+        "IESE). Nine countries: Canada, Denmark, France, Germany, Netherlands, Norway, Spain, Sweden "
+        "and the US."),
+    Paragraph("Immigrants overall earn <b>18% less</b> than native-born workers. But that average conceals "
+              "a very wide spread by origin:", body),
+]
+story += bullets([
+    "<b>Workers of sub-Saharan African origin face a 26.1% pay gap</b> — the steepest of any regional "
+    "group in the study.",
+    "<b>Workers of European or North American origin face 9.0%.</b> Same destination countries, same "
+    "measure, less than half the penalty.",
+    "<b>Among children of immigrants the overall gap falls to 5.7%</b> — but it stays elevated for those "
+    "of African and Middle Eastern heritage.",
+])
+story += [
+    Paragraph(
+        "So the honest answer to “is it harder for Africans?” is <b>yes, measurably, by roughly three "
+        "times the penalty faced by a European arrival in the same country.</b>", body),
+    Paragraph("And now the part that matters most", h3),
+    Paragraph(
+        "Three-quarters of the gap is not getting the same jobs. Only one quarter is being paid less "
+        "for the same job.", pull),
+    Paragraph(
+        "Read that carefully, because it reframes the whole problem. <b>Once an African migrant is <i>in</i> "
+        "a given job, they are paid close to what a local in that job is paid</b> — the residual quarter is "
+        "real and it matters, but it is the smaller half of the story. The overwhelming majority of the "
+        "disadvantage happens <i>before</i> that: at the point of access. Not being hired into the "
+        "higher-paying occupations, firms and sectors at all.", body),
+    Paragraph(
+        "The OECD's parallel finding lines up exactly: <b>the concentration of immigrants in lower-paying "
+        "firms <i>within the same industries</i> accounts for about 27% of the earnings gap at entry</b>, "
+        "and much of the convergence over time comes from immigrants shifting into better-paying firms as "
+        "they gain experience and credentials — plus working more hours, which explains around a quarter of "
+        "the initial gap by itself.", body),
+    Paragraph(
+        "The researchers' own policy conclusion follows: closing the gap requires <b>improving job access — "
+        "language training, credential recognition and pay transparency — rather than equal-pay initiatives "
+        "alone.</b> Equal-pay law addresses the quarter. Access addresses the three-quarters.", body),
+    Paragraph(
+        "For an individual, the translation is blunt: <b>your effort is better spent getting into the right "
+        "room than on being treated fairly once you are in it.</b> The unfairness is concentrated at the "
+        "door.", body),
+
+    Paragraph("08 · Rung 4 — Your Children", h2),
     fig("next_generation.png",
-        "Fig 5 — Intergenerational mobility, European OECD countries (OECD, Catching Up? "
+        "Fig 7 — Intergenerational mobility, European OECD countries (OECD, Catching Up? "
         "Intergenerational Mobility and Children of Immigrants)."),
     Paragraph(
         "The honest answer to “was it worth it?” is frequently: <b>not for you — for them.</b> "
+        "Section 07 gave the sharpest version: the pay gap falls from <b>18% for immigrants to 5.7% for "
+        "their children</b>. Most of the penalty is a one-generation cost. "
         "Children of immigrant parents gain <b>1.3 more years of schooling than their own parents</b>, "
         "nearly double the 0.7-year gain among children of the native-born. In every country studied, "
         "children of low-educated immigrants do better than their parents.", body),
@@ -314,9 +399,9 @@ story += [
         "generations are running to stand still.", body),
 
     PageBreak(),
-    Paragraph("07 · The Timeline", h2),
+    Paragraph("09 · The Timeline", h2),
     fig("timeline.png",
-        "Fig 6 — The measured milestones. Sources as cited throughout; the line between them is drawn, "
+        "Fig 8 — The measured milestones. Sources as cited throughout; the line between them is drawn, "
         "the points are published."),
 ]
 story += bullets([
@@ -338,9 +423,21 @@ story += [Paragraph(
 # ================= 08 =================
 story += [
     PageBreak(),
-    Paragraph("08 · Which Countries Deliver", h2),
+    Paragraph("10 · Which Countries Deliver", h2),
+    Paragraph(
+        "Before the judgement calls, here is a measured comparison: the actual immigrant–native pay gap in "
+        "four of the nine countries in the <i>Nature</i> study.", body),
+    fig("country_gaps.png",
+        "Fig 9 — Immigrant–native pay gap, selected countries (Nature, 2025). The full study covers "
+        "Canada, Denmark, France, Germany, Netherlands, Norway, Spain, Sweden and the US.", max_w=150 * mm),
+    Paragraph(
+        "<b>The spread is four-fold — 7.0% in Sweden against 29.3% in Spain.</b> That is the same person, "
+        "the same qualification, a different border. It is the strongest single piece of evidence for the "
+        "claim running through this whole report: the country you choose does more than anything you do. "
+        "Note that this measured ranking does not map neatly onto the scorecard that follows, and it should "
+        "not — a country can have a narrow pay gap and a punishing retention rate.", body),
     fig("scorecard.png",
-        "Fig 7 — AGF's scorecard, built from the sourced figures across this report and its "
+        "Fig 10 — AGF's scorecard, built from the sourced figures across this report and its "
         "companions. A judgement, not a measured index — the underlying data is cited, the weighting "
         "is ours.", max_w=150 * mm),
     Paragraph(
@@ -366,7 +463,7 @@ story += [
 
 # ================= 09 =================
 story += [
-    Paragraph("09 · What Actually Moves It", h2),
+    Paragraph("11 · What Actually Moves It", h2),
     Paragraph("Sorted by how much difference each makes, based on the effect sizes in the data:", body),
 ]
 story += bullets([
@@ -390,7 +487,7 @@ story += [Paragraph(
 
 # ================= 10 =================
 story += [
-    Paragraph("10 · Who Has It Hardest", h2),
+    Paragraph("12 · Who Has It Hardest", h2),
 ]
 story += bullets([
     "<b>Women.</b> Over-qualification is highest of all among non-EU-born women. They carry the skills "
@@ -410,7 +507,7 @@ story += bullets([
 
 # ================= 11 =================
 story += [
-    Paragraph("11 · The Playbook", h2),
+    Paragraph("13 · The Playbook", h2),
 ]
 story += bullets([
     "<b>Choose the country for retention and permanence, not prestige.</b> This is the biggest lever you "
@@ -434,7 +531,7 @@ story += bullets([
 
 # ================= 12 =================
 story += [
-    Paragraph("12 · Method &amp; Limits", h2),
+    Paragraph("14 · Method &amp; Limits", h2),
     Paragraph(
         "<b>What this report is:</b> a synthesis of OECD, Eurostat and national data on immigrant "
         "labour-market outcomes, assembled into a four-rung model and a timeline. Data as at "
@@ -450,12 +547,18 @@ story += bullets([
     "<b>The earnings curve interpolates.</b> The published points are arrival, five years and ten years — "
     "34%, 21% and 17%. The years between are drawn. <i>(Our earlier report quoted roughly 23% at five years "
     "from a proportional description; the directly published figure is 21%, used here.)</i>",
-    "<b>The Fig 7 scorecard is AGF's judgement</b>, not a measured index. The inputs are cited; the 1–5 "
+    "<b>The Fig 10 scorecard is AGF's judgement</b>, not a measured index. The inputs are cited; the 1–5 "
     "weighting is editorial and reasonable people would score it differently.",
     "<b>Exit rates cover different cohorts</b> — European figures for 2010–14 arrivals, US and Canadian for "
     "2010–19 — and “exit” conflates returning home with moving to a third country.",
     "<b>Intergenerational figures are European OECD averages</b> and mask enormous country variation. The "
     "“1 in 5” occupational-mobility figure compares to the <i>father's</i> occupation specifically.",
+    "<b>The Nature pay-gap study covers nine countries, not the whole OECD</b>, and its 18% headline is a "
+    "different measure from the OECD's 34%-at-entry figure — the OECD tracks the gap by years since "
+    "arrival, the Nature study measures the standing gap across the whole immigrant workforce. They are "
+    "complementary, not contradictory, and should not be compared directly.",
+    "<b>Corridor ranks are among African corridors</b>, and exact migrant counts are published for only "
+    "some of them. We give numbers where they exist and ranks where they do not.",
     "<b>Selection effects run through everything.</b> People who stay are not a random sample of people who "
     "arrived, so ten-year outcomes describe survivors.",
 ])
@@ -464,8 +567,10 @@ story += [
     Paragraph(
         "OECD International Migration Outlook 2025, including Immigrant integration: the role of firms; "
         "OECD, Catching Up? Intergenerational Mobility and Children of Immigrants; Eurostat migrant "
-        "integration statistics; CReAM/RFBerlin on EU migrant employment; OECD on return migration. "
-        "Full inline links in the web edition.", small),
+        "integration statistics; CReAM/RFBerlin on EU migrant employment; OECD on return migration; "
+        "Nature (2025) on the immigrant–native pay gap across nine countries, summarised by IESE; "
+        "UN DESA International Migrant Stock 2024 and the IOM World Migration Report on destinations "
+        "and corridors. Full inline links in the web edition.", small),
     Spacer(1, 6 * mm),
     HRFlowable(width="100%", thickness=1, color=OCHRE, spaceAfter=8),
 ]
