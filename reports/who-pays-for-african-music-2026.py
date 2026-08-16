@@ -121,7 +121,7 @@ def furniture(canvas, doc):
     canvas.drawString(20 * mm, A4[1] - 10.5 * mm, "AFRICA GLOBAL FORUM")
     canvas.setFillColor(OCHRE)
     canvas.setFont("Helvetica", 7.5)
-    canvas.drawRightString(A4[0] - 20 * mm, A4[1] - 10.5 * mm, "Who Pays for African Music · 2026")
+    canvas.drawRightString(A4[0] - 20 * mm, A4[1] - 10.5 * mm, "Where Africa Is Heard · 2026")
     canvas.setFillColor(MUTED)
     canvas.setFont("Helvetica", 7)
     canvas.drawString(20 * mm, 10 * mm,
@@ -133,9 +133,9 @@ def furniture(canvas, doc):
 doc = BaseDocTemplate(OUT, pagesize=A4,
                       leftMargin=20 * mm, rightMargin=20 * mm,
                       topMargin=24 * mm, bottomMargin=18 * mm,
-                      title="Streamed in Brazil. Paid For in Britain. (2026)",
+                      title="Twenty Countries Listen. Four of Them Pay. (2026)",
                       author="Africa Global Forum",
-                      subject="Which countries outside Africa actually support African music")
+                      subject="Where African music is heard outside Africa, and which countries actually pay for it")
 frame = Frame(doc.leftMargin, doc.bottomMargin, CONTENT_W,
               A4[1] - doc.topMargin - doc.bottomMargin, id="main")
 doc.addPageTemplates([PageTemplate(id="std", frames=[frame], onPage=furniture)])
@@ -147,27 +147,27 @@ story = []
 story += [
     Spacer(1, 4 * mm),
     Paragraph("AGF RESEARCH · FACT-CHECKED · 2026", label),
-    Paragraph("Streamed in Brazil.", h1),
-    Paragraph("Paid for in Britain.",
+    Paragraph("Twenty Countries Listen.", h1),
+    Paragraph("Four of them pay.",
               S("sub", fontName="Helvetica-Oblique", fontSize=19, leading=23,
                 textColor=TERRACOTTA, spaceAfter=8)),
     HRFlowable(width="100%", thickness=1, color=OCHRE, spaceAfter=10),
     Paragraph(
-        "Brazil is the <b>second</b>-biggest growth market for Afrobeats on earth. It pays about "
-        "<b>a quarter</b> of what Britain pays for the same stream. Which countries outside Africa "
-        "actually support African music depends entirely on what you mean by <i>support</i> — and "
-        "the four honest answers point at four different maps.", lede),
+        "One Afrobeats single is certified in more than <b>twenty countries</b> — 5 million units in "
+        "the United States, <b>1.56 million in India</b>, Diamond in Poland, number one in the "
+        "Netherlands. African music is heard almost everywhere. It is <i>paid for</i> in about four "
+        "places, and that gap is the whole story.", lede),
     Spacer(1, 2 * mm),
 ]
 
 kpi = Table([[
-    Paragraph("4.4×", big_num), Paragraph("11m", big_num),
-    Paragraph("40,000", big_num), Paragraph("+4,530%", big_num),
+    Paragraph("22", big_num), Paragraph("1.56m", big_num),
+    Paragraph("8", big_num), Paragraph("4.4×", big_num),
 ], [
+    Paragraph("countries where one African<br/>song is certified", big_lbl),
+    Paragraph("certified units in India —<br/>the third-biggest<br/>market for it", big_lbl),
+    Paragraph("countries where it went<br/>to number one", big_lbl),
     Paragraph("what one British stream<br/>is worth in Brazilian ones", big_lbl),
-    Paragraph("Africans in Europe —<br/>more than half<br/>the whole diaspora", big_lbl),
-    Paragraph("at Afro Nation Portugal,<br/>from 180 countries", big_lbl),
-    Paragraph("Afrobeats growth in<br/>Indonesia — a bottom-tier<br/>payout market", big_lbl),
 ]], colWidths=[CONTENT_W / 4] * 4)
 kpi.setStyle(TableStyle([
     ("BACKGROUND", (0, 0), (-1, -1), INK),
@@ -179,9 +179,9 @@ kpi.setStyle(TableStyle([
 story += [kpi, Spacer(1, 6 * mm)]
 
 story += [
-    fig("rate_ladder.png",
-        "Fig 1 — Estimated Spotify payout per stream by listener country (Chartlex, 2026). "
-        "Rates are estimates — Spotify does not publish per-country rates.",
+    fig("where_listened.png",
+        "Fig 1 — Certified units by country for Rema's “Calm Down”, the most certified African "
+        "record ever made. Log scale — each gridline is ten times the last.",
         max_h=150 * mm),
     Paragraph("Published August 2026 by Africa Global Forum · "
               "africaglobalforum.com/reports/who-pays-for-african-music-2026", small),
@@ -198,7 +198,17 @@ story += [
         body),
 ]
 story += bullets([
-    "<b>By listeners</b>, the top five are the United States, Brazil, France, the United Kingdom and "
+    "<b>African music is heard in at least twenty-two countries outside Africa at certified scale.</b> "
+    "One song — Rema's “Calm Down”, ~1.89bn streams — is certified from 5 million units in the "
+    "United States and 1.8 million in the UK to 1.56 million in India, Diamond in Poland, Canada, "
+    "France and Brazil, and Platinum across Germany, Italy, Spain, Australia, New Zealand, Portugal, "
+    "Belgium, Switzerland, Denmark, Norway, the Netherlands and Austria.",
+    "<b>It has been number one in eight countries</b> — the Netherlands, Belgium, Switzerland, "
+    "Portugal, Luxembourg, Canada, South Africa and on Romanian airplay — and number one on "
+    "Billboard's Global Excl. US chart.",
+    "<b>India is the third-largest market by certified units</b>, ahead of Canada, Germany and "
+    "France. Poland went Diamond. Neither has an African migration story to explain it.",
+    "<b>By new listeners</b>, the top five are the United States, Brazil, France, the United Kingdom and "
     "Germany — in that order — on Spotify's 2025 ranking of where Afrobeats gained the most new "
     "listeners. Nigeria is sixth. Afrobeats listeners grew 22% globally in a year.",
     "<b>By money, the order changes completely.</b> Estimated per-stream payouts run from about "
@@ -244,12 +254,87 @@ story += [
               "commentary. A country can be first on one list and eleventh on another.", body),
 ]
 
-# ================= 03 =================
+# ================= 03 & 04 (new) =================
 story += [
     PageBreak(),
-    Paragraph("03 · Where the Listeners Are", h2),
+    Paragraph("03 · Where It Is Actually Heard", h2),
+    Paragraph(
+        "Start with the question you actually asked: <b>where is African music listened to?</b> "
+        "Streaming platforms do not publish country-level listener counts, so the honest way to "
+        "answer it is with the one measure that <i>is</i> audited and published country by country — "
+        "industry certifications.", body),
+    Paragraph(
+        "We use Rema's “Calm Down” as the measuring stick. It is the most globally successful African "
+        "song ever recorded — roughly <b>1.89 billion streams worldwide</b> — and it is certified in "
+        "more than twenty countries. Every number in Fig 1 on the cover was independently verified by "
+        "a national industry body. Read down that list and the answer to “where is African music "
+        "listened to?” stops being <i>the UK and America</i> and becomes something much wider:", body),
+]
+story += bullets([
+    "<b>The United States is first</b> at 5 million certified units, and <b>the United Kingdom "
+    "second</b> at 1.8 million. No surprise so far.",
+    "<b>India is third</b> — 1.56 million units, certified 13× Platinum. It is ahead of Canada, "
+    "Germany, France, Italy and Spain. Almost nobody discussing Afrobeats markets mentions India.",
+    "<b>Continental Europe is thick with it.</b> Germany 600k, France 333k, Italy 300k, Spain 240k, "
+    "plus Belgium, Switzerland, Austria, Denmark, Norway, the Netherlands and Portugal.",
+    "<b>Poland took Diamond</b> at 250,000 units — more than Spain, more than Nigeria.",
+    "<b>Australia and New Zealand</b> together account for 680,000 units. The Pacific is a real "
+    "African-music market and it appears in none of the usual commentary.",
+    "<b>Nigeria is eleventh</b> at 200,000 units — below Poland, above Brazil. The country that made "
+    "the song certifies a twenty-fifth of what America does.",
+])
+story += [
+    Paragraph("African music is not heard in a handful of diaspora capitals. On the evidence of the "
+              "biggest African song ever made, it is heard in at least twenty-two countries across "
+              "five continents — and the third-largest of them is India.", pull),
+    Paragraph(
+        "Two honest caveats before you over-read this. Certification thresholds differ between "
+        "countries, so units measure <i>absolute consumption</i>, not popularity relative to a "
+        "country's size — 40,000 units in the Netherlands is a far higher per-head figure than "
+        "250,000 in Poland. And this is one song, whose remix featured Selena Gomez, which certainly "
+        "inflated the American, Canadian and Australian numbers.", body),
+]
+
+story += [
+    PageBreak(),
+    Paragraph("04 · The Places Nobody Expects", h2),
+    Paragraph(
+        "Certified volume is one signal. Reaching <b>number one</b> is a different and in some ways "
+        "better one, because it measures a song beating everything else in that country in the same "
+        "week — a like-for-like contest against the local market.", body),
+    fig("number_ones.png",
+        "Fig 2 — Countries where “Calm Down” or its remix reached number one, plus the Billboard "
+        "Global Excl. US chart. Romania is an airplay chart; the rest are national singles charts."),
+    Paragraph(
+        "An African song has topped the national chart in the <b>Netherlands, Belgium, Switzerland, "
+        "Portugal, Luxembourg, Canada and South Africa</b>, led <b>Romanian airplay</b>, and reached "
+        "number one on <b>Billboard's Global Excl. US</b> chart — which is to say it was, for a "
+        "period, the biggest song in the world outside America.", body),
+    Paragraph(
+        "It reached number two in <b>France</b> and number two in <b>Lebanon</b>. It went Gold in "
+        "<b>Chile</b> on 10 million streams and Platinum in <b>Greece</b> on 2 million. These are not "
+        "diaspora markets in any meaningful sense. There is no significant Nigerian community in "
+        "Bucharest or Santiago.", body),
+    Paragraph(
+        "That matters for how you think about the whole question. The story of the last decade was "
+        "<i>the diaspora carried African music abroad</i>, and that is true. But the evidence here "
+        "shows a second stage that has already happened: <b>the music has detached from the diaspora "
+        "and is now travelling on its own.</b> Poland, Romania, Chile, Greece, India, Indonesia and "
+        "Thailand have no African migration story to explain their numbers. They just liked the song.",
+        body),
+    Paragraph(
+        "The Netherlands is the sharpest illustration of why a listening map and a revenue map are "
+        "different documents. It is a <i>number one country</i> — the song topped both Dutch charts — "
+        "and it sits at the bottom of Fig 1 on certified units, because it is a small country. "
+        "Popular, not large. Both facts are true and they answer different questions.", body),
+]
+
+# ================= 05 =================
+story += [
+    PageBreak(),
+    Paragraph("05 · Where the New Listeners Are Coming From", h2),
     fig("listener_rank.png",
-        "Fig 2 — Spotify's 2025 ranking of the countries gaining the most new Afrobeats listeners. "
+        "Fig 3 — Spotify's 2025 ranking of the countries gaining the most new Afrobeats listeners. "
         "Spotify published the order without magnitudes, which is why this is drawn as a ladder."),
     Paragraph(
         "The <b>United States</b> leads — the largest single audience, the arena circuit, the award "
@@ -272,11 +357,15 @@ story += [
 
 # ================= 04 =================
 story += [
-    Paragraph("04 · Where the Money Is", h2),
+    PageBreak(),
+    Paragraph("06 · Where the Money Is", h2),
     Paragraph(
         "This is the ranking that decides who eats. It is set by two things, neither cultural: what a "
         "subscription costs in that country, and what share of listeners pay for one rather than "
-        "using the free tier. Fig 1 on the cover has the full ladder. Three things stand out.", body),
+        "using the free tier. Three things stand out.", body),
+    fig("rate_ladder.png",
+        "Fig 4 — Estimated Spotify payout per stream by listener country (Chartlex, 2026). Rates "
+        "are estimates — Spotify does not publish per-country rates.", max_h=140 * mm),
 ]
 story += bullets([
     "<b>Britain leads the major markets at about $0.0044</b> — ahead of Germany, Canada, Australia, "
@@ -296,9 +385,10 @@ story += [
 
 # ================= 05 =================
 story += [
-    Paragraph("05 · The Exchange Rate Between Countries", h2),
+    PageBreak(),
+    Paragraph("07 · The Exchange Rate Between Countries", h2),
     fig("exchange_rate.png",
-        "Fig 3 — The same figures as Fig 1, expressed as an exchange rate. Derived by dividing each "
+        "Fig 5 — The same figures as Fig 4, expressed as an exchange rate. Derived by dividing each "
         "country's estimated rate by Brazil's."),
     Paragraph(
         "Divide any country's rate by Brazil's and you get something more useful than a decimal with "
@@ -318,9 +408,9 @@ story += [
 # ================= 06 =================
 story += [
     PageBreak(),
-    Paragraph("06 · The Two Leagues", h2),
+    Paragraph("08 · The Two Leagues", h2),
     fig("two_leagues.png",
-        "Fig 4 — The top five growth markets plotted against what a stream from each is worth. Four "
+        "Fig 6 — The top five growth markets plotted against what a stream from each is worth. Four "
         "are in one league; Brazil is in another."),
     Paragraph(
         "Put the two rankings on one chart and the structure of the whole export market appears. Four "
@@ -343,9 +433,9 @@ story += [
 
 # ================= 07 =================
 story += [
-    Paragraph("07 · Where the Diaspora Actually Lives", h2),
+    Paragraph("09 · Where the Diaspora Actually Lives", h2),
     fig("diaspora_where.png",
-        "Fig 5 — The 20.7 million Africans living outside the continent, by region. From our report "
+        "Fig 7 — The 20.7 million Africans living outside the continent, by region. From our report "
         "The Diaspora, Counted."),
     Paragraph(
         "Now overlay the people. <b>Europe holds more than half of the African diaspora</b> — roughly "
@@ -372,9 +462,9 @@ story += [
 
 # ================= 08 =================
 story += [
-    Paragraph("08 · The Live Circuit", h2),
+    Paragraph("10 · The Live Circuit", h2),
     fig("live_circuit.png",
-        "Fig 6 — Documented capacities on the African-music live circuit outside Africa. Two of the "
+        "Fig 8 — Documented capacities on the African-music live circuit outside Africa. Two of the "
         "four are in Britain."),
     Paragraph(
         "If streaming is where support is measured badly, live is where it is measured honestly. "
@@ -399,16 +489,22 @@ story += [
 
 # ================= 09 =================
 story += [
-    Paragraph("09 · The Growth Frontier", h2),
+    Paragraph("11 · The Growth Frontier", h2),
     fig("growth_frontier.png",
-        "Fig 7 — The fastest-growing markets for African music. Every one of them is a bottom-tier "
+        "Fig 9 — The fastest-growing markets for African music. Every one of them is a bottom-tier "
         "payout market."),
     Paragraph(
-        "Indonesia is up <b>4,530%</b> over five years. India is up <b>1,650%</b>. Brazil is up "
-        "<b>500%</b>, Latin America as a region more than <b>400%</b> since 2020. Mexico, Argentina, "
-        "the Philippines and Thailand are all named as emerging markets. Playlists — <i>Hot Hits "
-        "Naija</i>, <i>African Heat</i>, <i>Gbedu</i> — are the top entry points for new listeners "
-        "worldwide.", body),
+        "Indonesia is up <b>4,530%</b> over five years. India <b>1,650%</b>, the Philippines "
+        "<b>1,492%</b>, Thailand <b>1,370%</b>. Brazil is up <b>500%</b> and Latin America as a "
+        "region more than <b>400%</b> since 2020, with <b>183% year-on-year growth in 2025</b> alone. "
+        "User-made playlists tagged “Afrobeats” grew <b>135%</b> between 2020 and 2025, and <i>Hot "
+        "Hits Naija</i>, <i>African Heat</i> and <i>Gbedu</i> are the top three entry points for "
+        "young listeners worldwide.", body),
+    Paragraph(
+        "Note that the Asian bloc is now four countries deep, not one. Indonesia, India, the "
+        "Philippines and Thailand are all growing at four figures. Set that beside Fig 1 — where "
+        "India already ranks third by certified units — and Asia stops looking like a curiosity and "
+        "starts looking like the second front.", body),
     Paragraph(
         "This is genuinely thrilling and financially modest, and both halves of that sentence are "
         "true. Indonesia, India and Brazil pay $0.0010, $0.0008 and $0.0010 respectively. The "
@@ -423,7 +519,7 @@ story += [
 
 # ================= 10 =================
 story += [
-    Paragraph("10 · The Scorecard", h2),
+    Paragraph("12 · The Scorecard", h2),
     Paragraph("Putting the four maps together gives four distinct kinds of country. This grouping is "
               "ours, not anyone's official ranking — but every column in it is sourced.", body),
     table([
@@ -462,11 +558,11 @@ story += [
 
 # ================= 11 & 12 =================
 story += [
-    Paragraph("11 · If You Are an Artist", h2),
+    Paragraph("13 · If You Are an Artist", h2),
 ]
 story += bullets([
     "<b>Weight your dashboard before you read it.</b> Multiply your listener counts by roughly the "
-    "Fig 3 factors. Your top revenue country is frequently not your top listener country, and it is "
+    "Fig 5 factors. Your top revenue country is frequently not your top listener country, and it is "
     "usually the UK, the US or Germany.",
     "<b>Do not pick between the US, UK, France and Germany on royalty rate.</b> They pay within about "
     "15% of each other. Pick on visa access, promoter relationships, diaspora density and touring "
@@ -482,7 +578,7 @@ story += bullets([
     "correctly registered pays nothing at 4.4× nothing.",
 ])
 story += [
-    Paragraph("12 · If You Are a Fan, Promoter or Investor", h2),
+    Paragraph("14 · If You Are a Fan, Promoter or Investor", h2),
 ]
 story += bullets([
     "<b>Where you stream from matters more than how much you stream.</b> A Nigerian in Oslo streaming "
@@ -502,7 +598,7 @@ story += bullets([
 
 # ================= 13 =================
 story += [
-    Paragraph("13 · The Uncomfortable Part", h2),
+    Paragraph("15 · The Uncomfortable Part", h2),
     Paragraph("Three things this data says that the celebration around African music tends not to.",
               body),
     Paragraph(
@@ -529,7 +625,7 @@ story += [
 
 # ================= 14 =================
 story += [
-    Paragraph("14 · Method &amp; Limits", h2),
+    Paragraph("16 · Method &amp; Limits", h2),
     Paragraph("This report assembles published streaming, royalty and migration figures as at "
               "15 August 2026, read for what they say about which countries outside Africa materially "
               "support African music.", body),
@@ -544,12 +640,27 @@ story += bullets([
     "markets is robust across every source we found, and that the precise multiple — whether it is "
     "33× or 4× — is not. We have left the earlier report standing and flagged it there and here "
     "rather than quietly restate it.",
+    "<b>Fig 1 and Fig 2 measure one song, not a genre.</b> We use “Calm Down” because it is the most "
+    "certified African record ever made and therefore gives the widest country coverage available "
+    "anywhere. It is not a proxy for all African music. A different song — an amapiano record, a "
+    "Francophone one — would produce a different and probably narrower map.",
+    "<b>The remix inflates some of those numbers.</b> The version featuring Selena Gomez is what "
+    "carried the song in the United States, Canada and Australia, and those three totals should be "
+    "read as African-music-plus-American-pop rather than as pure African-music demand. The European "
+    "and Asian certifications are largely for the original.",
+    "<b>Certification thresholds differ between countries.</b> Diamond is 333,333 units in France and "
+    "800,000 in Canada. Units in Fig 1 therefore measure absolute consumption, not popularity "
+    "relative to a country's size — small, rich countries such as the Netherlands look far weaker on "
+    "units than they are per head. Certified units also depend on whether and when a label applied, "
+    "so absence from Fig 1 is not proof of absence of listeners.",
+    "<b>Fig 2 mixes chart types.</b> Most entries are national singles charts; Romania is an airplay "
+    "chart and Global Excl. US is a Billboard aggregate. They are not strictly like for like.",
     "<b>Per-stream rates are estimates, not published figures.</b> Spotify does not disclose "
-    "per-country rates. Fig 1, Fig 3 and Fig 4 all rest on a single estimated table and inherit its "
+    "per-country rates. Fig 4, Fig 5 and Fig 6 all rest on a single estimated table and inherit its "
     "uncertainty. Treat the tiers as reliable and the decimals as indicative.",
-    "<b>Fig 3 is our own arithmetic</b> — each country's estimated rate divided by Brazil's. It is a "
+    "<b>Fig 5 is our own arithmetic</b> — each country's estimated rate divided by Brazil's. It is a "
     "ratio of two estimates, so its error is larger than either.",
-    "<b>Fig 2 is a growth ranking, not a size ranking.</b> It measures where Afrobeats gained the "
+    "<b>Fig 3 is a growth ranking, not a size ranking.</b> It measures where Afrobeats gained the "
     "most <i>new</i> listeners in 2025, which systematically favours new markets over converted ones. "
     "Britain and the US are almost certainly larger in absolute terms than their positions imply.",
     "<b>The Spotify data is one platform.</b> Apple Music, YouTube, Audiomack and Boomplay have "
@@ -557,11 +668,11 @@ story += bullets([
     "more significant in Africa itself than their global share suggests.",
     "<b>Migrant-stock figures count the foreign-born</b>, not the heritage diaspora. Brazil's "
     "Afrobeats audience is substantially people of African descent whose families have been in Brazil "
-    "for centuries, and they appear nowhere in Fig 5. The same applies to African-American audiences "
-    "in the US and Caribbean-descended audiences in the UK. Fig 5 measures recent migration only.",
+    "for centuries, and they appear nowhere in Fig 7. The same applies to African-American audiences "
+    "in the US and Caribbean-descended audiences in the UK. Fig 7 measures recent migration only.",
     "<b>The live section is qualitative about magnitudes.</b> Venue capacities are documented; gate "
     "receipts, guarantees and artist splits are not public.",
-    "<b>The tier table in Section 10 is our construction</b>, not a published index. We have not "
+    "<b>The tier table in Section 12 is our construction</b>, not a published index. We have not "
     "applied weights or produced a composite score, because any weighting would be arbitrary and "
     "would give the grouping a false precision.",
     "<b>&ldquo;African music&rdquo; here leans Nigerian</b>, because Nigeria publishes the most "
@@ -572,7 +683,9 @@ story += bullets([
 story += [
     Paragraph("Principal sources", h3),
     Paragraph(
-        "Spotify's 2025 Afrobeats rankings via MP3Bullet and Music Ally; Chartlex on per-country "
+        "Certification and chart data for “Calm Down” from the compiled national certification "
+        "tables (RIAA, BPI, SNEP, BVMI, FIMI, IMI, Music Canada, ARIA, Pro-Música Brasil, ZPAV and "
+        "others); Spotify's 2025 Afrobeats rankings via MP3Bullet and Music Ally; Chartlex on per-country "
         "royalty rates; Spotify Wrapped 2025 via Techpoint Africa on global listener growth; The "
         "Creative Brief on Latin American and Asian growth rates; Afro Nation on festival attendance; "
         "Official Charts on the UK Afrobeats Chart; IFPI Global Music Report 2026 on market sizes; "
