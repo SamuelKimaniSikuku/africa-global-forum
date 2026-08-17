@@ -1,0 +1,9 @@
+# Africa Global Forum — Security Contact
+# https://africaglobalforum.com
+
+Contact: mailto:admin@africaglobalforum.com
+Contact: mailto:samuel@africaglobalforum.com
+Expires: 2027-08-31T23:59:59.000Z
+Preferred-Languages: en, fr
+Canonical: https://africaglobalforum.com/.well-known/security.txt
+Policy: https://africaglobalforum.com/terms/

@@ -1,0 +1,33 @@
+/* africaglobalforum.com — the diaspora network */
+
+# TEAM
+
+  Founder — Samuel Kimani Sikuku
+  Location — Paris, France (originally Nairobi, Kenya)
+  Contact  — samuel@africaglobalforum.com
+  LinkedIn — https://www.linkedin.com/in/samuel-kimani-sikuku-4388b610a/
+
+
+# SITE
+
+  Last update — 2026-08
+  Language    — English
+  Standards   — HTML5, JSON-LD, RSS 2.0
+  Fonts       — Fraunces, Manrope, JetBrains Mono (Google Fonts)
+  Colours     — Ink #0E0B08, Paper #F4EFE6, Terracotta #C8421A
+
+
+# THE FORUM
+
+  Africa Global Forum is a peer network for the African diaspora.
+  We exist to create opportunity among ourselves — then with the world.
+
+  Membership — application at https://form.typeform.com/to/zKmIFOmA
+  Research   — 43+ free reports at https://africaglobalforum.com/#reports
+  Press kit  — https://africaglobalforum.com/press/
+
+
+# THANKS
+
+  To every founder, operator, student, creative and parent building
+  across the Africa ⇄ Abroad corridor — this room is for you.
