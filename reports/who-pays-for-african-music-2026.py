@@ -460,11 +460,64 @@ story += [
         "live economy.", body),
 ]
 
-# ================= 08 =================
+# ================= 10 (new) =================
 story += [
-    Paragraph("10 · The Live Circuit", h2),
+    PageBreak(),
+    Paragraph("10 · Which Africans Are Abroad", h2),
+    Paragraph(
+        "Regions are too coarse to act on. If you are routing a tour or building an audience, what "
+        "you need is <b>which African nationalities are where</b> — because the diaspora is not one "
+        "audience, it is dozens of national ones with different music, different languages and "
+        "different cities.", body),
+    fig("which_africans.png",
+        "Fig 8 — Largest African-born populations in the two core markets. US figures are Migration "
+        "Policy Institute estimates for 2023; UK figures are 2021/22 Census counts by country of "
+        "birth. Different years and methods — compare within a panel, not across."),
+    Paragraph(
+        "<b>Nigeria leads both markets</b>, and by a wide margin in America — about 476,000 "
+        "Nigerian-born people in the US against 294,000 in the UK. Roughly <b>2.8 million "
+        "African-born people live in the United States</b> in total, of whom about 2.5 million are "
+        "from sub-Saharan Africa; Nigeria, Ethiopia, Egypt, Cameroon and South Africa together "
+        "account for nearly half.", body),
+    Paragraph(
+        "The two lists are strikingly different below the top, and that difference is colonial "
+        "history rather than anything musical. Britain holds large <b>South African, Kenyan, "
+        "Ghanaian, Zimbabwean and Somali</b> populations. America holds large <b>Ethiopian, Egyptian "
+        "and Cameroonian</b> ones. An Ethiopian artist and a Ghanaian artist do not have the same "
+        "map, and neither should route the same tour.", body),
+    Paragraph(
+        "This is also the simplest explanation for why Afrobeats specifically — a Nigerian and "
+        "Ghanaian sound — travelled the way it did. The two largest African-born national groups in "
+        "the two highest-paying music markets on earth are Nigerians in America and Nigerians in "
+        "Britain. The genre had a built-in first audience in exactly the right two countries.", body),
+    Paragraph("The number that is always too small", h3),
+    fig("stock_vs_heritage.png",
+        "Fig 9 — The same population, two definitions. Migrant-stock counts miss everyone born in "
+        "the destination country."),
+    Paragraph(
+        "Every diaspora figure in this report, and in almost every report anywhere, counts <i>the "
+        "foreign-born</i>. In 2023 there were about <b>476,000 people born in Nigeria</b> living in "
+        "the United States — and about <b>760,000 people of Nigerian ancestry</b>. The second number "
+        "is <b>60% larger</b>, and the gap is entirely children and grandchildren born in America.",
+        body),
+    Paragraph("The audience is always bigger than the migration statistics say. If you plan around "
+              "migrant-stock data, you are planning for about two-thirds of the people who actually "
+              "turn up.", pull),
+    Paragraph(
+        "Apply that correction across Fig 7 and the 20.7 million becomes something considerably "
+        "larger — and that is before the historic diaspora, the tens of millions of descendants of "
+        "the transatlantic slave trade, who are not migrants, appear in no migration dataset at all, "
+        "and are a very large part of why Afrobeats works in Atlanta, London, Salvador and Kingston. "
+        "We have not put a number on that because there is no defensible one, but its absence from "
+        "every chart in this report is the single biggest thing those charts get wrong.", body),
+]
+
+# ================= 11 =================
+story += [
+    PageBreak(),
+    Paragraph("11 · The Live Circuit", h2),
     fig("live_circuit.png",
-        "Fig 8 — Documented capacities on the African-music live circuit outside Africa. Two of the "
+        "Fig 10 — Documented capacities on the African-music live circuit outside Africa. Two of the "
         "four are in Britain."),
     Paragraph(
         "If streaming is where support is measured badly, live is where it is measured honestly. "
@@ -489,9 +542,10 @@ story += [
 
 # ================= 09 =================
 story += [
-    Paragraph("11 · The Growth Frontier", h2),
+    PageBreak(),
+    Paragraph("12 · The Growth Frontier", h2),
     fig("growth_frontier.png",
-        "Fig 9 — The fastest-growing markets for African music. Every one of them is a bottom-tier "
+        "Fig 11 — The fastest-growing markets for African music. Every one of them is a bottom-tier "
         "payout market."),
     Paragraph(
         "Indonesia is up <b>4,530%</b> over five years. India <b>1,650%</b>, the Philippines "
@@ -519,7 +573,7 @@ story += [
 
 # ================= 10 =================
 story += [
-    Paragraph("12 · The Scorecard", h2),
+    Paragraph("13 · The Scorecard", h2),
     Paragraph("Putting the four maps together gives four distinct kinds of country. This grouping is "
               "ours, not anyone's official ranking — but every column in it is sourced.", body),
     table([
@@ -558,7 +612,7 @@ story += [
 
 # ================= 11 & 12 =================
 story += [
-    Paragraph("13 · If You Are an Artist", h2),
+    Paragraph("14 · If You Are an Artist", h2),
 ]
 story += bullets([
     "<b>Weight your dashboard before you read it.</b> Multiply your listener counts by roughly the "
@@ -578,7 +632,7 @@ story += bullets([
     "correctly registered pays nothing at 4.4× nothing.",
 ])
 story += [
-    Paragraph("14 · If You Are a Fan, Promoter or Investor", h2),
+    Paragraph("15 · If You Are a Fan, Promoter or Investor", h2),
 ]
 story += bullets([
     "<b>Where you stream from matters more than how much you stream.</b> A Nigerian in Oslo streaming "
@@ -598,7 +652,7 @@ story += bullets([
 
 # ================= 13 =================
 story += [
-    Paragraph("15 · The Uncomfortable Part", h2),
+    Paragraph("16 · The Uncomfortable Part", h2),
     Paragraph("Three things this data says that the celebration around African music tends not to.",
               body),
     Paragraph(
@@ -625,7 +679,7 @@ story += [
 
 # ================= 14 =================
 story += [
-    Paragraph("16 · Method &amp; Limits", h2),
+    Paragraph("17 · Method &amp; Limits", h2),
     Paragraph("This report assembles published streaming, royalty and migration figures as at "
               "15 August 2026, read for what they say about which countries outside Africa materially "
               "support African music.", body),
@@ -666,13 +720,21 @@ story += bullets([
     "<b>The Spotify data is one platform.</b> Apple Music, YouTube, Audiomack and Boomplay have "
     "different geographies and different economics — Audiomack and Boomplay in particular are far "
     "more significant in Africa itself than their global share suggests.",
+    "<b>Fig 8 mixes two data vintages.</b> The US figures are Migration Policy Institute estimates "
+    "for 2023; the UK figures are 2021/22 Census counts. Different years, different collection "
+    "methods. Compare within a panel, not across — the US-versus-UK Nigeria comparison in the text "
+    "is directional only.",
+    "<b>Fig 9's two bars are not interchangeable measures.</b> Ancestry is self-reported "
+    "identification; country of birth is a factual question. The 60% gap is real but it is a gap "
+    "between a question about identity and a question about geography, and the ancestry figure will "
+    "move with how people choose to describe themselves.",
     "<b>Migrant-stock figures count the foreign-born</b>, not the heritage diaspora. Brazil's "
     "Afrobeats audience is substantially people of African descent whose families have been in Brazil "
     "for centuries, and they appear nowhere in Fig 7. The same applies to African-American audiences "
     "in the US and Caribbean-descended audiences in the UK. Fig 7 measures recent migration only.",
     "<b>The live section is qualitative about magnitudes.</b> Venue capacities are documented; gate "
     "receipts, guarantees and artist splits are not public.",
-    "<b>The tier table in Section 12 is our construction</b>, not a published index. We have not "
+    "<b>The tier table in Section 13 is our construction</b>, not a published index. We have not "
     "applied weights or produced a composite score, because any weighting would be arbitrary and "
     "would give the grouping a false precision.",
     "<b>&ldquo;African music&rdquo; here leans Nigerian</b>, because Nigeria publishes the most "
@@ -689,7 +751,9 @@ story += [
         "royalty rates; Spotify Wrapped 2025 via Techpoint Africa on global listener growth; The "
         "Creative Brief on Latin American and Asian growth rates; Afro Nation on festival attendance; "
         "Official Charts on the UK Afrobeats Chart; IFPI Global Music Report 2026 on market sizes; "
-        "UN DESA migrant-stock data via our own report The Diaspora, Counted. Full inline links in "
+        "UN DESA migrant-stock data via our own report The Diaspora, Counted; Migration Policy "
+        "Institute and US Census ACS on African-born and ancestry populations in the US; UK Census "
+        "2021/22 on country of birth. Full inline links in "
         "the web edition.", small),
     Spacer(1, 4 * mm),
     HRFlowable(width="100%", thickness=1, color=OCHRE, spaceAfter=2),
