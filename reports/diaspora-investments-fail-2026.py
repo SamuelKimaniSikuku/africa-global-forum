@@ -468,12 +468,151 @@ story += [
         "rate, that is the cheapest insurance available.", body),
 ]
 
-# ================= 08 =================
+# ================= 08 (community evidence) =================
 story += [
     PageBreak(),
-    Paragraph("08 · Failure Six: The Cost of Getting It There", h2),
+    Paragraph("08 · What the Diaspora Says Happens", h2),
+    Paragraph(
+        "<i>A note on what this section is.</i> Everything above rests on published statistics. This "
+        "section does not. It is drawn from what Africans abroad say publicly, at length and in large "
+        "numbers, on open discussion forums — Nigerians, Ghanaians, Zimbabweans, Cameroonians and "
+        "Kenyans, comparing notes about money sent home. These accounts are <b>self-reported, "
+        "self-selected and unverifiable</b>. People who have been burned post more than people who "
+        "have not. Nothing here should be read as a measured rate of anything.", body),
+    Paragraph(
+        "We include it anyway, for three reasons. It is the only description we have of the "
+        "<i>mechanism</i> the statistics leave blank — particularly Section 07, where we said plainly "
+        "that the agent problem had no supporting evidence. The accounts are strikingly consistent "
+        "across countries that have no contact with each other. And one of the theories that emerges "
+        "from them turns out to be confirmed by peer-reviewed research.", body),
+
+    Paragraph("It is not a request, it is a subscription", h3),
+    Paragraph(
+        "The single most repeated pattern is escalation. A relative asks for a specific thing — a "
+        "washing machine, a phone, school fees. The money is sent, often with something extra added "
+        "out of affection. The specific need is then immediately replaced by a new one: no money for "
+        "food, then a generator to run the washing machine.", body),
+    Paragraph(
+        "The structural point is that <b>the transfer does not close the request; it opens an "
+        "account.</b> The same dynamic is described in nearly identical terms by people who have "
+        "never met, in five different countries. And it propagates: send to one person and the number "
+        "circulates.", body),
+    Paragraph(
+        "This matters for the rest of this report because <b>it is the same failure mode as an "
+        "unstaged construction payment.</b> Money released against a relationship rather than against "
+        "a defined, completed deliverable does not terminate the obligation. It establishes a rate.",
+        body),
+
+    Paragraph("The information asymmetry runs both ways", h3),
+]
+story += bullets([
+    "<b>People at home frequently cannot see the cost of living abroad.</b> $100 converted mentally "
+    "into local currency reads as a month of living, so a refusal reads as hoarding. Several posters "
+    "from the continent made this point themselves, and framed it as inexperience rather than malice.",
+    "<b>People abroad frequently cannot see the need at home either.</b> The most useful single "
+    "account describes a man who argued with his mother for years about her requests, then visited, "
+    "saw how she was actually living — and voluntarily increased what he sent. Some need is "
+    "performance and some is severe, and <b>from four thousand miles away the two are "
+    "indistinguishable.</b> That is the real problem: not the asking, but the impossibility of "
+    "verification.",
+    "<b>The senders are often not wealthy.</b> Recurring accounts describe people funding relatives "
+    "while living on savings, borrowing from their own children to cover rent, or reaching sixty in "
+    "an expensive country with no retirement provision because home always came first.",
+])
+story += [
+    Paragraph("The whole system runs on an unverifiable claim made to someone who cannot check it and "
+              "cannot say no. That is not a family problem. It is a design problem, and it is the "
+              "same one that loses people their building money.", pull),
+
+    Paragraph("The loyalty tax", h3),
+    Paragraph(
+        "One contributor, writing about Cameroon, gave the mechanism a name that we think is the "
+        "sharpest framing in the entire body of material: <b>the loyalty tax</b>.", body),
+    Paragraph(
+        "The argument runs like this. Where contracts are weakly enforced and the future is uncertain, "
+        "extracting value from you <i>today</i> is the rational strategy, because the long game does "
+        "not reliably pay. The contractor who overbills is not stupid; he has correctly read his own "
+        "environment. And the diaspora member is the ideal counterparty, because <b>they cannot "
+        "credibly walk away.</b> Everyone involved understands that guilt is the enforcement "
+        "mechanism, and that it points in only one direction.", body),
+    Paragraph(
+        "This is a better explanation of the pattern than dishonesty is. It also predicts the "
+        "countermeasure correctly: what protects you is not finding more trustworthy people, but "
+        "<b>arrangements in which walking away is possible</b> — a defined ceiling, a defined rule, a "
+        "third party holding the funds. Every safeguard in Section 10 is, in this light, a way of "
+        "restoring the ability to say no.", body),
+
+    Paragraph("The claim we could check — and it holds", h3),
+    Paragraph(
+        "One assertion in this material is strong enough that it should not be repeated without "
+        "verification: that <b>the more diaspora money privately funds schools and clinics, the less "
+        "the state bothers to.</b>", body),
+    Paragraph(
+        "It is supported by peer-reviewed research. A study of <b>86 developing countries over "
+        "1996–2007</b>, published in the <i>Journal of Development Studies</i>, found that remittance "
+        "inflows <b>reduce public spending on education and health where governance is weak</b> — the "
+        "“public moral hazard” effect. Later work in <i>Health Policy and Planning</i> examines the "
+        "same effect on public health expenditure in Africa specifically. Related findings associate "
+        "higher remittance receipts with weaker control of corruption and rule of law.", body),
+    Paragraph(
+        "Two cautions. This is a macroeconomic finding about national aggregates and weak-governance "
+        "settings, not a verdict on any individual family — nobody's school fees caused a ministry to "
+        "cut its budget. And the direction of causation in this literature is genuinely contested. "
+        "But the mechanism the poster described is real and it is measured: <b>private diaspora "
+        "provision can reduce the political cost of public non-provision.</b> The money that fixes "
+        "the immediate problem can help sustain the conditions that produced it.", body),
+
+    Paragraph("Why the businesses die", h3),
+]
+story += bullets([
+    "<b>Pricing in dollars for customers earning cedis or naira.</b> The resulting market is other "
+    "diaspora members, who buy once out of solidarity and then return to the cheaper local option.",
+    "<b>Two weeks at Christmas is not market research.</b> Neither is a childhood memory. The strong "
+    "recommendation from people who survived is to <b>live there for a full year first</b> — through "
+    "every season, every festival and every fuel shortage — ideally while employed by someone else.",
+    "<b>Distribution decides everything, and the diaspora consistently underestimates it.</b> "
+    "Multiple accounts describe informal retail networks — market traders and street hawkers — as the "
+    "actual gatekeepers of what sells, responsive to margin rather than branding.",
+    "<b>The costs no spreadsheet included:</b> power and water interruptions, foreigner pricing, "
+    "informal payments stacked on official fees, and employee theft.",
+    "<b>“Invest in the motherland” events are described as a business in themselves</b> — paid rooms "
+    "full of diaspora members with no local operating experience, advising one another.",
+])
+story += [
+    PageBreak(),
+    Paragraph("What the people with peace actually did", h3),
+    fig("structures.png",
+        "Fig 8 — Recurring arrangements described by people who reported the situation becoming "
+        "manageable. Self-reported; presented as patterns, not as a tested method."),
+    Paragraph(
+        "The consistency here is the most useful thing in the section. Almost nobody who described "
+        "reaching a stable position did it by giving less to the same people in the same way. They "
+        "did it by <b>changing the structure of the transaction</b>, and they arrived at four "
+        "arrangements independently.", body),
+    Paragraph(
+        "Note what all four have in common with the rest of this report: they replace a relationship "
+        "with a rule. A gatekeeper is an escrow agent. An evidence requirement is a milestone "
+        "certificate. A ceiling is a fixed-price contract. Turning relatives into employees is the "
+        "same move as hiring a licensed supervisor instead of asking a cousin — it converts an "
+        "unenforceable bond into an enforceable one, and, on these accounts, it tends to preserve the "
+        "relationship rather than destroy it.", body),
+    Paragraph(
+        "Two honest closing notes. Several accounts describe cutting family off entirely and then "
+        "hearing nothing for years — which they read as proof the relationship was only ever the "
+        "transfer. That reading may be right; it may also be what estrangement looks like from one "
+        "side. We do not know. And the most quietly devastating theme across all of it is not fraud "
+        "or entitlement at all: it is people who left in order to help, and who wanted the "
+        "relationships far more than they minded the money, discovering that <b>affection began "
+        "arriving with an invoice attached and neither side could remember who sent the first "
+        "one.</b>", body),
+]
+
+# ================= 09 =================
+story += [
+    PageBreak(),
+    Paragraph("09 · Failure Six: The Cost of Getting It There", h2),
     fig("remittance_cost.png",
-        "Fig 7 — Remittance costs, Q1 2025, from the World Bank's Remittance Prices Worldwide."),
+        "Fig 9 — Remittance costs, Q1 2025, from the World Bank's Remittance Prices Worldwide."),
     Paragraph(
         "Before a single naira reaches a plot, the transfer takes its cut. Sending $200 to "
         "sub-Saharan Africa cost an average of <b>8.78%</b> in the first quarter of 2025 — up from "
@@ -495,11 +634,11 @@ story += [
 # ================= 09 =================
 story += [
     PageBreak(),
-    Paragraph("09 · What the Evidence Says Works", h2),
+    Paragraph("10 · What the Evidence Says Works", h2),
     Paragraph("There is one natural experiment in the record that isolates what actually protects "
               "diaspora money, and it is worth studying closely.", body),
     fig("two_bonds.png",
-        "Fig 8 — Two diaspora bonds and one difference. Nigeria's 2017 issue and Ethiopia's 2011 "
+        "Fig 10 — Two diaspora bonds and one difference. Nigeria's 2017 issue and Ethiopia's 2011 "
         "issue, per ODI and contemporaneous reporting."),
     Paragraph(
         "<b>Nigeria, 2017.</b> A $300 million diaspora bond at 5.625%, registered with the <b>US "
@@ -536,7 +675,7 @@ story += bullets([
 # ================= 10 =================
 story += [
     PageBreak(),
-    Paragraph("10 · The Checklist", h2),
+    Paragraph("11 · The Checklist", h2),
     Paragraph("If you take one thing from this report, take this. Nothing here is expensive relative "
               "to the sums at risk, and the whole list can be done from abroad.", body),
     table([
@@ -581,7 +720,7 @@ story += [
 # ================= 11 & 12 =================
 story += [
     PageBreak(),
-    Paragraph("11 · How to Think About Currency", h2),
+    Paragraph("12 · How to Think About Currency", h2),
 ]
 story += bullets([
     "<b>Ask what currency you will need the money in.</b> If you will spend it where you live now, "
@@ -599,7 +738,7 @@ story += bullets([
     "a year is a 15% loss wearing a good suit.",
 ])
 story += [
-    Paragraph("12 · If You Are Building for the Diaspora", h2),
+    Paragraph("13 · If You Are Building for the Diaspora", h2),
     Paragraph("For members of this network building products, funds or developments aimed at Africans "
               "abroad, the evidence points at something specific: the market is not short of demand "
               "or of capital. It is short of <b>enforceable structure</b>.", body),
@@ -622,7 +761,7 @@ story += bullets([
 # ================= 13 =================
 story += [
     PageBreak(),
-    Paragraph("13 · The Uncomfortable Part", h2),
+    Paragraph("14 · The Uncomfortable Part", h2),
     Paragraph("Three things worth saying plainly.", body),
     Paragraph(
         "<b>First, some of this is our own doing.</b> Diaspora buyers routinely skip checks they "
@@ -651,7 +790,7 @@ story += [
 # ================= 14 =================
 story += [
     PageBreak(),
-    Paragraph("14 · Method &amp; Limits", h2),
+    Paragraph("15 · Method &amp; Limits", h2),
     Paragraph("This report assembles published figures as at 18 August 2026, read for what they say "
               "about why diaspora capital fails to become diaspora assets.", body),
 ]
@@ -674,9 +813,21 @@ story += bullets([
     "bodies</b> and we have quoted the range rather than pick one.",
     "<b>The 75/25 consumption-investment split is a survey-derived estimate</b> from IFAD, applied "
     "continent-wide. Real splits vary enormously by country, corridor and household income.",
-    "<b>Section 07 has no supporting data at all</b>, and we have flagged it as structural reasoning "
-    "rather than evidence. We include it because the mechanism is well understood in every other "
-    "context where principals delegate to unmonitored agents, but no one has measured it here.",
+    "<b>Section 07 has no quantitative support</b>, and we have flagged it as structural reasoning "
+    "rather than evidence. The mechanism is well understood in every other context where principals "
+    "delegate to unmonitored agents; Section 08 gives it qualitative support, but nobody has "
+    "measured it.",
+    "<b>Section 08 is not evidence of the same kind as the rest of this report</b>, and is labelled "
+    "as such where it appears. It draws on self-reported accounts posted publicly on open diaspora "
+    "forums. That material is self-selected — people who lost money post more than people who did "
+    "not — unverifiable, and impossible to weight. We use it to describe mechanisms and to record "
+    "the arrangements people say worked, never to establish how often anything happens. Individual "
+    "accounts are paraphrased rather than quoted, and we have not attempted to identify or contact "
+    "anyone involved.",
+    "<b>The public moral hazard finding is contested.</b> The <i>Journal of Development Studies</i> "
+    "result holds for weak-governance settings across 86 countries; the direction of causation in "
+    "this literature is genuinely debated, and it describes national aggregates, not households. We "
+    "have stated it as a measured macroeconomic effect and nothing more.",
     "<b>Nothing here is financial or legal advice.</b> We are not licensed to give either. The "
     "checklist is a list of ordinary due-diligence steps, not a recommendation about any product, "
     "country or asset.",
@@ -693,7 +844,9 @@ story += [
         "Managers of Nigeria via Vanguard and TheCable on abandoned projects; Nairametrics on naira "
         "depreciation; Nigeria's SEC via Technext and Pulse on Ponzi losses; reporting on Menzgold "
         "and Business Daily on Ekeza Sacco; ODI on diaspora bonds; The Guardian Nigeria on the trust "
-        "deficit. Full inline links in the web edition.", small),
+        "deficit; Journal of Development Studies and Health Policy and Planning on the public moral "
+        "hazard effect of remittances. Section 08 draws on publicly posted accounts across open "
+        "diaspora discussion forums. Full inline links in the web edition.", small),
     Spacer(1, 4 * mm),
     HRFlowable(width="100%", thickness=1, color=OCHRE, spaceAfter=2),
     callout(
