@@ -1856,3 +1856,7 @@ footer{
   background:linear-gradient(145deg,#2A3D2A 0%,#6B2A10 60%,#C8421A 100%);
   color:#F4EFE6;
 }
+.report-thumb-invest{
+  background:linear-gradient(145deg,#0E0B08 0%,#6B2A10 55%,#D89B2C 100%);
+  color:#F4EFE6;
+}
