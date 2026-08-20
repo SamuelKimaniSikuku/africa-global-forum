@@ -318,7 +318,92 @@ story += [
         "entirely absent is the other category: <b>the mechanics of being African abroad, "
         "explained.</b>", body),
 
-    Paragraph("06 · The Honest Numbers", h2),
+]
+
+# ================= 06 (the ten) =================
+story += [
+    PageBreak(),
+    Paragraph("06 · The Ten That Matter", h2),
+    Paragraph(
+        "There is no published ranking of African and African-origin podcasts by diaspora "
+        "listenership. Nobody measures it. What follows is our own list, assembled from published "
+        "figures, platform signals and editorial prominence, and it is <b>a considered list rather "
+        "than a measured chart</b> — see Method &amp; Limits before you quote the order. The "
+        "first thing it shows is not what most people expect.", body),
+    fig("two_tiers.png",
+        "Fig 5 — The two tiers. Metrics differ between shows — monthly downloads, weekly "
+        "listens, ratings — and are not directly comparable."),
+    Paragraph("<b>The two biggest podcasters of African origin on earth do not make African "
+              "podcasts.</b>", body),
+    Paragraph(
+        "<i>The Diary of a CEO</i> takes <b>over 120 million downloads and streams a month</b> and "
+        "was ranked the <b>second most popular podcast in the world</b> in Spotify's 2025 Wrapped. "
+        "Its host, Steven Bartlett, was born in Gaborone, Botswana and raised in England. Trevor "
+        "Noah, South African, hosts a Spotify Studios original. Neither show is about being African "
+        "abroad. They are business and general-interest shows that happen to be hosted by men of "
+        "African origin. Everything else operates roughly two orders of magnitude below that.", body),
+    table([
+        [Paragraph("#", th), Paragraph("Show", th), Paragraph("Host &amp; base", th),
+         Paragraph("What is documented", th)],
+        [Paragraph("<b>1</b>", cell), Paragraph("<b>The Diary of a CEO</b>", cell),
+         Paragraph("Steven Bartlett · born Botswana, based London", cell),
+         Paragraph("120m+ downloads and streams monthly; #2 globally on Spotify Wrapped 2025; "
+                   "12.1m YouTube subscribers", cell)],
+        [Paragraph("<b>2</b>", cell), Paragraph("<b>What Now? with Trevor Noah</b>", cell),
+         Paragraph("Trevor Noah · South Africa, based US", cell),
+         Paragraph("Spotify Studios original; no listener figures published", cell)],
+        [Paragraph("<b>3</b>", cell), Paragraph("<b>The Receipts</b>", cell),
+         Paragraph("Tolani Shoneye, Audrey Indome · London", cell),
+         Paragraph("100,000+ weekly listens across 71 countries; independent to BBC 1Xtra to "
+                   "Spotify", cell)],
+        [Paragraph("<b>4</b>", cell), Paragraph("<b>I Said What I Said</b>", cell),
+         Paragraph("Jollz and FK Abudu · Lagos", cell),
+         Paragraph("Running since 2017, eighth season; widely described as one of Africa's biggest",
+                   cell)],
+        [Paragraph("<b>5</b>", cell), Paragraph("<b>Tea With Tay</b>", cell),
+         Paragraph("Taymesan Emmanuel · Lagos", cell),
+         Paragraph("Reported at over a million listeners; episodes routinely go viral", cell)],
+        [Paragraph("<b>6</b>", cell), Paragraph("<b>The Honest Bunch</b>", cell),
+         Paragraph("Nedu and co-hosts · Glitch Africa, Lagos", cell),
+         Paragraph("4.7/5 from 661 Apple ratings; ~134-minute episodes; video-first", cell)],
+        [Paragraph("<b>7</b>", cell), Paragraph("<b>3 Shots of Tequila</b>", cell),
+         Paragraph("Marvin Abbey, Tazer Black · London", cell),
+         Paragraph("200+ episodes; Spotify-exclusive; Black London culture", cell)],
+        [Paragraph("<b>8</b>", cell), Paragraph("<b>The Afrobeats Podcast</b>", cell),
+         Paragraph("Adesope Olajide · London", cell),
+         Paragraph("The reference show for Afrobeats industry conversation", cell)],
+        [Paragraph("<b>9</b>", cell), Paragraph("<b>Sincerely Accra</b>", cell),
+         Paragraph("GCR Production · Accra", cell),
+         Paragraph("The most prominent Ghanaian entry; part of a small network", cell)],
+        [Paragraph("<b>10</b>", cell), Paragraph("<b>The diaspora-specific tier</b>", cell),
+         Paragraph("<i>Afros in the Diaspora</i>, <i>Conversations from the Diaspora</i>, "
+                   "<i>The New African Diasporas Podcast</i>", cell),
+         Paragraph("Small but the only shows explicitly about migration, identity and adjustment",
+                   cell)],
+    ], [10 * mm, 40 * mm, 52 * mm, 68 * mm]),
+    Paragraph("Three things follow from that list, and all three matter if you are thinking of "
+              "starting something.", body),
+]
+story += bullets([
+    "<b>The ceiling is enormous and it has already been reached.</b> An African-origin host runs the "
+    "second-biggest podcast on the planet. Nobody needs to argue that this audience or these hosts "
+    "can scale. The question is only what the show is about.",
+    "<b>The route to that ceiling was not diaspora content.</b> Both tier-one shows are "
+    "general-interest. That is worth sitting with: the largest African-origin podcast successes were "
+    "built by <i>not</i> narrowcasting. It is the strongest available counter-argument to this "
+    "report's own thesis, and we would rather state it than hide it.",
+    "<b>Tier two is almost entirely Lagos and London.</b> Eight of the ten entries are based in one "
+    "of two cities. There is nothing from the Gulf, nothing Francophone, nothing from East Africa in "
+    "the top tier, and nothing serving the second generation as adults.",
+])
+story += [
+    Paragraph("Two cities, one language, and one broad subject. That is what the top of this market "
+              "currently looks like — which is either discouraging or the whole opportunity, "
+              "depending on what you were planning to make.", pull),
+
+    PageBreak(),
+    Paragraph("07 · The Honest Numbers", h2),
+
     fig("downloads.png",
         "Fig 4 — First-week download benchmarks, from Buzzsprout platform data. Log scale — the "
         "distribution spans two orders of magnitude."),
@@ -342,9 +427,9 @@ story += [
 # ================= 07 =================
 story += [
     PageBreak(),
-    Paragraph("07 · What a Thousand Listens Is Worth", h2),
+    Paragraph("08 · What a Thousand Listens Is Worth", h2),
     fig("cpm.png",
-        "Fig 5 — Reported CPM ranges by category, 2026. Ranges vary by source and by whether the "
+        "Fig 6 — Reported CPM ranges by category, 2026. Ranges vary by source and by whether the "
         "figure is buy-side or sell-side."),
     Paragraph(
         "Advertising is sold on CPM — cost per thousand listens. General host-read mid-roll "
@@ -371,7 +456,7 @@ story += [
 # ================= 08 =================
 story += [
     PageBreak(),
-    Paragraph("08 · The Gap", h2),
+    Paragraph("09 · The Gap", h2),
     Paragraph(
         "Here is where this report can do something most market analyses cannot. Africa Global Forum "
         "has spent 2026 publishing research on what Africans abroad actually need to know — eleven "
@@ -390,7 +475,7 @@ story += [
         "subjects in the right-hand column has three properties an incoming show wants: <b>documented "
         "demand, no incumbent, and endemic advertisers with money.</b>", body),
 
-    Paragraph("09 · Nine Territories Nobody Is Working", h2),
+    Paragraph("10 · Nine Territories Nobody Is Working", h2),
     Paragraph("Each of these is a show. Each has a named audience, a specific question, and an "
               "evidence base that already exists in this library.", body),
     table([
@@ -442,7 +527,7 @@ story += [
 # ================= 10 & 11 =================
 story += [
     PageBreak(),
-    Paragraph("10 · The Gulf, Again", h2),
+    Paragraph("11 · The Gulf, Again", h2),
     Paragraph(
         "This is the third AGF report in a row to arrive at the same blind spot from a different "
         "direction, which is usually a sign the blind spot is real.", body),
@@ -470,7 +555,7 @@ story += [
         "matter is politically sensitive in the countries where the audience lives. It is whitespace "
         "because it is difficult, not because nobody noticed.", body),
 
-    Paragraph("11 · The Language Gap", h2),
+    Paragraph("12 · The Language Gap", h2),
     Paragraph(
         "Almost everything described in this report is in English. That reflects the market, and it "
         "is a strange fact about a continent where <b>France hosts the largest single population of "
@@ -491,7 +576,7 @@ story += [
 # ================= 12 & 13 =================
 story += [
     PageBreak(),
-    Paragraph("12 · If You Are Starting One", h2),
+    Paragraph("13 · If You Are Starting One", h2),
 ]
 story += bullets([
     "<b>Pick a question, not a topic.</b> “Diaspora life” is a topic and it is taken. “How much does "
@@ -514,7 +599,7 @@ story += bullets([
     "Consistency is the entire strategy, because most competitors stop.",
 ])
 story += [
-    Paragraph("13 · The Format Decision", h2),
+    Paragraph("14 · The Format Decision", h2),
     Paragraph("One structural choice determines most of the rest, and it is worth making "
               "deliberately.", body),
 ]
@@ -530,7 +615,7 @@ story += bullets([
 ])
 story += [
     Paragraph(
-        "Given the gap on the cover and the CPM structure in Fig 5, <b>the service format is where "
+        "Given the gap on the cover and the CPM structure in Fig 6, <b>the service format is where "
         "the unclaimed ground is.</b> It is also, conveniently, the format that suits someone whose "
         "advantage is a network and a research library rather than a stand-up act.", body),
 ]
@@ -538,7 +623,7 @@ story += [
 # ================= 14 =================
 story += [
     PageBreak(),
-    Paragraph("14 · The Uncomfortable Part", h2),
+    Paragraph("15 · The Uncomfortable Part", h2),
     Paragraph(
         "<b>First, most podcasts fail, and the reason is usually consistency rather than quality.</b> "
         "The evidence is unambiguous that shows stop. A podcast is a weekly obligation for years, and "
@@ -564,17 +649,26 @@ story += [
 # ================= 15 =================
 story += [
     PageBreak(),
-    Paragraph("15 · Method &amp; Limits", h2),
+    Paragraph("16 · Method &amp; Limits", h2),
     Paragraph("This report assembles published audience, platform and industry figures as at "
               "18 August 2026 and sets them against a manual review of the diaspora podcast field.",
               body),
 ]
 story += bullets([
     "<b>“We could not find a show doing this” is not “no show exists.”</b> The supply map and Section "
-    "09 rest on searches conducted in English through Western podcast directories and search engines. "
+    "10 rest on searches conducted in English through Western podcast directories and search engines. "
     "Podcast discovery is genuinely poor, small shows are close to invisible, and we will certainly "
     "have missed things. Treat the right-hand column as <i>an absence of visible supply</i> — which "
     "is what matters commercially anyway — rather than proof of a vacuum.",
+    "<b>Section 06 is a considered list, not a measured ranking.</b> No published data ranks "
+    "African or African-origin podcasts by diaspora listenership, so we built the list from "
+    "published figures, platform prominence and editorial visibility. The metrics differ between "
+    "entries and are not comparable, which is why the table reports what each show has actually "
+    "disclosed rather than forcing a single number. The order below the top two should be read as a "
+    "grouping, not a league table, and shows without public figures are certainly under-represented.",
+    "<b>Host origin is stated as reported.</b> We describe where hosts were born or are based, using "
+    "published biographical sources. Inclusion here is a statement about audience and origin, not a "
+    "claim about how any host describes themselves.",
     "<b>The audience data is about Black Americans, not the African diaspora.</b> The Edison figures "
     "in Fig 1 and Fig 2 measure Black US adults 18+. That population overlaps with the African "
     "diaspora but is mostly not it. We use it because it is the best-measured proxy available and no "
@@ -587,7 +681,7 @@ story += bullets([
     "<b>African podcast market projections are forecasts</b> from commercial research firms and we "
     "have not relied on them for any conclusion. The Africa listening ranking has no published "
     "volumes attached.",
-    "<b>The demand column in Section 09 is our own research library</b>, which is a defensible but "
+    "<b>The demand column in Section 10 is our own research library</b>, which is a defensible but "
     "not neutral source. It reflects what we chose to investigate. It is evidence that these "
     "questions have answers worth publishing, not proof that a podcast audience exists for each.",
     "<b>We have not surveyed anyone.</b> There is no primary audience research in this report. A "
