@@ -1864,3 +1864,7 @@ footer{
   background:linear-gradient(145deg,#2A3D2A 0%,#B8862F 55%,#D89B2C 100%);
   color:#0E0B08;
 }
+.report-thumb-shame{
+  background:linear-gradient(145deg,#6B2A10 0%,#C8421A 50%,#0E0B08 100%);
+  color:#F4EFE6;
+}
