@@ -273,12 +273,68 @@ story += [
         "thing being hidden is an illness.", body),
 ]
 
-# ================= 04 =================
+# ================= 04 (architecture) =================
 story += [
     PageBreak(),
-    Paragraph("04 · Three Ways to Make People Behave", h2),
+    Paragraph("04 · The Architecture Is Universal", h2),
+    Paragraph(
+        "Section 03 asserted that shame punishes <i>visibility rather than harm</i>. That is not a "
+        "rhetorical flourish. It has been tested experimentally, and the result is one of the more "
+        "striking findings in modern psychology.", body),
+    fig("architecture.png",
+        "Fig 2 — Two experimental findings that between them explain most of this report."),
+    Paragraph(
+        "The first comes from a 2018 PNAS study across fifteen small-scale societies — fishing "
+        "villages in Japan, pastoral communities in India, farmers in Mauritius, and others with "
+        "little contact with the wider world. Researchers asked one group how much shame they would "
+        "feel about a given act, and a <i>different</i> group how negatively they would view someone "
+        "who did it.", body),
+    Paragraph(
+        "<b>The two tracked each other closely, within cultures and across them.</b> The intensity of "
+        "shame a person anticipates corresponds to the amount others would devalue them for it — and "
+        "it does so in societies that have never encountered one another.", body),
+    Paragraph(
+        "The second finding is the one that matters most here. In a 2018 study in <i>Evolution and "
+        "Human Behavior</i>, participants imagined taking an action that was <b>morally "
+        "unimpeachable</b> but open to unfavourable interpretation. Shame rose <b>with the publicity "
+        "of the act</b> — not with any wrongdoing, because there was none.", body),
+    Paragraph("The paper is titled: <i>The true trigger of shame: social devaluation is sufficient, "
+              "wrongdoing is unnecessary.</i> That sentence is the engine of everything in this "
+              "report.", pull),
+    Paragraph(
+        "This is what researchers call <b>information threat theory</b>: shame evolved not to punish "
+        "bad acts but to limit the spread of information that lowers your value to the group. For "
+        "most of human history, being cast out of a small band was fatal. A system that made you "
+        "feel appalling <i>before</i> the information spread was, on those terms, life-saving.", body),
+]
+story += bullets([
+    "<b>The mechanism is not cultural. The content is.</b> Every human society runs the same shame "
+    "machinery. What differs between Lagos and Oslo is only <i>what has been loaded into it</i>. That "
+    "is a far more optimistic finding than it sounds, because content is editable and architecture "
+    "is not.",
+    "<b>It explains Section 07 exactly.</b> If shame tracks devaluation rather than wrongdoing, then "
+    "a condition — infertility, epilepsy, a mental illness — triggers it just as efficiently as a "
+    "crime, provided the community devalues you for it. There is no malfunction. The system is doing "
+    "precisely what it evolved to do, aimed at a target it did not evolve for.",
+    "<b>It explains why concealment feels rational.</b> If the threat is <i>information spreading</i> "
+    "rather than the fact itself, then hiding is not weakness or denial. It is the correct move given "
+    "the incentives — which is why exhortations to “just be open” fail, and why changing what the "
+    "audience devalues works.",
+])
+story += [
+    Paragraph(
+        "It also settles the argument in the next section before it starts. If the architecture is "
+        "invariant across societies that have never met, then dividing the world into “shame "
+        "cultures” and “guilt cultures” is describing differences in <i>content and emphasis</i>, not "
+        "differences in kind — and certainly not differences in sophistication.", body),
+]
+
+# ================= 05 =================
+story += [
+    PageBreak(),
+    Paragraph("05 · Three Ways to Make People Behave", h2),
     fig("three_systems.png",
-        "Fig 2 — The guilt–shame–fear typology, popularised after Ruth Benedict's 1946 work. Useful "
+        "Fig 3 — The guilt–shame–fear typology, popularised after Ruth Benedict's 1946 work. Useful "
         "as a lens; unreliable as a map."),
     Paragraph(
         "In <b>guilt</b> cultures the punishment is internal: you feel bad even if nobody knows. In "
@@ -303,9 +359,9 @@ story += [
 # ================= 05 =================
 story += [
     PageBreak(),
-    Paragraph("05 · Where Africa Actually Sits", h2),
+    Paragraph("06 · Where Africa Actually Sits", h2),
     fig("individualism.png",
-        "Fig 3 — Hofstede individualism scores. Higher means more individualist. These are "
+        "Fig 4 — Hofstede individualism scores. Higher means more individualist. These are "
         "decades-old survey instruments applied to whole countries — see Method &amp; Limits."),
     Paragraph(
         "<b>Ghana at 15 and Nigeria at 30 are strongly collectivist.</b> So is <b>South Korea at "
@@ -314,7 +370,7 @@ story += [
         "<b>South Africa at 65</b> is closer to Britain than to Ghana.", body),
 ]
 story += bullets([
-    "<b>This is not an African trait.</b> The most collectivist country in Fig 3 is in East Asia. "
+    "<b>This is not an African trait.</b> The most collectivist country in Fig 4 is in East Asia. "
     "Whatever is happening is not about Africa, and any argument that treats it as an African "
     "cultural defect is refuted by the chart.",
     "<b>It does not disappear with development.</b> South Korea got rich without becoming "
@@ -331,9 +387,9 @@ story += [
 # ================= 06 =================
 story += [
     PageBreak(),
-    Paragraph("06 · What Is Shameful", h2),
+    Paragraph("07 · What Is Shameful", h2),
     fig("domains.png",
-        "Fig 4 — The recurring domains. Compiled from the stigma literature cited throughout this "
+        "Fig 5 — The recurring domains. Compiled from the stigma literature cited throughout this "
         "report."),
     Paragraph("Look at that list and a pattern appears immediately. <b>Almost every item is "
               "something that happens to a person rather than something they did.</b>", body),
@@ -352,9 +408,9 @@ story += [
 # ================= 07 =================
 story += [
     PageBreak(),
-    Paragraph("07 · The Bill: Health", h2),
+    Paragraph("08 · The Bill: Health", h2),
     fig("health_cost.png",
-        "Fig 5 — Treatment and disclosure gaps. These gaps have multiple causes; stigma is one of "
+        "Fig 6 — Treatment and disclosure gaps. These gaps have multiple causes; stigma is one of "
         "several."),
     Paragraph(
         "Around <b>90% of people needing mental health care in sub-Saharan Africa never receive "
@@ -369,7 +425,7 @@ story += [
         "<b>as high as 80%</b> of the population in some settings, and <b>more than half</b> of "
         "people with HIV in some settings choosing not to disclose their status.", body),
     fig("workforce.png",
-        "Fig 6 — Mental health workforce density, WHO. A third of the African workforce counted here "
+        "Fig 7 — Mental health workforce density, WHO. A third of the African workforce counted here "
         "are non-professional workers."),
     Paragraph(
         "We want to be careful not to blame culture for a budget problem. Much of the 90% would go "
@@ -382,9 +438,9 @@ story += [
 # ================= 08 =================
 story += [
     PageBreak(),
-    Paragraph("08 · The Bill: Who Carries It", h2),
+    Paragraph("09 · The Bill: Who Carries It", h2),
     fig("infertility.png",
-        "Fig 7 — Infertility in sub-Saharan Africa. Prevalence from a systematic review; the "
+        "Fig 8 — Infertility in sub-Saharan Africa. Prevalence from a systematic review; the "
         "attribution of blame from a systematic review and meta-synthesis of infertility-related "
         "stigma in Africa."),
     Paragraph(
@@ -408,9 +464,9 @@ story += [
 # ================= 09 =================
 story += [
     PageBreak(),
-    Paragraph("09 · The Bill: Risk and Money", h2),
+    Paragraph("10 · The Bill: Risk and Money", h2),
     fig("fear_failure.png",
-        "Fig 8 — Fear of failure and entrepreneurship. Global Entrepreneurship Monitor; the "
+        "Fig 9 — Fear of failure and entrepreneurship. Global Entrepreneurship Monitor; the "
         "stigma-and-re-entry finding from research in Small Business Economics."),
     Paragraph(
         "Globally, fear of failure deters roughly <b>two in five adults</b> from entrepreneurship. "
@@ -432,7 +488,7 @@ story += bullets([
 # ================= 10 =================
 story += [
     PageBreak(),
-    Paragraph("10 · The Bill: The Diaspora", h2),
+    Paragraph("11 · The Bill: The Diaspora", h2),
     Paragraph(
         "Migration does not escape this system. It intensifies it, for a structural reason: <b>you "
         "are now being judged by people who cannot see your circumstances.</b>", body),
@@ -453,6 +509,23 @@ story += bullets([
     "the one thing that cannot be admitted is that the migration did not deliver.",
 ])
 story += [
+    Paragraph("And the audience no longer has edges", h3),
+    Paragraph(
+        "Before social media, you experienced shame in front of <i>specific</i> groups — family, "
+        "colleagues, church — each with different standards. Researchers call what happened next "
+        "<b>context collapse</b>: a single post is now seen by every one of those audiences "
+        "simultaneously.", body),
+    Paragraph(
+        "For the diaspora this is unusually severe. A photograph intended for friends in Manchester "
+        "is also read in Enugu, by people applying an entirely different standard and drawing "
+        "conclusions about how well you are doing. There is no longer a version of your life visible "
+        "only to the people who understand it.", body),
+    Paragraph(
+        "That has a direct and expensive consequence. If every image of your life abroad is evidence "
+        "submitted to a community that reads success into it, the rational move is to <b>curate "
+        "success and conceal strain</b> — which inflates expectations at home, which raises the "
+        "requests, which makes the strain harder to admit. The performance and the pressure produce "
+        "each other.", body),
     Paragraph("The diaspora exports the enforcement and imports none of the support. You remain "
               "fully accountable to a community that can no longer see you, and fully unable to "
               "explain a life it has never witnessed.", pull),
@@ -466,7 +539,7 @@ story += [
 # ================= 11 =================
 story += [
     PageBreak(),
-    Paragraph("11 · The Cultures That Share It", h2),
+    Paragraph("12 · The Cultures That Share It", h2),
     Paragraph("Nothing above is African, and the comparison is not a consolation. It is analytically "
               "useful, because other societies have run this experiment further.", body),
     table([
@@ -510,7 +583,7 @@ story += [
 # ================= 12 & 13 =================
 story += [
     PageBreak(),
-    Paragraph("12 · What Shame Is Actually For", h2),
+    Paragraph("13 · What Shame Is Actually For", h2),
     Paragraph("A report that only counted costs would be dishonest, and would also be useless as a "
               "guide to changing anything. Shame persists because it does real work.", body),
 ]
@@ -531,7 +604,7 @@ story += [
         "nor desirable. It is <b>narrowing its target</b> — keeping the sanction pointed at choices "
         "and moving it off conditions.", body),
 
-    Paragraph("13 · What Actually Changes It", h2),
+    Paragraph("14 · What Actually Changes It", h2),
 ]
 story += bullets([
     "<b>Contact beats information.</b> Campaigns that explain a condition move attitudes less than "
@@ -553,7 +626,7 @@ story += bullets([
 # ================= 14 =================
 story += [
     PageBreak(),
-    Paragraph("14 · The Uncomfortable Part", h2),
+    Paragraph("15 · The Uncomfortable Part", h2),
     Paragraph(
         "<b>First, this subject is a magnet for condescension, and we have tried to avoid earning "
         "it.</b> There is a long and ugly tradition of Western writing that treats African social "
@@ -580,7 +653,7 @@ story += [
 # ================= 15 =================
 story += [
     PageBreak(),
-    Paragraph("15 · Method &amp; Limits", h2),
+    Paragraph("16 · Method &amp; Limits", h2),
     Paragraph("This report assembles published research as at 19 August 2026 and reads it through a "
               "single frame: shame as a mechanism of social enforcement with measurable costs.", body),
 ]
@@ -592,7 +665,7 @@ story += bullets([
     "<b>Hofstede's scores are contested and should not be over-read.</b> They derive from survey "
     "work begun decades ago, originally within a single multinational employer, and assign one "
     "number to an entire country. Several African scores rest on regional estimates rather than "
-    "country-specific fieldwork. Fig 3 is a rough ordering, not a ranking.",
+    "country-specific fieldwork. Fig 4 is a rough ordering, not a ranking.",
     "<b>The guilt–shame–fear typology is not neutral.</b> It comes substantially from wartime "
     "anthropology and missionary literature, and its conventional mapping of Africa to “fear-power” "
     "carries an implicit hierarchy we reject. We present it because it clarifies a real distinction "
@@ -609,6 +682,14 @@ story += bullets([
     "<b>Section 10 is argument, not measurement.</b> No study measures shame among the African "
     "diaspora specifically. That section connects mechanisms documented elsewhere to accounts "
     "recorded in our previous report, which were themselves self-reported and unverifiable.",
+    "<b>The evolutionary literature in Section 04 reached us through a secondary source.</b> A "
+    "member of this network shared Mark Manson's <i>Shame, Solved</i> guide, which pointed at the "
+    "Sznycer and Robertson papers. We went to the primary studies and cite those; the guide is "
+    "credited as the pointer, not as evidence.",
+    "<b>The findings in Fig 2 are robust but narrow.</b> They establish that anticipated shame "
+    "tracks anticipated devaluation, in hypothetical scenarios, using self-report. That is a strong "
+    "result about the architecture of the emotion. It is not a measurement of how shame operates in "
+    "a real family, a real clinic or a real village, and we have not stretched it that far.",
     "<b>Nothing here is clinical advice.</b> If any of it describes your situation, the relevant "
     "professional is a doctor rather than a research report.",
 ])
@@ -622,7 +703,10 @@ story += [
         "systematic review and meta-synthesis of infertility-related stigma in Africa, and "
         "infertility prevalence in sub-Saharan Africa; Global Entrepreneurship Monitor on fear of "
         "failure and Small Business Economics on failure stigma and re-entry; published work on Log "
-        "Kya Kahenge and on shame socialisation in Japan. Full inline links in the web edition.",
+        "Kya Kahenge and on shame socialisation in Japan; Sznycer et al., PNAS (2018) on "
+        "cross-cultural invariances in the architecture of shame, and Robertson et al., Evolution "
+        "and Human Behavior (2018) on the true trigger of shame. The evolutionary literature was "
+        "located via Mark Manson's Shame, Solved guide. Full inline links in the web edition.",
         small),
     Spacer(1, 4 * mm),
     HRFlowable(width="100%", thickness=1, color=OCHRE, spaceAfter=2),
