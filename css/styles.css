@@ -1872,3 +1872,7 @@ footer{
   background:linear-gradient(145deg,#2A3D2A 0%,#A05A2C 55%,#C8421A 100%);
   color:#F4EFE6;
 }
+.report-thumb-cvname{
+  background:linear-gradient(145deg,#0E0B08 0%,#2A3D2A 50%,#C8421A 100%);
+  color:#F4EFE6;
+}
