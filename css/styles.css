@@ -1876,3 +1876,7 @@ footer{
   background:linear-gradient(145deg,#0E0B08 0%,#2A3D2A 50%,#C8421A 100%);
   color:#F4EFE6;
 }
+.report-thumb-blacktax{
+  background:linear-gradient(145deg,#6B2A10 0%,#B8862F 55%,#2A3D2A 100%);
+  color:#F4EFE6;
+}
