@@ -14,6 +14,6 @@
    ============================================================ */
 
 window.AGF_SUPABASE = {
-  url: '',
-  anonKey: ''
+  url: 'https://dsyarsvjytgeajcckaha.supabase.co',
+  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzeWFyc3ZqeXRnZWFqY2NrYWhhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3MjkxMDEsImV4cCI6MjEwMzMwNTEwMX0.fQ_R7Uysm8UoXvcHlM9AnY5XK-HiIyIRYR7S4tfUCUE'
 };

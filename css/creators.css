@@ -158,3 +158,13 @@
   .cd-grid{grid-template-columns:1fr}
   .cd-join{padding:80px 24px}
 }
+
+/* ============ CONSENT ============ */
+.cd-consent{
+  grid-column:1/-1;display:flex;gap:13px;align-items:flex-start;
+  margin-top:10px;padding-top:22px;border-top:1px solid rgba(244,239,230,0.14);
+  cursor:pointer;
+}
+.cd-consent input{width:18px;height:18px;flex:none;margin-top:2px;accent-color:var(--ochre);cursor:pointer}
+.cd-consent span{font-size:13px;line-height:1.6;color:rgba(244,239,230,0.7)}
+.cd-consent a{color:var(--ochre);text-decoration:underline}

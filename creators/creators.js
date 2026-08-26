@@ -255,9 +255,12 @@
       return;
     }
 
+    // No status filter here on purpose: `anon` has no read privilege on the
+    // `status` column, so filtering by it is rejected outright. Row Level
+    // Security already limits this response to approved profiles server-side.
     var url = CFG.url.replace(/\/+$/, '') +
               '/rest/v1/creators?select=' + encodeURIComponent(COLS) +
-              '&status=eq.approved&order=followers_total.desc.nullslast';
+              '&order=followers_total.desc.nullslast';
 
     fetch(url, { headers: { apikey: CFG.anonKey, Authorization: 'Bearer ' + CFG.anonKey } })
       .then(function (r) {
@@ -338,9 +341,20 @@
       email:             String(fd.get('email') || '').trim()
     };
 
+    // The form carries `novalidate` so these are enforced here, not by the browser.
+    if (!row.name)              { say('Add your name.', 'err'); return; }
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(row.email)) { say('That email does not look right.', 'err'); return; }
+    if (!row.country_origin)    { say('Add the country you are from.', 'err'); return; }
+    if (!row.country_residence) { say('Add the country you live in.', 'err'); return; }
+
     var hasLink = ['instagram','tiktok','youtube','x_handle','linkedin','website']
       .some(function (k) { return row[k]; });
     if (!hasLink) { say('Add at least one link — that is the whole point of the directory.', 'err'); return; }
+
+    // Publishing someone's name, city and links needs their explicit agreement.
+    if (!els.form.elements.consent.checked) {
+      say('Please tick the box agreeing to your profile being shown publicly.', 'err'); return;
+    }
 
     els.submit.disabled = true;
     say('Sending…');
