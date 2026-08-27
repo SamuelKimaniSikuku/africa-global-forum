@@ -171,6 +171,22 @@
     </image:image>
   </url>
   <url>
+    <loc>https://africaglobalforum.com/reports/cost-of-later-2026/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/cost-of-later-2026/img/same_everywhere.png</image:loc>
+      <image:title>Chronic procrastination is roughly 14 percent in every country measured</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://africaglobalforum.com/reports/cost-of-later-2026.pdf</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://africaglobalforum.com/reports/african-confidence-2026/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
