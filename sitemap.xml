@@ -171,6 +171,22 @@
     </image:image>
   </url>
   <url>
+    <loc>https://africaglobalforum.com/reports/envy-economy-2026/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/envy-economy-2026/img/two_mirrors.png</image:loc>
+      <image:title>The two mirrors: rich in the one facing home, behind in the one facing the host country</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://africaglobalforum.com/reports/envy-economy-2026.pdf</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://africaglobalforum.com/reports/cost-of-later-2026/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
