@@ -33,6 +33,10 @@ Africa Global Forum (AGF) is led by Samuel Kimani Sikuku and operates at the cor
 - **You Are Not Alone** — A dedicated channel to share what you're carrying and find others who carry it too. Working name: "We are together."
 - **Bounce Ideas** — Inspiring talks from members, with an open Q&A floor afterwards.
 
+## The Corridor Board
+
+[The Corridor Board](https://africaglobalforum.com/corridor-board/) — AGF's editorial rating board for the fintech apps Africans abroad use to move money. 12 apps × 24 corridors (Kenya, Nigeria, Ghana, Uganda, Rwanda, South Africa × Europe, USA, Australia, Asia). Includes AGF corridor picks, Trustpilot / Google Play scores, fee ranges, typical speeds. Apps covered: Wise, LemFi, NALA, Remitly, Sendwave, WorldRemit, Chipper Cash, Grey, Taptap Send, Xoom (PayPal), MoneyGram, Western Union. Machine-readable data: [/data/fintech-board.json](https://africaglobalforum.com/data/fintech-board.json). Ratings drawn from AGF's own published research plus Trustpilot / Google Play scores captured Aug 2026.
+
 ## Reports
 
 All Africa Global Forum reports are free to download.

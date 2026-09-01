@@ -1,0 +1,191 @@
+{
+  "$schema": "https://africaglobalforum.com/data/fintech-board.schema.json",
+  "publisher": "Africa Global Forum",
+  "generated": "2026-08-17",
+  "version": "1.0",
+  "sources": [
+    {
+      "name": "AGF · Remittance Apps in Africa 2026 YTD",
+      "url": "https://africaglobalforum.com/reports/remittance-apps-africa-2026-ytd/",
+      "captured": "2026-05-29"
+    },
+    {
+      "name": "AGF · African Currency & Remittance Tracker 2026",
+      "url": "https://africaglobalforum.com/reports/african-currency-remittance-tracker-2026/",
+      "captured": "2026-06-01"
+    },
+    {
+      "name": "AGF · Best Apps for Africans Abroad by Region 2026",
+      "url": "https://africaglobalforum.com/reports/best-apps-africans-abroad-by-region-2026/",
+      "captured": "2026-05-29"
+    },
+    {
+      "name": "AGF · Banks vs. Stablecoins Europe→Africa 2026",
+      "url": "https://africaglobalforum.com/reports/banks-vs-stablecoins-europe-africa-2026/",
+      "captured": "2026-07-01"
+    }
+  ],
+  "note": "AGF verdict per corridor is drawn from AGF's own published research. Trustpilot / Google Play scores are indicative approximations captured Aug 2026 and refreshed periodically. Community ratings launch in a later version.",
+  "regions": [
+    {"key": "EU", "label": "Europe"},
+    {"key": "US", "label": "USA"},
+    {"key": "AU", "label": "Australia"},
+    {"key": "AS", "label": "Asia"}
+  ],
+  "countries": [
+    {"key": "KE", "label": "Kenya", "flag": "🇰🇪"},
+    {"key": "NG", "label": "Nigeria", "flag": "🇳🇬"},
+    {"key": "GH", "label": "Ghana", "flag": "🇬🇭"},
+    {"key": "UG", "label": "Uganda", "flag": "🇺🇬"},
+    {"key": "RW", "label": "Rwanda", "flag": "🇷🇼"},
+    {"key": "ZA", "label": "South Africa", "flag": "🇿🇦"}
+  ],
+  "apps": [
+    {
+      "slug": "wise",
+      "name": "Wise",
+      "tagline": "Best transparency, real mid-market rate",
+      "url": "https://wise.com/",
+      "ratings": {"trustpilot": 4.3, "google_play": 4.7},
+      "fee_range_pct": [0.35, 1.2],
+      "typical_speed": "Minutes to 1 day",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→UG","AU→RW","AU→ZA","AS→KE","AS→NG","AS→GH","AS→UG","AS→RW","AS→ZA"]
+    },
+    {
+      "slug": "lemfi",
+      "name": "LemFi",
+      "tagline": "Africa-focused, strong UK/Canada→NG rates",
+      "url": "https://www.lemfi.com/",
+      "ratings": {"trustpilot": 4.7, "google_play": 4.8},
+      "fee_range_pct": [0.5, 1.5],
+      "typical_speed": "Minutes",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","US→KE","US→NG","US→GH","US→UG","US→RW"]
+    },
+    {
+      "slug": "nala",
+      "name": "NALA",
+      "tagline": "East Africa specialist — instant M-Pesa",
+      "url": "https://nala.com/",
+      "ratings": {"trustpilot": 4.6, "google_play": 4.8},
+      "fee_range_pct": [0.4, 1.2],
+      "typical_speed": "Seconds to minutes",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","US→KE","US→NG","US→GH","US→UG","US→RW","AU→KE","AU→UG"]
+    },
+    {
+      "slug": "remitly",
+      "name": "Remitly",
+      "tagline": "Broad global reach, cash pickup option",
+      "url": "https://www.remitly.com/",
+      "ratings": {"trustpilot": 4.1, "google_play": 4.8},
+      "fee_range_pct": [1.0, 2.5],
+      "typical_speed": "Minutes to hours",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→UG","AU→ZA"]
+    },
+    {
+      "slug": "sendwave",
+      "name": "Sendwave",
+      "tagline": "No fee, favourable FX on smaller amounts",
+      "url": "https://www.sendwave.com/",
+      "ratings": {"trustpilot": 4.5, "google_play": 4.7},
+      "fee_range_pct": [0.5, 1.8],
+      "typical_speed": "Seconds to minutes",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","US→KE","US→NG","US→GH","US→UG"]
+    },
+    {
+      "slug": "worldremit",
+      "name": "WorldRemit",
+      "tagline": "Widest corridor coverage across Africa",
+      "url": "https://www.worldremit.com/",
+      "ratings": {"trustpilot": 4.2, "google_play": 4.5},
+      "fee_range_pct": [1.5, 3.5],
+      "typical_speed": "Minutes to 1 day",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→ZA","AS→KE","AS→NG","AS→GH","AS→ZA"]
+    },
+    {
+      "slug": "chipper-cash",
+      "name": "Chipper Cash",
+      "tagline": "Pan-African + US corridor, in-app FX",
+      "url": "https://chippercash.com/",
+      "ratings": {"trustpilot": 3.6, "google_play": 4.3},
+      "fee_range_pct": [0.5, 2.0],
+      "typical_speed": "Seconds to minutes",
+      "corridors": ["EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→NG","US→GH","US→UG","US→RW","US→ZA"]
+    },
+    {
+      "slug": "grey",
+      "name": "Grey",
+      "tagline": "Freelancer-first — receive USD/EUR/GBP/AUD",
+      "url": "https://grey.co/",
+      "ratings": {"trustpilot": 4.4, "google_play": 4.6},
+      "fee_range_pct": [0.5, 1.5],
+      "typical_speed": "Minutes",
+      "corridors": ["EU→NG","EU→KE","EU→GH","EU→RW","US→NG","US→KE","US→GH","US→RW","AU→NG","AU→KE","AU→GH"]
+    },
+    {
+      "slug": "taptap-send",
+      "name": "Taptap Send",
+      "tagline": "No fee, mobile-first EU/UK corridors",
+      "url": "https://www.taptapsend.com/",
+      "ratings": {"trustpilot": 4.7, "google_play": 4.8},
+      "fee_range_pct": [0.4, 1.4],
+      "typical_speed": "Seconds to minutes",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","US→KE","US→NG","US→GH","US→UG","US→RW"]
+    },
+    {
+      "slug": "xoom",
+      "name": "Xoom (PayPal)",
+      "tagline": "US-first, PayPal-linked",
+      "url": "https://www.xoom.com/",
+      "ratings": {"trustpilot": 3.8, "google_play": 4.4},
+      "fee_range_pct": [1.0, 3.0],
+      "typical_speed": "Minutes to hours",
+      "corridors": ["US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","EU→KE","EU→NG","EU→GH","EU→UG"]
+    },
+    {
+      "slug": "moneygram",
+      "name": "MoneyGram",
+      "tagline": "Global cash-pickup, weekend availability",
+      "url": "https://www.moneygram.com/",
+      "ratings": {"trustpilot": 3.4, "google_play": 4.5},
+      "fee_range_pct": [2.5, 6.0],
+      "typical_speed": "Minutes (cash) to 1 day",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→ZA","AS→KE","AS→NG","AS→GH","AS→ZA"]
+    },
+    {
+      "slug": "western-union",
+      "name": "Western Union",
+      "tagline": "Every corridor, highest fee, cash pickup everywhere",
+      "url": "https://www.westernunion.com/",
+      "ratings": {"trustpilot": 3.5, "google_play": 4.6},
+      "fee_range_pct": [3.0, 7.5],
+      "typical_speed": "Minutes (cash) to 1 day",
+      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→ZA","AS→KE","AS→NG","AS→GH","AS→UG","AS→RW","AS→ZA"]
+    }
+  ],
+  "agf_picks": {
+    "EU→KE": ["nala","taptap-send","wise"],
+    "EU→NG": ["lemfi","taptap-send","wise"],
+    "EU→GH": ["nala","lemfi","wise"],
+    "EU→UG": ["nala","sendwave","taptap-send"],
+    "EU→RW": ["nala","taptap-send","wise"],
+    "EU→ZA": ["wise","remitly","worldremit"],
+    "US→KE": ["nala","sendwave","wise"],
+    "US→NG": ["lemfi","grey","wise"],
+    "US→GH": ["lemfi","nala","wise"],
+    "US→UG": ["nala","sendwave","wise"],
+    "US→RW": ["nala","taptap-send","wise"],
+    "US→ZA": ["wise","remitly","xoom"],
+    "AU→KE": ["wise","remitly","nala"],
+    "AU→NG": ["wise","remitly","grey"],
+    "AU→GH": ["wise","remitly","worldremit"],
+    "AU→UG": ["wise","remitly","nala"],
+    "AU→RW": ["wise","remitly"],
+    "AU→ZA": ["wise","remitly","worldremit"],
+    "AS→KE": ["wise","worldremit","moneygram"],
+    "AS→NG": ["wise","worldremit","moneygram"],
+    "AS→GH": ["wise","worldremit","moneygram"],
+    "AS→UG": ["wise","worldremit","western-union"],
+    "AS→RW": ["wise","western-union"],
+    "AS→ZA": ["wise","worldremit","western-union"]
+  }
+}
