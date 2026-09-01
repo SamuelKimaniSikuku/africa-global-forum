@@ -35,7 +35,7 @@ Africa Global Forum (AGF) is led by Samuel Kimani Sikuku and operates at the cor
 
 ## The Corridor Board
 
-[The Corridor Board](https://africaglobalforum.com/corridor-board/) — AGF's editorial rating board for the fintech apps Africans abroad use to move money. 12 apps × 24 corridors (Kenya, Nigeria, Ghana, Uganda, Rwanda, South Africa × Europe, USA, Australia, Asia). Includes AGF corridor picks, Trustpilot / Google Play scores, fee ranges, typical speeds. Apps covered: Wise, LemFi, NALA, Remitly, Sendwave, WorldRemit, Chipper Cash, Grey, Taptap Send, Xoom (PayPal), MoneyGram, Western Union. Machine-readable data: [/data/fintech-board.json](https://africaglobalforum.com/data/fintech-board.json). Ratings drawn from AGF's own published research plus Trustpilot / Google Play scores captured Aug 2026.
+[The Corridor Board](https://africaglobalforum.com/corridor-board/) — AGF's rate-and-ratings board for sending money home. Shows today's mid-market FX rate per corridor (refreshed daily via automated workflow, source: open.er-api.com) plus 12 fintech apps rated across 24 corridors (Kenya KES, Nigeria NGN, Ghana GHS, Uganda UGX, Rwanda RWF, South Africa ZAR × Europe EUR, USA USD, Australia AUD, Asia USD-reference). Includes AGF corridor picks, Trustpilot / Google Play scores, fee ranges, typical speeds. Apps covered: Wise, LemFi, NALA, Remitly, Sendwave, WorldRemit, Chipper Cash, Grey, Taptap Send, Xoom (PayPal), MoneyGram, Western Union. Machine-readable data incl. daily rates: [/data/fintech-board.json](https://africaglobalforum.com/data/fintech-board.json). App ratings drawn from AGF's own published research plus Trustpilot / Google Play scores captured Aug 2026.
 
 ## Reports
 

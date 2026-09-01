@@ -27,18 +27,65 @@
   ],
   "note": "AGF verdict per corridor is drawn from AGF's own published research. Trustpilot / Google Play scores are indicative approximations captured Aug 2026 and refreshed periodically. Community ratings launch in a later version.",
   "regions": [
-    {"key": "EU", "label": "Europe"},
-    {"key": "US", "label": "USA"},
-    {"key": "AU", "label": "Australia"},
-    {"key": "AS", "label": "Asia"}
+    {
+      "key": "EU",
+      "label": "Europe",
+      "currency": "EUR"
+    },
+    {
+      "key": "US",
+      "label": "USA",
+      "currency": "USD"
+    },
+    {
+      "key": "AU",
+      "label": "Australia",
+      "currency": "AUD"
+    },
+    {
+      "key": "AS",
+      "label": "Asia",
+      "currency": "USD",
+      "currencyNote": "USD reference"
+    }
   ],
   "countries": [
-    {"key": "KE", "label": "Kenya", "flag": "🇰🇪"},
-    {"key": "NG", "label": "Nigeria", "flag": "🇳🇬"},
-    {"key": "GH", "label": "Ghana", "flag": "🇬🇭"},
-    {"key": "UG", "label": "Uganda", "flag": "🇺🇬"},
-    {"key": "RW", "label": "Rwanda", "flag": "🇷🇼"},
-    {"key": "ZA", "label": "South Africa", "flag": "🇿🇦"}
+    {
+      "key": "KE",
+      "label": "Kenya",
+      "flag": "🇰🇪",
+      "currency": "KES"
+    },
+    {
+      "key": "NG",
+      "label": "Nigeria",
+      "flag": "🇳🇬",
+      "currency": "NGN"
+    },
+    {
+      "key": "GH",
+      "label": "Ghana",
+      "flag": "🇬🇭",
+      "currency": "GHS"
+    },
+    {
+      "key": "UG",
+      "label": "Uganda",
+      "flag": "🇺🇬",
+      "currency": "UGX"
+    },
+    {
+      "key": "RW",
+      "label": "Rwanda",
+      "flag": "🇷🇼",
+      "currency": "RWF"
+    },
+    {
+      "key": "ZA",
+      "label": "South Africa",
+      "flag": "🇿🇦",
+      "currency": "ZAR"
+    }
   ],
   "apps": [
     {
@@ -46,146 +93,528 @@
       "name": "Wise",
       "tagline": "Best transparency, real mid-market rate",
       "url": "https://wise.com/",
-      "ratings": {"trustpilot": 4.3, "google_play": 4.7},
-      "fee_range_pct": [0.35, 1.2],
+      "ratings": {
+        "trustpilot": 4.3,
+        "google_play": 4.7
+      },
+      "fee_range_pct": [
+        0.35,
+        1.2
+      ],
       "typical_speed": "Minutes to 1 day",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→UG","AU→RW","AU→ZA","AS→KE","AS→NG","AS→GH","AS→UG","AS→RW","AS→ZA"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "EU→ZA",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA",
+        "AU→KE",
+        "AU→NG",
+        "AU→GH",
+        "AU→UG",
+        "AU→RW",
+        "AU→ZA",
+        "AS→KE",
+        "AS→NG",
+        "AS→GH",
+        "AS→UG",
+        "AS→RW",
+        "AS→ZA"
+      ]
     },
     {
       "slug": "lemfi",
       "name": "LemFi",
       "tagline": "Africa-focused, strong UK/Canada→NG rates",
       "url": "https://www.lemfi.com/",
-      "ratings": {"trustpilot": 4.7, "google_play": 4.8},
-      "fee_range_pct": [0.5, 1.5],
+      "ratings": {
+        "trustpilot": 4.7,
+        "google_play": 4.8
+      },
+      "fee_range_pct": [
+        0.5,
+        1.5
+      ],
       "typical_speed": "Minutes",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","US→KE","US→NG","US→GH","US→UG","US→RW"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW"
+      ]
     },
     {
       "slug": "nala",
       "name": "NALA",
       "tagline": "East Africa specialist — instant M-Pesa",
       "url": "https://nala.com/",
-      "ratings": {"trustpilot": 4.6, "google_play": 4.8},
-      "fee_range_pct": [0.4, 1.2],
+      "ratings": {
+        "trustpilot": 4.6,
+        "google_play": 4.8
+      },
+      "fee_range_pct": [
+        0.4,
+        1.2
+      ],
       "typical_speed": "Seconds to minutes",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","US→KE","US→NG","US→GH","US→UG","US→RW","AU→KE","AU→UG"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "AU→KE",
+        "AU→UG"
+      ]
     },
     {
       "slug": "remitly",
       "name": "Remitly",
       "tagline": "Broad global reach, cash pickup option",
       "url": "https://www.remitly.com/",
-      "ratings": {"trustpilot": 4.1, "google_play": 4.8},
-      "fee_range_pct": [1.0, 2.5],
+      "ratings": {
+        "trustpilot": 4.1,
+        "google_play": 4.8
+      },
+      "fee_range_pct": [
+        1.0,
+        2.5
+      ],
       "typical_speed": "Minutes to hours",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→UG","AU→ZA"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "EU→ZA",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA",
+        "AU→KE",
+        "AU→NG",
+        "AU→GH",
+        "AU→UG",
+        "AU→ZA"
+      ]
     },
     {
       "slug": "sendwave",
       "name": "Sendwave",
       "tagline": "No fee, favourable FX on smaller amounts",
       "url": "https://www.sendwave.com/",
-      "ratings": {"trustpilot": 4.5, "google_play": 4.7},
-      "fee_range_pct": [0.5, 1.8],
+      "ratings": {
+        "trustpilot": 4.5,
+        "google_play": 4.7
+      },
+      "fee_range_pct": [
+        0.5,
+        1.8
+      ],
       "typical_speed": "Seconds to minutes",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","US→KE","US→NG","US→GH","US→UG"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG"
+      ]
     },
     {
       "slug": "worldremit",
       "name": "WorldRemit",
       "tagline": "Widest corridor coverage across Africa",
       "url": "https://www.worldremit.com/",
-      "ratings": {"trustpilot": 4.2, "google_play": 4.5},
-      "fee_range_pct": [1.5, 3.5],
+      "ratings": {
+        "trustpilot": 4.2,
+        "google_play": 4.5
+      },
+      "fee_range_pct": [
+        1.5,
+        3.5
+      ],
       "typical_speed": "Minutes to 1 day",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→ZA","AS→KE","AS→NG","AS→GH","AS→ZA"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "EU→ZA",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA",
+        "AU→KE",
+        "AU→NG",
+        "AU→GH",
+        "AU→ZA",
+        "AS→KE",
+        "AS→NG",
+        "AS→GH",
+        "AS→ZA"
+      ]
     },
     {
       "slug": "chipper-cash",
       "name": "Chipper Cash",
       "tagline": "Pan-African + US corridor, in-app FX",
       "url": "https://chippercash.com/",
-      "ratings": {"trustpilot": 3.6, "google_play": 4.3},
-      "fee_range_pct": [0.5, 2.0],
+      "ratings": {
+        "trustpilot": 3.6,
+        "google_play": 4.3
+      },
+      "fee_range_pct": [
+        0.5,
+        2.0
+      ],
       "typical_speed": "Seconds to minutes",
-      "corridors": ["EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→NG","US→GH","US→UG","US→RW","US→ZA"]
+      "corridors": [
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "EU→ZA",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA"
+      ]
     },
     {
       "slug": "grey",
       "name": "Grey",
       "tagline": "Freelancer-first — receive USD/EUR/GBP/AUD",
       "url": "https://grey.co/",
-      "ratings": {"trustpilot": 4.4, "google_play": 4.6},
-      "fee_range_pct": [0.5, 1.5],
+      "ratings": {
+        "trustpilot": 4.4,
+        "google_play": 4.6
+      },
+      "fee_range_pct": [
+        0.5,
+        1.5
+      ],
       "typical_speed": "Minutes",
-      "corridors": ["EU→NG","EU→KE","EU→GH","EU→RW","US→NG","US→KE","US→GH","US→RW","AU→NG","AU→KE","AU→GH"]
+      "corridors": [
+        "EU→NG",
+        "EU→KE",
+        "EU→GH",
+        "EU→RW",
+        "US→NG",
+        "US→KE",
+        "US→GH",
+        "US→RW",
+        "AU→NG",
+        "AU→KE",
+        "AU→GH"
+      ]
     },
     {
       "slug": "taptap-send",
       "name": "Taptap Send",
       "tagline": "No fee, mobile-first EU/UK corridors",
       "url": "https://www.taptapsend.com/",
-      "ratings": {"trustpilot": 4.7, "google_play": 4.8},
-      "fee_range_pct": [0.4, 1.4],
+      "ratings": {
+        "trustpilot": 4.7,
+        "google_play": 4.8
+      },
+      "fee_range_pct": [
+        0.4,
+        1.4
+      ],
       "typical_speed": "Seconds to minutes",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","US→KE","US→NG","US→GH","US→UG","US→RW"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW"
+      ]
     },
     {
       "slug": "xoom",
       "name": "Xoom (PayPal)",
       "tagline": "US-first, PayPal-linked",
       "url": "https://www.xoom.com/",
-      "ratings": {"trustpilot": 3.8, "google_play": 4.4},
-      "fee_range_pct": [1.0, 3.0],
+      "ratings": {
+        "trustpilot": 3.8,
+        "google_play": 4.4
+      },
+      "fee_range_pct": [
+        1.0,
+        3.0
+      ],
       "typical_speed": "Minutes to hours",
-      "corridors": ["US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","EU→KE","EU→NG","EU→GH","EU→UG"]
+      "corridors": [
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA",
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG"
+      ]
     },
     {
       "slug": "moneygram",
       "name": "MoneyGram",
       "tagline": "Global cash-pickup, weekend availability",
       "url": "https://www.moneygram.com/",
-      "ratings": {"trustpilot": 3.4, "google_play": 4.5},
-      "fee_range_pct": [2.5, 6.0],
+      "ratings": {
+        "trustpilot": 3.4,
+        "google_play": 4.5
+      },
+      "fee_range_pct": [
+        2.5,
+        6.0
+      ],
       "typical_speed": "Minutes (cash) to 1 day",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→ZA","AS→KE","AS→NG","AS→GH","AS→ZA"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "EU→ZA",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA",
+        "AU→KE",
+        "AU→NG",
+        "AU→GH",
+        "AU→ZA",
+        "AS→KE",
+        "AS→NG",
+        "AS→GH",
+        "AS→ZA"
+      ]
     },
     {
       "slug": "western-union",
       "name": "Western Union",
       "tagline": "Every corridor, highest fee, cash pickup everywhere",
       "url": "https://www.westernunion.com/",
-      "ratings": {"trustpilot": 3.5, "google_play": 4.6},
-      "fee_range_pct": [3.0, 7.5],
+      "ratings": {
+        "trustpilot": 3.5,
+        "google_play": 4.6
+      },
+      "fee_range_pct": [
+        3.0,
+        7.5
+      ],
       "typical_speed": "Minutes (cash) to 1 day",
-      "corridors": ["EU→KE","EU→NG","EU→GH","EU→UG","EU→RW","EU→ZA","US→KE","US→NG","US→GH","US→UG","US→RW","US→ZA","AU→KE","AU→NG","AU→GH","AU→ZA","AS→KE","AS→NG","AS→GH","AS→UG","AS→RW","AS→ZA"]
+      "corridors": [
+        "EU→KE",
+        "EU→NG",
+        "EU→GH",
+        "EU→UG",
+        "EU→RW",
+        "EU→ZA",
+        "US→KE",
+        "US→NG",
+        "US→GH",
+        "US→UG",
+        "US→RW",
+        "US→ZA",
+        "AU→KE",
+        "AU→NG",
+        "AU→GH",
+        "AU→ZA",
+        "AS→KE",
+        "AS→NG",
+        "AS→GH",
+        "AS→UG",
+        "AS→RW",
+        "AS→ZA"
+      ]
     }
   ],
   "agf_picks": {
-    "EU→KE": ["nala","taptap-send","wise"],
-    "EU→NG": ["lemfi","taptap-send","wise"],
-    "EU→GH": ["nala","lemfi","wise"],
-    "EU→UG": ["nala","sendwave","taptap-send"],
-    "EU→RW": ["nala","taptap-send","wise"],
-    "EU→ZA": ["wise","remitly","worldremit"],
-    "US→KE": ["nala","sendwave","wise"],
-    "US→NG": ["lemfi","grey","wise"],
-    "US→GH": ["lemfi","nala","wise"],
-    "US→UG": ["nala","sendwave","wise"],
-    "US→RW": ["nala","taptap-send","wise"],
-    "US→ZA": ["wise","remitly","xoom"],
-    "AU→KE": ["wise","remitly","nala"],
-    "AU→NG": ["wise","remitly","grey"],
-    "AU→GH": ["wise","remitly","worldremit"],
-    "AU→UG": ["wise","remitly","nala"],
-    "AU→RW": ["wise","remitly"],
-    "AU→ZA": ["wise","remitly","worldremit"],
-    "AS→KE": ["wise","worldremit","moneygram"],
-    "AS→NG": ["wise","worldremit","moneygram"],
-    "AS→GH": ["wise","worldremit","moneygram"],
-    "AS→UG": ["wise","worldremit","western-union"],
-    "AS→RW": ["wise","western-union"],
-    "AS→ZA": ["wise","worldremit","western-union"]
+    "EU→KE": [
+      "nala",
+      "taptap-send",
+      "wise"
+    ],
+    "EU→NG": [
+      "lemfi",
+      "taptap-send",
+      "wise"
+    ],
+    "EU→GH": [
+      "nala",
+      "lemfi",
+      "wise"
+    ],
+    "EU→UG": [
+      "nala",
+      "sendwave",
+      "taptap-send"
+    ],
+    "EU→RW": [
+      "nala",
+      "taptap-send",
+      "wise"
+    ],
+    "EU→ZA": [
+      "wise",
+      "remitly",
+      "worldremit"
+    ],
+    "US→KE": [
+      "nala",
+      "sendwave",
+      "wise"
+    ],
+    "US→NG": [
+      "lemfi",
+      "grey",
+      "wise"
+    ],
+    "US→GH": [
+      "lemfi",
+      "nala",
+      "wise"
+    ],
+    "US→UG": [
+      "nala",
+      "sendwave",
+      "wise"
+    ],
+    "US→RW": [
+      "nala",
+      "taptap-send",
+      "wise"
+    ],
+    "US→ZA": [
+      "wise",
+      "remitly",
+      "xoom"
+    ],
+    "AU→KE": [
+      "wise",
+      "remitly",
+      "nala"
+    ],
+    "AU→NG": [
+      "wise",
+      "remitly",
+      "grey"
+    ],
+    "AU→GH": [
+      "wise",
+      "remitly",
+      "worldremit"
+    ],
+    "AU→UG": [
+      "wise",
+      "remitly",
+      "nala"
+    ],
+    "AU→RW": [
+      "wise",
+      "remitly"
+    ],
+    "AU→ZA": [
+      "wise",
+      "remitly",
+      "worldremit"
+    ],
+    "AS→KE": [
+      "wise",
+      "worldremit",
+      "moneygram"
+    ],
+    "AS→NG": [
+      "wise",
+      "worldremit",
+      "moneygram"
+    ],
+    "AS→GH": [
+      "wise",
+      "worldremit",
+      "moneygram"
+    ],
+    "AS→UG": [
+      "wise",
+      "worldremit",
+      "western-union"
+    ],
+    "AS→RW": [
+      "wise",
+      "western-union"
+    ],
+    "AS→ZA": [
+      "wise",
+      "worldremit",
+      "western-union"
+    ]
+  },
+  "fx": {
+    "updated": "2026-09-01",
+    "source": "open.er-api.com (mid-market reference)",
+    "rates": {
+      "AUD": {
+        "KES": 92.74,
+        "NGN": 966.28,
+        "GHS": 8.0694,
+        "UGX": 2700.42,
+        "RWF": 1059.34,
+        "ZAR": 11.5479
+      },
+      "EUR": {
+        "KES": 150.12,
+        "NGN": 1568.31,
+        "GHS": 13.0608,
+        "UGX": 4306.46,
+        "RWF": 1712.65,
+        "ZAR": 18.7126
+      },
+      "USD": {
+        "KES": 129.45,
+        "NGN": 1337.73,
+        "GHS": 11.2645,
+        "UGX": 3714.44,
+        "RWF": 1477.08,
+        "ZAR": 16.1152
+      }
+    }
   }
 }

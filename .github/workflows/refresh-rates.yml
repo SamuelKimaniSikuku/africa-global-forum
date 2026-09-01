@@ -1,0 +1,31 @@
+name: Refresh FX rates
+
+on:
+  schedule:
+    # Daily at 06:10 UTC — open.er-api.com publishes new reference rates once a day
+    - cron: "10 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh mid-market rates
+        run: python3 scripts/refresh_rates.py
+
+      - name: Commit updated rates (if changed)
+        run: |
+          if git diff --quiet data/fintech-board.json; then
+            echo "No rate change today — nothing to commit."
+            exit 0
+          fi
+          git config user.name "agf-rates-bot"
+          git config user.email "admin@africaglobalforum.com"
+          git add data/fintech-board.json
+          git commit -m "Daily FX rate refresh ($(date -u +%F))"
+          git push
