@@ -18,14 +18,17 @@ jobs:
       - name: Refresh mid-market rates
         run: python3 scripts/refresh_rates.py
 
-      - name: Commit updated rates (if changed)
+      - name: Prerender static board content
+        run: python3 scripts/prerender_board.py
+
+      - name: Commit updated rates + prerender (if changed)
         run: |
-          if git diff --quiet data/fintech-board.json; then
-            echo "No rate change today — nothing to commit."
+          if git diff --quiet data/fintech-board.json corridor-board/index.html sitemap.xml; then
+            echo "No change today — nothing to commit."
             exit 0
           fi
           git config user.name "agf-rates-bot"
           git config user.email "admin@africaglobalforum.com"
-          git add data/fintech-board.json
-          git commit -m "Daily FX rate refresh ($(date -u +%F))"
+          git add data/fintech-board.json corridor-board/index.html sitemap.xml
+          git commit -m "Daily FX rate refresh + prerender ($(date -u +%F))"
           git push

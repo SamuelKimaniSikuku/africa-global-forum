@@ -49,7 +49,21 @@
       "about": { "@id": "https://africaglobalforum.com/#organization" },
       "primaryImageOfPage": "https://africaglobalforum.com/og-image.svg",
       "datePublished": "2026-08-17",
-      "dateModified": "2026-08-17"
+      "dateModified": "2026-09-03",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".board-page h1", ".board-lede"]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://africaglobalforum.com/corridor-board/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "What exchange rate does the Corridor Board show?", "acceptedAnswer": { "@type": "Answer", "text": "The mid-market reference rate — the midpoint between global buy and sell prices, before any provider adds a margin. It refreshes automatically every day. Money-transfer apps offer slightly less than mid-market; the gap is part of what you pay." } },
+        { "@type": "Question", "name": "Why is the rate in my money-transfer app different from the mid-market rate?", "acceptedAnswer": { "@type": "Answer", "text": "Apps make part of their revenue on the FX margin: they buy at mid-market and sell to you a little below it. Comparing an app's offered rate against the daily mid-market rate shows the real all-in cost of sending money home, not just the visible fee." } },
+        { "@type": "Question", "name": "Which countries and currencies does the Corridor Board cover?", "acceptedAnswer": { "@type": "Answer", "text": "Six home countries — Kenya (KES), Nigeria (NGN), Ghana (GHS), Uganda (UGX), Rwanda (RWF) and South Africa (ZAR) — sending from Europe (EUR), USA (USD), Australia (AUD) and Asia (USD reference). Twenty-four corridors in total." } },
+        { "@type": "Question", "name": "How does Africa Global Forum pick the best app per corridor?", "acceptedAnswer": { "@type": "Answer", "text": "Picks come from AGF's own published research — the Remittance Apps 2026 YTD report, the African Currency & Remittance Tracker, and Best Apps for Africans Abroad by Region — weighing fees, speed, corridor coverage and public app-store ratings. AGF has no commercial arrangement with any app on the board." } }
+      ]
     },
     {
       "@type": "Dataset",
@@ -64,7 +78,7 @@
         { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://africaglobalforum.com/data/fintech-board.json" }
       ],
       "datePublished": "2026-08-17",
-      "dateModified": "2026-08-17",
+      "dateModified": "2026-09-03",
       "inLanguage": "en"
     },
     {
@@ -391,6 +405,85 @@
   font-style:italic;
 }
 
+/* Static SEO block — all corridors at a glance */
+.board-static{margin-top:90px;padding-top:48px;border-top:1px solid var(--line)}
+.board-static-title{
+  font-family:'Fraunces',serif;
+  font-size:clamp(24px,3vw,34px);
+  font-weight:500;
+  letter-spacing:-0.015em;
+  margin:0 0 10px;
+}
+.board-static-updated{
+  font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+  color:rgba(14,11,8,0.45);
+  margin:0 0 28px;
+}
+.board-static-region{
+  font-family:'Fraunces',serif;
+  font-size:20px;font-weight:600;
+  margin:34px 0 12px;
+}
+.board-static-note{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;font-weight:400;
+  color:rgba(14,11,8,0.5);
+}
+.board-static-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14.5px;
+}
+.board-static-table th{
+  font-family:'JetBrains Mono',monospace;
+  font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;
+  color:rgba(14,11,8,0.5);
+  text-align:left;
+  padding:8px 12px 8px 4px;
+  border-bottom:1px solid var(--line);
+}
+.board-static-table td{
+  padding:11px 12px 11px 4px;
+  border-bottom:1px solid var(--line-soft);
+  color:var(--ink);
+}
+.board-static-rate{
+  font-family:'JetBrains Mono',monospace;
+  font-size:13px;
+  white-space:nowrap;
+}
+.board-static-apps{
+  margin-top:28px;
+  font-size:14px;
+  color:rgba(14,11,8,0.6);
+  line-height:1.6;
+}
+
+/* FAQ */
+.board-faq{margin-top:70px;padding-top:48px;border-top:1px solid var(--line)}
+.board-faq details{
+  border-bottom:1px solid var(--line-soft);
+  padding:16px 4px;
+}
+.board-faq summary{
+  font-family:'Fraunces',serif;
+  font-size:18px;font-weight:500;
+  cursor:pointer;
+  color:var(--ink);
+}
+.board-faq summary:hover{color:var(--terracotta)}
+.board-faq p{
+  margin:12px 0 4px;
+  font-size:15px;
+  line-height:1.65;
+  color:rgba(14,11,8,0.7);
+  max-width:680px;
+}
+@media (max-width:640px){
+  .board-static-table{font-size:13px}
+  .board-static-table th,.board-static-table td{padding-right:8px}
+}
+
 @media (max-width:640px){
   .board-page{padding:96px 20px 72px}
   .board-row{
@@ -446,6 +539,70 @@
   </div>
 
   <section class="board-corridor" id="corridorPanel"></section>
+
+  <section class="board-static" id="all-corridors" aria-label="All corridors at a glance">
+<!-- PRERENDER:START -->
+<h2 class="board-static-title">Today&rsquo;s exchange rates &mdash; every corridor at a glance</h2>
+<p class="board-static-updated mono">Mid-market reference rates &middot; updated 2026-09-02 &middot; refreshed automatically every day</p>
+<h3 class="board-static-region">From Europe (EUR)</h3>
+<table class="board-static-table"><thead><tr><th>Home country</th><th>Rate today</th><th>AGF picks</th></tr></thead><tbody>
+<tr><td>🇰🇪 Kenya</td><td class="board-static-rate">1 EUR = 150.15 KES</td><td>NALA, Taptap Send, Wise</td></tr>
+<tr><td>🇳🇬 Nigeria</td><td class="board-static-rate">1 EUR = 1,567.19 NGN</td><td>LemFi, Taptap Send, Wise</td></tr>
+<tr><td>🇬🇭 Ghana</td><td class="board-static-rate">1 EUR = 13.0715 GHS</td><td>NALA, LemFi, Wise</td></tr>
+<tr><td>🇺🇬 Uganda</td><td class="board-static-rate">1 EUR = 4,322.09 UGX</td><td>NALA, Sendwave, Taptap Send</td></tr>
+<tr><td>🇷🇼 Rwanda</td><td class="board-static-rate">1 EUR = 1,713.09 RWF</td><td>NALA, Taptap Send, Wise</td></tr>
+<tr><td>🇿🇦 South Africa</td><td class="board-static-rate">1 EUR = 18.731 ZAR</td><td>Wise, Remitly, WorldRemit</td></tr>
+</tbody></table>
+<h3 class="board-static-region">From USA (USD)</h3>
+<table class="board-static-table"><thead><tr><th>Home country</th><th>Rate today</th><th>AGF picks</th></tr></thead><tbody>
+<tr><td>🇰🇪 Kenya</td><td class="board-static-rate">1 USD = 129.48 KES</td><td>NALA, Sendwave, Wise</td></tr>
+<tr><td>🇳🇬 Nigeria</td><td class="board-static-rate">1 USD = 1,332.61 NGN</td><td>LemFi, Grey, Wise</td></tr>
+<tr><td>🇬🇭 Ghana</td><td class="board-static-rate">1 USD = 11.2662 GHS</td><td>LemFi, NALA, Wise</td></tr>
+<tr><td>🇺🇬 Uganda</td><td class="board-static-rate">1 USD = 3,722.4 UGX</td><td>NALA, Sendwave, Wise</td></tr>
+<tr><td>🇷🇼 Rwanda</td><td class="board-static-rate">1 USD = 1,475.35 RWF</td><td>NALA, Taptap Send, Wise</td></tr>
+<tr><td>🇿🇦 South Africa</td><td class="board-static-rate">1 USD = 16.1553 ZAR</td><td>Wise, Remitly, Xoom (PayPal)</td></tr>
+</tbody></table>
+<h3 class="board-static-region">From Australia (AUD)</h3>
+<table class="board-static-table"><thead><tr><th>Home country</th><th>Rate today</th><th>AGF picks</th></tr></thead><tbody>
+<tr><td>🇰🇪 Kenya</td><td class="board-static-rate">1 AUD = 92.61 KES</td><td>Wise, Remitly, NALA</td></tr>
+<tr><td>🇳🇬 Nigeria</td><td class="board-static-rate">1 AUD = 962.64 NGN</td><td>Wise, Remitly, Grey</td></tr>
+<tr><td>🇬🇭 Ghana</td><td class="board-static-rate">1 AUD = 8.0658 GHS</td><td>Wise, Remitly, WorldRemit</td></tr>
+<tr><td>🇺🇬 Uganda</td><td class="board-static-rate">1 AUD = 2,709.24 UGX</td><td>Wise, Remitly, NALA</td></tr>
+<tr><td>🇷🇼 Rwanda</td><td class="board-static-rate">1 AUD = 1,056.64 RWF</td><td>Wise, Remitly</td></tr>
+<tr><td>🇿🇦 South Africa</td><td class="board-static-rate">1 AUD = 11.5446 ZAR</td><td>Wise, Remitly, WorldRemit</td></tr>
+</tbody></table>
+<h3 class="board-static-region">From Asia (USD) <span class="board-static-note">(USD reference)</span></h3>
+<table class="board-static-table"><thead><tr><th>Home country</th><th>Rate today</th><th>AGF picks</th></tr></thead><tbody>
+<tr><td>🇰🇪 Kenya</td><td class="board-static-rate">1 USD = 129.48 KES</td><td>Wise, WorldRemit, MoneyGram</td></tr>
+<tr><td>🇳🇬 Nigeria</td><td class="board-static-rate">1 USD = 1,332.61 NGN</td><td>Wise, WorldRemit, MoneyGram</td></tr>
+<tr><td>🇬🇭 Ghana</td><td class="board-static-rate">1 USD = 11.2662 GHS</td><td>Wise, WorldRemit, MoneyGram</td></tr>
+<tr><td>🇺🇬 Uganda</td><td class="board-static-rate">1 USD = 3,722.4 UGX</td><td>Wise, WorldRemit, Western Union</td></tr>
+<tr><td>🇷🇼 Rwanda</td><td class="board-static-rate">1 USD = 1,475.35 RWF</td><td>Wise, Western Union</td></tr>
+<tr><td>🇿🇦 South Africa</td><td class="board-static-rate">1 USD = 16.1553 ZAR</td><td>Wise, WorldRemit, Western Union</td></tr>
+</tbody></table>
+<p class="board-static-apps">Apps compared on this board: Wise, LemFi, NALA, Remitly, Sendwave, WorldRemit, Chipper Cash, Grey, Taptap Send, Xoom (PayPal), MoneyGram, Western Union.</p>
+<!-- PRERENDER:END -->
+  </section>
+
+  <section class="board-faq" id="board-faq" aria-label="Frequently asked questions">
+    <h2 class="board-static-title">Questions people ask</h2>
+    <details>
+      <summary>What exchange rate does this board show?</summary>
+      <p>The mid-market reference rate &mdash; the midpoint between global buy and sell prices, before any provider adds a margin. It refreshes automatically every day from open.er-api.com. The apps listed will each offer slightly less than mid-market; the gap is part of what you pay.</p>
+    </details>
+    <details>
+      <summary>Why is the rate in my app different from the rate here?</summary>
+      <p>Money-transfer apps make part of their revenue on the FX margin: they buy at mid-market and sell to you a little below it. Comparing an app&rsquo;s offer against the mid-market rate on this page shows you the real all-in cost, not just the visible fee.</p>
+    </details>
+    <details>
+      <summary>Which countries and currencies are covered?</summary>
+      <p>Six home countries &mdash; Kenya (KES), Nigeria (NGN), Ghana (GHS), Uganda (UGX), Rwanda (RWF) and South Africa (ZAR) &mdash; sending from Europe (EUR), USA (USD), Australia (AUD) and Asia (USD reference). Twenty-four corridors in total.</p>
+    </details>
+    <details>
+      <summary>How does AGF pick the best app per corridor?</summary>
+      <p>Picks come from Africa Global Forum&rsquo;s own published research &mdash; the Remittance Apps 2026 YTD report, the Currency &amp; Remittance Tracker, and Best Apps by Region &mdash; weighing fees, speed, corridor coverage and public app-store ratings. AGF has no commercial arrangement with any app on this board.</p>
+    </details>
+  </section>
 
   <section class="board-sources" id="boardSources"></section>
 </main>
