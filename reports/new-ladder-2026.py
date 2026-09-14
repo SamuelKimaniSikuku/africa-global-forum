@@ -276,6 +276,25 @@ story += [
         "squeeze is real and measured; its causes are contested — and for the jobseeker it "
         "barely matters, because every strategy in this report works under both "
         "explanations.</b>", body),
+    fig("receipts.png",
+        "Fig 3 — The receipts: companies that cut, what they cut, and what they said "
+        "(2023–2025). Read the function, not the brand.", max_h=112 * mm),
+    Paragraph(
+        "Because abstractions hide what names reveal, the receipts. Read Fig 3 as a "
+        "pattern: <b>what got cut is the same function everywhere</b> — customer support "
+        "(Klarna, Salesforce), back-office and HR (IBM, Amazon's corporate layer), content "
+        "and translation (Duolingo), matching (Indeed) — the routine information-handling "
+        "this report maps, and the entry-adjacent office work the diaspora's side doors ran "
+        "through. Two cases deserve attention: <b>Chegg</b> is the purest displacement story "
+        "on record — students walked to the chatbot and two-thirds of the company followed "
+        "the revenue out; <b>Klarna</b> is the purest correction — 700 support roles handed "
+        "to an AI assistant, then humans quietly rehired when quality dropped. And hold the "
+        "table loosely in both directions: trackers count 300,000+ jobs cut with AI cited "
+        "since 2023, but CEOs now credit AI for cuts driven by rates and over-hiring "
+        "(“AI-washing”), while others automate quietly where optics are worse. The practical "
+        "read: <b>watch the function, not the brand</b> — support, back-office, content and "
+        "matching are the early-warning roles; judgement, licence, hands and trust are where "
+        "the same firms keep hiring.", body),
 ]
 
 # ================= 04 =================
@@ -305,10 +324,10 @@ story += bullets([
 story += [
     Paragraph("05 · The Same Split, Abroad", h2),
     fig("two_gates.png",
-        "Fig 3 — Two gates, one clock. The entry squeeze lands hardest on the person with "
+        "Fig 4 — Two gates, one clock. The entry squeeze lands hardest on the person with "
         "the least time to wait it out.", max_h=100 * mm),
     fig("migrant_outcomes.png",
-        "Fig 4 — No single migrant story (INSEE, Eurostat, StatCan, BLS). The foreigner's "
+        "Fig 5 — No single migrant story (INSEE, Eurostat, StatCan, BLS). The foreigner's "
         "bigger problem is often the overqualification trap — and it predates AI.",
         max_h=100 * mm),
     Paragraph(
@@ -341,10 +360,10 @@ story += [
     PageBreak(),
     Paragraph("06 · Where the Jobs Are Going", h2),
     fig("wef.png",
-        "Fig 5 — WEF Future of Jobs 2025: the reshuffle, not the apocalypse.",
+        "Fig 6 — WEF Future of Jobs 2025: the reshuffle, not the apocalypse.",
         max_h=95 * mm),
     fig("growing_declining.png",
-        "Fig 6 — The growth is hands-and-heart or frontier-tech; the decline is routine "
+        "Fig 7 — The growth is hands-and-heart or frontier-tech; the decline is routine "
         "information-handling — including the diaspora's classic back-office side doors.",
         max_h=92 * mm),
     Paragraph(
@@ -374,7 +393,7 @@ story += [
 story += [
     Paragraph("07 · The Mid-Level Premium", h2),
     fig("midlevel.png",
-        "Fig 7 — Why the middle is becoming the best real estate in the labour market.",
+        "Fig 8 — Why the middle is becoming the best real estate in the labour market.",
         max_h=105 * mm),
     Paragraph(
         "AI floods the market with drafts, code and analysis — making the scarce input "
@@ -396,7 +415,7 @@ story += [
     PageBreak(),
     Paragraph("08 · Crossing the Gap", h2),
     fig("crossing.png",
-        "Fig 8 — Five ways over the missing rungs, at home and abroad.", max_h=108 * mm),
+        "Fig 9 — Five ways over the missing rungs, at home and abroad.", max_h=108 * mm),
     Paragraph(
         "<b>The adjacent door</b>: services, operations, support and field roles still hire "
         "at entry — and sit one internal move from the analyst seat that never advertises "
@@ -466,7 +485,7 @@ story += [
     PageBreak(),
     Paragraph("11 · What to Expect Next", h2),
     fig("expect.png",
-        "Fig 9 — The five calls this report will stand behind across every AI scenario.",
+        "Fig 10 — The five calls this report will stand behind across every AI scenario.",
         max_h=108 * mm),
     Paragraph(
         "Nobody knows AI's ceiling, so this report only makes calls that hold across "
