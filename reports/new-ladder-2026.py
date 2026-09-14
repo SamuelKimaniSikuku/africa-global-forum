@@ -364,6 +364,30 @@ story += [
         "dedicated visas and political protection. The door abroad is open at the top of the "
         "ladder and at the hands-and-heart occupations — and nearly shut at the generic "
         "junior office rung in between.", body),
+    fig("doorway.png",
+        "Fig 6 — The shrinking doorway, 2024–2026: policy stacked on the market squeeze, "
+        "per destination (official statistics and policy records).", max_h=112 * mm),
+    Paragraph(
+        "The question every family planning a departure asks, answered as honestly as the "
+        "data allows: <b>how many jobs actually shrank for the student who travels to study "
+        "and stay — or to look for work directly?</b> No statistics office counts “jobs open "
+        "to international students”, so the truthful method is the proxy multiplication: "
+        "<i>postings × employers willing to sponsor × roles still visa-eligible</i> — and "
+        "between 2024 and 2026, <b>every factor moved down at once, in every major "
+        "destination</b>. The UK shows the compounding cleanest: graduate postings −45% "
+        "<i>and</i> Skilled Worker grants −36% year-on-year (ninth consecutive quarterly "
+        "decline) <i>and</i> 100+ occupations struck off sponsorship <i>and</i> the Graduate "
+        "Route shortening to 18 months from 2027 — four contractions that multiply. Canada "
+        "capped the pipeline itself: study permits −35% then −10%, with college graduates "
+        "now needing a shortage-field program for a post-study permit at all. The US kept "
+        "its 85,000 H-1B cap but rattled the door — FY2026 lottery odds of ~35% improved "
+        "only because registrations collapsed 27%, and the $100,000 fee proclamation, "
+        "court-vacated in mid-2026 with appeal pending, chills sponsorship either way. "
+        "Australia cut the 485's age limit to 35 and shortened its durations. The pattern: "
+        "<b>the generic study-to-junior-job-to-sponsorship route is being closed "
+        "deliberately, at the same time the market closes it economically — while the same "
+        "governments widen the shortage-list and high-salary doors.</b> The doorway did not "
+        "lock. It moved, shrank, and got a shorter timer.", body),
 ]
 
 # ================= 06 =================
@@ -371,10 +395,10 @@ story += [
     PageBreak(),
     Paragraph("06 · Where the Jobs Are Going", h2),
     fig("wef.png",
-        "Fig 6 — WEF Future of Jobs 2025: the reshuffle, not the apocalypse.",
+        "Fig 7 — WEF Future of Jobs 2025: the reshuffle, not the apocalypse.",
         max_h=95 * mm),
     fig("growing_declining.png",
-        "Fig 7 — The growth is hands-and-heart or frontier-tech; the decline is routine "
+        "Fig 8 — The growth is hands-and-heart or frontier-tech; the decline is routine "
         "information-handling — including the diaspora's classic back-office side doors.",
         max_h=92 * mm),
     Paragraph(
@@ -404,7 +428,7 @@ story += [
 story += [
     Paragraph("07 · The Mid-Level Premium", h2),
     fig("midlevel.png",
-        "Fig 8 — Why the middle is becoming the best real estate in the labour market.",
+        "Fig 9 — Why the middle is becoming the best real estate in the labour market.",
         max_h=105 * mm),
     Paragraph(
         "AI floods the market with drafts, code and analysis — making the scarce input "
@@ -426,7 +450,7 @@ story += [
     PageBreak(),
     Paragraph("08 · Crossing the Gap", h2),
     fig("crossing.png",
-        "Fig 9 — Five ways over the missing rungs, at home and abroad.", max_h=108 * mm),
+        "Fig 10 — Five ways over the missing rungs, at home and abroad.", max_h=108 * mm),
     Paragraph(
         "<b>The adjacent door</b>: services, operations, support and field roles still hire "
         "at entry — and sit one internal move from the analyst seat that never advertises "
@@ -496,7 +520,7 @@ story += [
     PageBreak(),
     Paragraph("11 · What to Expect Next", h2),
     fig("expect.png",
-        "Fig 10 — The five calls this report will stand behind across every AI scenario.",
+        "Fig 11 — The five calls this report will stand behind across every AI scenario.",
         max_h=108 * mm),
     Paragraph(
         "Nobody knows AI's ceiling, so this report only makes calls that hold across "
@@ -606,6 +630,14 @@ story += bullets([
     "AI-literacy postings; 75% people-skills; 8.2× and 3.6×; founder/creator growth; trades "
     "sentiment) are platform and commissioned-survey data with the selection biases of "
     "both. The BLS projections are US-only.",
+    "<b>The doorway figures</b> are official statistics and policy records per "
+    "destination: UK Home Office Skilled Worker grants (−36% YoY, year ending Dec 2025) "
+    "and the 2025 white-paper changes; IRCC study-permit caps and the Nov 2024 PGWP "
+    "field-of-study rules; USCIS FY2026 registration/selection data and the Sept 2025 "
+    "H-1B proclamation with its June 2026 court vacatur (under appeal); Australia's July "
+    "2024 485 changes. No agency counts “jobs open to international students” — our proxy "
+    "multiplication is labelled as method, and its factors are not independent, so the "
+    "compounding is directional, not a precise product.",
     "<b>The 73% AI-screening figure</b> is from employer surveys of varying methodology; "
     "estimates range ~70–90%+. The direction — automated screening as the norm — is not in "
     "dispute.",
