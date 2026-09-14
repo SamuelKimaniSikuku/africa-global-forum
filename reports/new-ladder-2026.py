@@ -260,11 +260,26 @@ story += [
         "tell that to the graduate holding forty rejections. The accurate sentence: <b>AI "
         "repriced the ladder, rung by rung — and the bottom rung took nearly all of the "
         "hit.</b>", body),
+    Paragraph(
+        "The honest complication: the attribution is genuinely contested. LinkedIn's 2026 "
+        "Labor Market Report argues the slow market is <i>not</i> AI's fault — in its data, "
+        "hiring trends look similar for the most- and least-exposed roles, and for entry vs "
+        "experienced software engineers, with <b>rates and uncertainty as primary "
+        "drivers</b>; hiring sits 20–35% below pre-pandemic across advanced economies while "
+        "emerging markets surge (India +40%, UAE +37%). A Danish linked-data study found "
+        "<b>no detectable average effect on earnings or hours</b> two years after ChatGPT in "
+        "its occupations; the NY Fed documents graduate unemployment rising 3.6%→5.6% "
+        "(2019→2026, ages 22–27) but points also at remote work destroying entry-job "
+        "mentoring. The refined Stanford reading: 22–25s <i>fell ~11%</i> in the two "
+        "most-exposed quintiles while <i>growing ~10%</i> in the least — a 19% <i>relative</i> "
+        "shortfall, not an absolute collapse. Where that leaves a reader: <b>the entry "
+        "squeeze is real and measured; its causes are contested — and for the jobseeker it "
+        "barely matters, because every strategy in this report works under both "
+        "explanations.</b>", body),
 ]
 
 # ================= 04 =================
 story += [
-    PageBreak(),
     Paragraph("04 · Entry vs Mid: The Level Split", h2),
     Paragraph(
         "The Stanford payroll research separates workers by age <i>and</i> occupation "
@@ -292,6 +307,19 @@ story += [
     fig("two_gates.png",
         "Fig 3 — Two gates, one clock. The entry squeeze lands hardest on the person with "
         "the least time to wait it out.", max_h=100 * mm),
+    fig("migrant_outcomes.png",
+        "Fig 4 — No single migrant story (INSEE, Eurostat, StatCan, BLS). The foreigner's "
+        "bigger problem is often the overqualification trap — and it predates AI.",
+        max_h=100 * mm),
+    Paragraph(
+        "The honest baseline first: “foreigners abroad” is not one story. France runs a "
+        "persistent gap — immigrant unemployment 11.7% vs 6.9% (2024) — predating GenAI "
+        "entirely. The EU's deeper problem: <b>41.4% of employed tertiary-educated non-EU "
+        "citizens work below their qualification, vs 20.0% of nationals</b>; Canada reports "
+        "the same shape (32.6% vs 19.1%). The US shows near parity in aggregate (4.2% vs "
+        "4.3%). The AI-era risk for migrants is therefore not mass exclusion; it is <b>the "
+        "deepening of the overqualification trap</b> — more degree-holders parked in "
+        "survival work as the junior professional rung thins.", body),
     Paragraph(
         "A local graduate facing the frozen rung can wait — live at home, temp, retry. The "
         "foreign graduate cannot: the post-study visa is a <b>fixed clock</b>, and it starts "
@@ -313,10 +341,10 @@ story += [
     PageBreak(),
     Paragraph("06 · Where the Jobs Are Going", h2),
     fig("wef.png",
-        "Fig 4 — WEF Future of Jobs 2025: the reshuffle, not the apocalypse.",
+        "Fig 5 — WEF Future of Jobs 2025: the reshuffle, not the apocalypse.",
         max_h=95 * mm),
     fig("growing_declining.png",
-        "Fig 5 — The growth is hands-and-heart or frontier-tech; the decline is routine "
+        "Fig 6 — The growth is hands-and-heart or frontier-tech; the decline is routine "
         "information-handling — including the diaspora's classic back-office side doors.",
         max_h=92 * mm),
     Paragraph(
@@ -328,14 +356,25 @@ story += [
         "a generation from survival work into the middle class. Those bridges are the ones "
         "burning. Pick an end, or pick the frontier — the middle of the old office is not "
         "where the next foothold is.", body),
+    Paragraph(
+        "The frontier end now has a headcount: LinkedIn counts <b>1.3 million new AI-enabled "
+        "jobs globally in two years</b> plus 600,000 new data-centre jobs in the last year, "
+        "with “AI Engineer” the #1 US role and Head-of-AI positions up ~30% across major "
+        "economies — the “new-collar” era, much of it hiring without traditional "
+        "gatekeeping. The US BLS puts numbers under the other end for 2025–35: healthcare "
+        "support +13.3%, computer/mathematical +7.3%, office and administrative support "
+        "−4.0% — and projects <b>60% of new jobs by 2030 from occupations not typically "
+        "requiring a degree</b>. The culture is following the money: majorities in the US "
+        "(62%) and UK (55%) now prefer trades to corporate careers, and ~6 in 10 Gen Z call "
+        "trades more meaningful than office work. The barbell is not a hardship posting. It "
+        "is where the market's respect went.", body),
 ]
 
 # ================= 07 =================
 story += [
-    PageBreak(),
     Paragraph("07 · The Mid-Level Premium", h2),
     fig("midlevel.png",
-        "Fig 6 — Why the middle is becoming the best real estate in the labour market.",
+        "Fig 7 — Why the middle is becoming the best real estate in the labour market.",
         max_h=105 * mm),
     Paragraph(
         "AI floods the market with drafts, code and analysis — making the scarce input "
@@ -357,7 +396,7 @@ story += [
     PageBreak(),
     Paragraph("08 · Crossing the Gap", h2),
     fig("crossing.png",
-        "Fig 7 — Five ways over the missing rungs, at home and abroad.", max_h=108 * mm),
+        "Fig 8 — Five ways over the missing rungs, at home and abroad.", max_h=108 * mm),
     Paragraph(
         "<b>The adjacent door</b>: services, operations, support and field roles still hire "
         "at entry — and sit one internal move from the analyst seat that never advertises "
@@ -384,7 +423,11 @@ story += [
         "Lagos supplier and a London boardroom. Note who that favours: the relational "
         "attention our cultures train, the code-switching the diaspora lives daily, the "
         "voice this series has been rebuilding. The market that stopped buying our paperwork "
-        "has started, without noticing, to price our upbringing.", body),
+        "has started, without noticing, to price our upbringing. The platform data agrees: "
+        "US postings requiring AI-literacy skills grew 70% YoY; 75% of companies say people "
+        "skills matter <i>more</i> in the AI age; skills-first organisations grew AI talent "
+        "pipelines 8.2×; and applicants connected to an employee are 3.6× more likely to be "
+        "hired — network-building as measured arithmetic.", body),
 ]
 
 # ================= 10 =================
@@ -407,7 +450,12 @@ story += [
         "no graduate scheme provides; and pays for none of it in survival-job years. The "
         "costs are real — home salaries during the building years, the WhatsApp optics of "
         "classmates who flew first, and the discipline of choosing employers who genuinely "
-        "develop people. But the direction is unmistakable, and it redeems something this "
+        "develop people. The macro data backs the sequence directly: advanced-economy "
+        "hiring runs 20–35% below pre-pandemic while <b>India is +40% and the UAE +37%</b>; "
+        "and the landmark AI-at-work study (5,172 support agents, mostly in the Philippines) "
+        "found productivity gains land largest on the <i>less experienced</i> — AI "
+        "compresses the junior learning curve fastest exactly where juniors still get "
+        "hired. The direction is unmistakable, and it redeems something this "
         "library keeps finding: the diaspora's strongest position was never “escaped” — it "
         "is <b>bilingual in both economies</b>, and the new ladder now pays for the home "
         "years instead of discounting them.", body),
@@ -418,7 +466,7 @@ story += [
     PageBreak(),
     Paragraph("11 · What to Expect Next", h2),
     fig("expect.png",
-        "Fig 8 — The five calls this report will stand behind across every AI scenario.",
+        "Fig 9 — The five calls this report will stand behind across every AI scenario.",
         max_h=108 * mm),
     Paragraph(
         "Nobody knows AI's ceiling, so this report only makes calls that hold across "
@@ -430,7 +478,16 @@ story += [
         "their own graduates idle will not liberalise junior sponsorship, while the same "
         "ageing electorates expand the shortage lists; ride the lists, not the vibes. And "
         "<b>reskilling becomes rent</b> — with 39% of core skills turning over in five "
-        "years, learning is a standing charge, not a phase. What this report will "
+        "years, learning is a standing charge, not a phase. Two more currents, without "
+        "betting the house: <b>the third door is opening</b> — with 52% of professionals "
+        "job-hunting and seekers outpacing openings at the highest rate since the pandemic, "
+        "“founder” profiles grew 60% YoY and “creator” nearly 90% since 2021, with 4 in 10 "
+        "Gen Z wanting self-employment; for a diaspora over-indexed on entrepreneurship, "
+        "the squeezed ladder makes the built-your-own rung more rational. And <b>adoption "
+        "lags exposure</b>: only 20.2% of OECD firms reported using AI in 2025 (52% of "
+        "large firms, 17% of small) — the squeeze is sharpest at the prestige employers "
+        "graduates queue for, and smaller firms remain the under-fished pond. What this "
+        "report will "
         "<i>not</i> predict: which job titles are “safe”. The honest unit of safety is the "
         "level, the licence, and the proof.", body),
 
@@ -484,7 +541,6 @@ story += [
 
 # ================= 14 =================
 story += [
-    PageBreak(),
     Paragraph("14 · Method &amp; Limits", h2),
     Paragraph("This report combines payroll-data research, vacancy statistics, visa-policy "
               "records and employer surveys, as at 14 September 2026 — with the futures flag "
@@ -505,6 +561,21 @@ story += bullets([
     "the emblematic case, not a universal quote.",
     "<b>The WEF projections</b> are employer <i>expectations</i> from a structured survey, "
     "not a forecast model. We use them for composition and direction.",
+    "<b>The attribution debate is presented as live, because it is.</b> LinkedIn's Labor "
+    "Market Report attributes the slow market to rates and uncertainty, finding similar "
+    "trends across exposure levels; Stanford's revision finds the exposed-young gap "
+    "persists after firm-shock controls but attenuated by education controls — a ~19% "
+    "relative shortfall (−11% most-exposed quintiles vs +10% least), not an absolute "
+    "decline; Denmark's linked-data study bounds average effects near zero for its window; "
+    "the NY Fed adds remote-work mentoring loss as a rival channel. We treat the squeeze as "
+    "fact and its causes as contested.",
+    "<b>The migrant-outcome statistics</b> (France 11.7/6.9%; EU overqualification "
+    "41.4/20.0%; Canada 32.6/19.1%; US 4.2/4.3%) use differing definitions of “immigrant” "
+    "and are context, not a ranking — none isolates an AI effect.",
+    "<b>The LinkedIn figures</b> (1.3m AI-enabled jobs; 600k data-centre roles; +70% "
+    "AI-literacy postings; 75% people-skills; 8.2× and 3.6×; founder/creator growth; trades "
+    "sentiment) are platform and commissioned-survey data with the selection biases of "
+    "both. The BLS projections are US-only.",
     "<b>The 73% AI-screening figure</b> is from employer surveys of varying methodology; "
     "estimates range ~70–90%+. The direction — automated screening as the norm — is not in "
     "dispute.",
@@ -521,7 +592,7 @@ story += [
     Paragraph("Principal sources", h3),
     Paragraph(
         "Brynjolfsson, Chandar &amp; Chen, “Canaries in the Coal Mine” (Stanford Digital "
-        "Economy Lab) and its 2026 update; WEF Future of Jobs Report 2025; IES and HEPI on "
+        "Economy Lab) and its 2026 update; LinkedIn's Labor Market Report 2026; a member-shared research dossier (“Jobs Before and After Generative AI”, Sept 2026) whose primary citations — ILO youth trends and GenAI exposure index, OECD adoption data, the Denmark NBER study, the QJE support-agent study, NY Fed advisories, INSEE, Eurostat, StatCan and BLS — we verified and cite; WEF Future of Jobs Report 2025; IES and HEPI on "
         "the UK graduate market; UK Skilled Worker threshold analyses; employer AI-screening "
         "surveys via industry reporting; and this library's prior measurement in the "
         "graduate-market, CV, visa, student-cost and AI reports. Full inline links in the "
