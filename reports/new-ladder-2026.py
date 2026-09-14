@@ -280,21 +280,32 @@ story += [
         "Fig 3 — The receipts: companies that cut, what they cut, and what they said "
         "(2023–2025). Read the function, not the brand.", max_h=112 * mm),
     Paragraph(
-        "Because abstractions hide what names reveal, the receipts. Read Fig 3 as a "
-        "pattern: <b>what got cut is the same function everywhere</b> — customer support "
-        "(Klarna, Salesforce), back-office and HR (IBM, Amazon's corporate layer), content "
-        "and translation (Duolingo), matching (Indeed) — the routine information-handling "
-        "this report maps, and the entry-adjacent office work the diaspora's side doors ran "
-        "through. Two cases deserve attention: <b>Chegg</b> is the purest displacement story "
-        "on record — students walked to the chatbot and two-thirds of the company followed "
-        "the revenue out; <b>Klarna</b> is the purest correction — 700 support roles handed "
-        "to an AI assistant, then humans quietly rehired when quality dropped. And hold the "
-        "table loosely in both directions: trackers count 300,000+ jobs cut with AI cited "
-        "since 2023, but CEOs now credit AI for cuts driven by rates and over-hiring "
-        "(“AI-washing”), while others automate quietly where optics are worse. The practical "
-        "read: <b>watch the function, not the brand</b> — support, back-office, content and "
-        "matching are the early-warning roles; judgement, licence, hands and trust are where "
-        "the same firms keep hiring.", body),
+        "Because abstractions hide what names reveal, the receipts — read with the "
+        "discipline the filings demand. <b>The observed cases:</b> Klarna's workforce fell "
+        "47% (5,527 → 2,907) — mostly by <i>natural attrition</i>, and its famous “AI does "
+        "the work of 853 agents” is a workload claim, not a layoff count (it still rehired "
+        "humans for support when quality dropped). Salesforce's support shrank ~9,000 → "
+        "5,000 with the CEO crediting agents — via unfilled vacancies and redeployment, not "
+        "4,000 dismissals. BT fell 7% inside a transformation as much about fibre as AI. "
+        "<b>The announced wave:</b> Block asking 4,000+ to leave (AI lets a smaller team run "
+        "the company); Chegg cutting 45% citing AI competition <i>and</i> lost Google "
+        "traffic — demand loss plus automation; DBS trimming ~4,000 contract roles by "
+        "attrition <i>while hiring ~1,000 AI roles</i> — cut and hire, same bank.", body),
+    Paragraph(
+        "<b>Three rules for reading any layoff headline.</b> The measures do not add: an "
+        "announced plan, one department's fall, a company-wide decline and an AI-workload "
+        "estimate are different numbers — summing them (as viral “300,000+ AI cuts” "
+        "trackers do) misleads. Company statements are rationales, not measurements — they "
+        "never isolate AI from rates, restructuring or over-hiring, and the AI-washing runs "
+        "both directions. And the mechanism matters more than the count: automating tasks, "
+        "reducing replacement hiring, ending contractor assignments, and shifting customer "
+        "demand away entirely (Chegg's fate) — only some of these show up as “layoffs” at "
+        "all. None of the disclosures gives an entry/mid/senior breakdown, and none reports "
+        "how many affected workers were migrants. For assessing your own employer, four "
+        "questions beat any headline: <b>which tasks are changing; is the company still "
+        "recruiting; are transfers available; is it investing in training?</b> Both job "
+        "losses and new specialist hiring can occur at the same organisation — DBS is the "
+        "proof. Watch the function, not the brand.", body),
 ]
 
 # ================= 04 =================
