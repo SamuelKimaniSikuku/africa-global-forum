@@ -177,6 +177,22 @@
     </image:image>
   </url>
   <url>
+    <loc>https://africaglobalforum.com/reports/new-ladder-2026/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://africaglobalforum.com/reports/new-ladder-2026/img/level_split.png</image:loc>
+      <image:title>The job market split by level: entry erodes while experienced workers gain</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://africaglobalforum.com/reports/new-ladder-2026.pdf</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://africaglobalforum.com/reports/algorithm-at-the-border-2026/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
