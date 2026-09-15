@@ -291,6 +291,21 @@ story += [
         "employers are expanding entry hiring (IBM says it is tripling US entry intake "
         "in 2026). People get through. The question is which people, and how.", body),
 ]
+story += [
+    Paragraph(
+        "The evidence base has thickened, in both directions. Stanford's number read as "
+        "an index: both groups at 100 in November 2022; by June 2026 the most-exposed "
+        "young workers sit at 89 while less-exposed peers sit at 110 — a ~19% RELATIVE "
+        "gap, hiring-driven, not firings. A US Census working paper corroborates it "
+        "(22–24s ~12% lower in the most-exposed industry groups through mid-2025). And "
+        "on the other side, a Federal Reserve study found NO association between firms' "
+        "AI adoption and fewer total postings (Sept 2023–Nov 2025): total vacancies "
+        "hold while opportunity shifts away from particular junior roles. Together: not "
+        "fewer jobs overall — a different door. The New York Fed adds the widest "
+        "context: recent-graduate unemployment ~5.6%, and 42% of employed recent US "
+        "graduates in occupations that do not typically require a degree — "
+        "employed-and-stuck, measured at national scale.", body),
+]
 
 # ================= 05 =================
 story += [
@@ -331,6 +346,11 @@ story += bullets([
     "non-native English at up to 61.3% — keep your own voice, keep drafts.",
     "<b>24 → 18 months.</b> The UK Graduate Route shrinks for post-January-2027 "
     "applicants. An 18-month clock means job-hunting starts in final year, not after it.",
+    "<b>The gap narrows with time — and the language trap is real.</b> OECD: "
+    "international graduates have weaker EARLY outcomes than domestic peers, the gap "
+    "narrowing over years — the first eighteen months are the hard part by design. And "
+    "an English-taught course is not an English-speaking labour market: if the jobs "
+    "are advertised in French or German, start the language before you fly.",
 ])
 story += [
     Paragraph("The fair sells the entrance. Buy the exit.", pull),
@@ -388,6 +408,22 @@ story += bullets([
     "year one, not month seventeen. A fallback priced early is a strategy; priced late, "
     "a defeat.",
 ])
+story += [
+    Paragraph(
+        "Before anyone pays a deposit, sit the plan for the seven-question exam: which "
+        "jobs am I targeting and who recruits my profile; what does THIS course add; "
+        "can I verify the qualification and get real supervised practice; what happened "
+        "to recent international graduates, including those still searching; what "
+        "language and permit conditions apply in MY graduation year; can I afford the "
+        "course AND a slower search without unconfirmed earnings; and what will I do — "
+        "on what date — if the job does not arrive? Proceed when every answer is "
+        "concrete; reconsider when the plan rests on a promised job, an unverified visa "
+        "claim, or the idea that one more qualification fixes every gap. And one habit "
+        "that doubles as career insurance: learn each subject well enough to recognise "
+        "a wrong answer — practise without AI first, then compare. A polished "
+        "submission is weak evidence of learning if you cannot explain it, and "
+        "interviewers now check exactly that.", body),
+]
 
 # ================= 09 =================
 story += [
@@ -421,6 +457,21 @@ story += bullets([
     "<b>Keep the Kenya door open on purpose.</b> Network, track record, re-entry value: "
     "run home-first sequencing in both directions and price both doors every six months. "
     "The option itself is worth money.",
+    "<b>First, define what the degree must change.</b> Continuing in your field "
+    "(which local tools or rules are missing?); specialising (does the course teach a "
+    "capability employers request, with practice?); changing careers (how much "
+    "transfers, how much beginner training?); or mainly wanting the overseas move — "
+    "then ask whether a direct search, internal transfer or shorter qualification "
+    "reaches the goal at a fraction of the cost.",
+    "<b>Titles are not levels — make the work easy to assess.</b> A Kenyan manager "
+    "may fit an analyst, specialist or manager role abroad depending on the actual "
+    "work. Write problem → action → measured result (\u201cled eight warehouse staff "
+    "handling ~600 orders weekly; late dispatches fell 18% to 11% in 12 weeks\u201d — "
+    "your own verified numbers), keep contactable references.",
+    "<b>Mind the permit small print on survival jobs.</b> An unrelated job may not "
+    "satisfy your NEXT residence permit's conditions (US OPT even caps unemployment "
+    "days). Verify before relying on it; keep a dated plan for entering your "
+    "profession alongside the job that funds the search.",
     "<b>If you have not left yet: bank the years first.</b> Two or three more Kenyan "
     "years convert you from the hard game to the strong one. The cousin who flew at 22 "
     "and the one who flew at 27 with a CV are playing different sports.",
@@ -428,21 +479,32 @@ story += bullets([
 
 # ================= 10 =================
 story += [
-    Paragraph("10 · The Four Destinations, Compared", h2),
+    Paragraph("10 · The Six Destinations, Compared", h2),
     fig("destinations.png",
-        "Fig 7 — Policy 2024–2026 per destination (UK Home Office, IRCC, USCIS, "
-        "Australian Home Affairs). Verify current rules before acting.", max_h=128 * mm),
+        "Fig 7 — Post-study routes per destination, from official guidance reviewed 15 "
+        "September 2026 (gov.uk, IRCC, USCIS/DHS, German federal and French "
+        "Service-Public pages, Australian Home Affairs). Re-read the official page "
+        "before paying anything.", max_h=175 * mm),
     Paragraph(
-        "One sentence per country, for the family group chat: the UK for licensed fields "
-        "and mid-level entrants (deep market squeeze, shrinking Graduate Route, but "
-        "genuinely open health and care routes); Canada for co-op-first undergraduates "
-        "(permits capped, but degree graduates keep the 3-year PGWP and the co-op "
-        "infrastructure produces the 92/65 split); the US for funded specialists (the "
-        "biggest salaries and the H-1B lottery — 85,000 cap, ~35% odds only because "
-        "registrations fell 27%, the $100k-fee proclamation vacated but under appeal); "
-        "Australia for young shortage-field applicants who read the age rule first (485 "
-        "age cap 35, durations cut a third, but regional study and shortage lists carry "
-        "extensions).", body),
+        "The fine print that decides plans: the UK Graduate visa runs two years if "
+        "applied for by 31 December 2026, 18 months from January 2027 — and THREE "
+        "years for doctoral graduates. Canada's 3-year PGWP needs an eligible master's "
+        "of at least eight months (a postgraduate certificate does not qualify), "
+        "normally comes once per lifetime, and even passport validity can shorten it. "
+        "The US OPT gives 12 months plus 24 for eligible STEM — but with only 90 days "
+        "of permitted unemployment (150 total with STEM) it is not three years of open "
+        "searching: go funded, go STEM, count the days. Germany offers the most "
+        "generous search terms — 18 months, any work allowed meanwhile — but "
+        "non-renewable, in a labour market that runs in German. France gives master's "
+        "graduates 12 non-renewable months, with French-language hiring to match. Both "
+        "continental routes carry the OECD warning: the course may be in English; the "
+        "jobs are not.", body),
+    Paragraph(
+        "One line per country, for the family group chat: UK for licensed and "
+        "mid-level; Canada for co-op undergraduates (degree, not certificate); US for "
+        "funded STEM specialists who count their 90 days; Germany for engineers "
+        "willing to learn German; France for francophone-ready master's graduates; "
+        "Australia for young shortage-field applicants who read the age rule first.", body),
 ]
 
 # ================= 11 =================
@@ -475,6 +537,20 @@ story += bullets([
     "<b>10. Price the return option annually.</b> Portfolio management, not "
     "failure-planning. An option priced is an option owned.",
 ])
+story += [
+    Paragraph(
+        "As a calendar: run the 30-day test before committing. Week 1 — pick two or "
+        "three target roles, compare recent adverts in two destinations, map every "
+        "requirement. Week 2 — talk to recent international graduates from your "
+        "shortlisted courses, INCLUDING someone still searching or back home. Week 3 — "
+        "demand course-specific outcomes and placement terms, check recognition and "
+        "the work rules for your graduation year, write full cost against secured "
+        "funding. Week 4 — finish a small project, have a professional review it, and "
+        "compare proceeding now against a cheaper course, more Kenyan experience, or a "
+        "deliberate delay. Thirty days of testing before three years of paying. Then in "
+        "the first 90 days after landing: careers service, one professional "
+        "association, employer deadlines mapped, the language routine started.", body),
+]
 
 # ================= 12 =================
 story += [
@@ -492,6 +568,17 @@ story += [
         "shipped and referrals built, not speed to first job. Fourth: fund the things "
         "that compound — the laptop, the course, the certification — in both "
         "directions.", body),
+    Paragraph(
+        "The stress test with numbers on it — an illustrative one-year master's "
+        "(replace every line with verified local figures): tuition €12,000 + twelve "
+        "months' living at €1,000 + travel, visas, insurance and setup €2,000 = "
+        "€26,000 — then add €6,000 for six months of post-graduation living without "
+        "earnings: an honest total of €32,000 before contingency. The last line is the "
+        "one families skip, and it decides whether the graduate can hold out for the "
+        "right job or must grab the survival job that eats the visa clock. Treat "
+        "permitted part-time hours as uncertain income, not budget; count deposits, "
+        "borrowing costs and exchange-rate slippage; for the experienced applicant, "
+        "add the Kenyan salary and progression forgone.", body),
 ]
 
 # ================= 13 =================
@@ -507,9 +594,10 @@ story += bullets([
     "<b>The squeeze's cause is contested even where its existence is not.</b> If rates, "
     "not AI, drove most of the freeze, a rate cycle could reopen doors faster than this "
     "report implies. The strategies survive either way; the urgency may not.",
-    "<b>The four-destination frame flatters the Anglosphere.</b> Germany, the "
-    "Netherlands, the Gulf, China and intra-African routes fall outside this evidence "
-    "base — a real gap, flagged for future work.",
+    "<b>The destination frame still leans Anglophone-plus.</b> This update added "
+    "France and Germany from official guidance — closing part of the first edition's "
+    "admitted gap — but the Netherlands, the Gulf, China and intra-African routes "
+    "remain outside the evidence base, and for some readers those doors are wider.",
     "<b>Playbooks are probabilities, not promises.</b> A student can make all ten moves "
     "and still lose the lottery year; another can wing it and land. Every claim is sized "
     "to its evidence; extrapolations are flagged in Section 14.",
@@ -535,6 +623,15 @@ story += bullets([
     "USCIS FY2026 (85k cap, registrations −27%) and the vacated-but-appealed $100k fee; "
     "Australian 485 rules. Policy is the fastest-moving layer — verify on official "
     "sites before acting; nothing here is immigration advice.",
+    "<b>Corroborating and route evidence</b>, added from a member-shared dossier "
+    "whose primary citations we verified and cite: the Stanford Aug 2026 revision read "
+    "as an index (89 vs 110 from a common 100 — relative, hiring-driven, not causal); "
+    "US Census CES WP 26-27 (~12% lower, 22–24s, through 2025 Q2); the Federal Reserve "
+    "adoption-vs-postings null (2023–25); NY Fed dashboard (5.6% unemployment, 42% "
+    "underemployment, 2026 Q2); OECD International Students in Higher Education (2026); "
+    "and France/Germany/US route fine print from Service-Public, the German federal "
+    "government, USCIS and DHS (12- and 18-month search permits; OPT's 90/150 "
+    "unemployment days), reviewed 15 Sep 2026.",
     "<b>What is extrapolation:</b> the Section 04 timeline connects measured points into "
     "a narrative; the playbooks and destination one-liners are strategy synthesis; the "
     "experience-first thesis rests on the level-split evidence plus threshold arithmetic "
