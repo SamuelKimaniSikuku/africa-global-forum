@@ -165,11 +165,11 @@ story += [
 ]
 
 kpi = Table([[
-    Paragraph("34% vs 11%", big_num), Paragraph("839m", big_num),
+    Paragraph("34% vs 11%", big_num), Paragraph("847m", big_num),
     Paragraph("85.3%", big_num), Paragraph("21.9%", big_num),
 ], [
     Paragraph("GenAI job exposure, rich<br/>versus low-income countries<br/>(ILO) — the asymmetry", big_lbl),
-    Paragraph("people in extreme poverty<br/>at the $3.00/day line —<br/>most in Sub-Saharan Africa", big_lbl),
+    Paragraph("people under the $3.00/day<br/>line in 2024 — most in<br/>Sub-Saharan Africa", big_lbl),
     Paragraph("of African employment is<br/>informal — work AI cannot<br/>reach, and formality never did", big_lbl),
     Paragraph("return per year of university<br/>in Sub-Saharan Africa —<br/>the highest on earth", big_lbl),
 ]], colWidths=[CONTENT_W / 4] * 4)
@@ -211,8 +211,8 @@ story += bullets([
     "million young Africans enter the labour market yearly against ~3 million formal jobs. "
     "AI threatens to freeze that 4-to-1 shortfall in place by automating the routine office "
     "work poor countries hoped to sell.",
-    "<b>Will poverty increase? Not directly — but the escape routes narrow.</b> 839 million "
-    "people live under the $3.00/day line. AI will not fire the farmer; the risk is slower "
+    "<b>Will poverty increase? Not directly — but the escape routes narrow.</b> 847 million "
+    "people — 10.4% of humanity — live under the $3.00/day line (2024). AI will not fire the farmer; the risk is slower "
     "exits — the services-export ladder (India's 5.4M IT-BPM workers, the Philippines' 1.8M "
     "BPO workers with ~1M roles at automation risk by 2030) is being pulled up just as "
     "Africa reaches for it. Expect inequality to widen before poverty moves.",
@@ -252,6 +252,20 @@ story += [
         "everywhere — only 20.2% of OECD firms used AI in 2025 (52% of large firms, 17% of "
         "small) — which is exactly why the next five years of choices still matter.", body),
 ]
+story += [
+    Paragraph(
+        "Two 2026 studies sharpen the asymmetry. The World Development Report 2026 splits "
+        "exposure into halves: only 4.5% of developing-economy jobs are amenable to "
+        "generative-AI AUTOMATION (versus 14.2% in high-income ones) — but 16.2% could see "
+        "meaningful PRODUCTIVITY GAINS, nearly matching the rich world's 18.7%. The downside "
+        "is three times smaller; the upside is almost the same size (modelled potentials, "
+        "not observed layoffs). And the ILO–World Bank study of 135 countries, pointedly "
+        "titled Disruption without Dividend, adds the timing problem: vulnerable clerical "
+        "workers are often already online while the farmers and small firms who stand to "
+        "gain mostly are not — the automation risk can arrive before the productivity "
+        "benefit does. That sequencing, not the exposure percentage, is the number-one "
+        "thing developing-country policy has to beat.", body),
+]
 
 # ================= 03 =================
 story += [
@@ -283,6 +297,15 @@ story += [
         "competitive per dollar for as long as humans stay in the loop. Which reading wins "
         "will be decided market by market.", body),
 ]
+story += [
+    Paragraph(
+        "The first hiring-demand evidence from a developing region points the same way: a "
+        "World Bank analysis of South Asian online vacancies (Aug 2020–Feb 2025, dominated "
+        "by India's urban white-collar market) found postings in the most AI-exposed AND "
+        "substitutable occupations roughly 20% below other occupations after ChatGPT. "
+        "Advertised demand, not employment — but the developing world's first measured "
+        "entry-squeeze. The canary sings in Bangalore too.", body),
+]
 
 # ================= 04 =================
 story += [
@@ -310,15 +333,26 @@ story += [
         "our New Ladder report will recognise the shape: the entry rung thins first, "
         "everywhere — the developing world simply had fewer rungs to begin with.", body),
 ]
+story += [
+    Paragraph(
+        "Kenya's 2026 Economic Survey makes it concrete: of the 822,100 jobs the economy "
+        "added in 2025, 87.2% were informal (KNBS; series excludes small-scale "
+        "agriculture). Work is being created, in volume — but overwhelmingly outside the "
+        "formal door AI now guards. And one measurement rule matters most: employment is "
+        "not the same as an adequate income. A retrenched clerk who turns to irregular "
+        "trading still counts as employed while earnings collapse — the honest dashboard "
+        "tracks earnings, hours and job quality, not a rate that can FALL when discouraged "
+        "people stop searching.", body),
+]
 
 # ================= 05 =================
 story += [
     Paragraph("05 · Will Poverty Increase?", h2),
     fig("poverty_chain.png",
-        "Fig 4 — The poverty question, link by link. 839 million under the $3.00 line "
-        "(World Bank, 2021 PPP); nearly half of Sub-Saharan Africa.", max_h=150 * mm),
+        "Fig 4 — The poverty question, link by link. 847 million under the $3.00 line "
+        "(World Bank March 2026 update, 2021 PPP); nearly half of Sub-Saharan Africa.", max_h=150 * mm),
     Paragraph(
-        "The extreme poor are overwhelmingly rural, informal and agricultural — the LEAST "
+        "The World Bank\u2019s March 2026 update counts 847 million people — 10.4% of the world — under its $3.00/day line in 2024 (with a model-based 10.0% nowcast for 2026: a projection, not a survey). The extreme poor are overwhelmingly rural, informal and agricultural — the LEAST "
         "AI-exposed workers on earth. AI cannot fire people it never employed; there is no "
         "direct mechanism by which it throws the world's poorest out of work. The indirect "
         "mechanism is the one to watch: poverty falls through exits — the formal wage job, "
@@ -333,6 +367,17 @@ story += [
         "these, delivered through the phone mobile money already put in the poorest hands. "
         "So: no, poverty will not surge because of AI — but whether it keeps FALLING depends "
         "on which force wins, the pulled-up ladder or the leapfrog.", body),
+]
+story += [
+    Paragraph(
+        "Two disciplines keep that answer honest. First, the counterweight has limits: a "
+        "family earning KES 30,000 against a KES 28,000 essentials basket that loses 20% "
+        "of its income sits KES 4,000 short a month — and even with a 10% cheaper basket, "
+        "still KES 1,200 short. Cheaper services soften an income shock; they do not "
+        "replace an income. Second, no defensible single number for AI-driven poverty "
+        "exists — a credible estimate needs household incomes, affected occupations, "
+        "replacement work, prices and transfers, and multiplying an exposure rate by a "
+        "population is not it. This report refuses to invent one.", body),
 ]
 
 # ================= 06 =================
@@ -358,6 +403,16 @@ story += [
         "while the ageing rich world runs short of exactly such people — and the leapfrog "
         "case stops sounding like a TED talk and starts sounding like arithmetic.", body),
     Paragraph(
+        "And the study every optimist must sit with: a randomized experiment gave 640 "
+        "Kenyan entrepreneurs GPT-4 business advice (2023 fieldwork; Management Science, "
+        "July 2026) and found no detectable average improvement in revenue or profit — and "
+        "the initially weakest businesses did nearly 10% WORSE, following fluent advice "
+        "they lacked the cash or customers to implement, while stronger firms showed "
+        "suggestive gains. The lesson is not that AI fails in Africa; it is sharper: "
+        "advice is not capital, and the gains land first on those already ahead — the same "
+        "concentration the IMF's 2026 intelligence-divide paper warns of at country level. "
+        "The leapfrog is real; it is not automatic, and it lands unevenly.", body),
+    Paragraph(
         "The pessimists' case is Section 03; the optimists' case is this section. Both are "
         "real, both are running, and no serious economist knows which wins. That is why this "
         "report is called a test.", pull),
@@ -367,12 +422,15 @@ story += [
 story += [
     Paragraph("07 · The Constraints", h2),
     fig("constraints.png",
-        "Fig 6 — What stands between the developing world and the leapfrog (IEA/World Bank "
-        "Mission 300 data).", max_h=125 * mm),
+        "Fig 6 — What stands between the developing world and the leapfrog (SDG7 tracking "
+        "2026; ITU Facts and Figures 2025).", max_h=125 * mm),
     Paragraph(
-        "Six hundred million Africans lack reliable electricity — more than four-fifths of "
-        "the world's access gap — and no model capability reaches a phone that cannot "
-        "charge. The continent hosts a sliver of global data-centre capacity, so the "
+        "The June 2026 SDG7 update counts 655 million people without electricity in 2024 "
+        "— more than 560 million of them in Sub-Saharan Africa — and no model capability "
+        "reaches a phone that cannot charge. Connectivity stacks on top: internet use runs "
+        "23% in low-income countries against 94% in high-income ones (36% for the ITU "
+        "Africa region), and mobile broadband fails the affordability benchmark in about "
+        "60% of low- and middle-income countries. The continent hosts a sliver of global data-centre capacity, so the "
         "leapfrog runs on rented rails: models trained, priced and governed elsewhere, "
         "payable in dollars. African languages remain a rounding error in training data, so "
         "the tools perform worst for the users who need them most. And the oldest constraint "
@@ -409,6 +467,20 @@ story += [
         "is worth more, not less. Education becomes worth more in the AI era — and the "
         "degree-as-paper worth less — at the same time. The 21.9% was always an average "
         "across both kinds of graduate; AI is prising the average apart.", body),
+    Paragraph(
+        "Three 2025–26 findings flesh out both halves. On the premium's persistence: the "
+        "OECD's latest comparison shows tertiary-educated workers in Brazil and South "
+        "Africa out-earning secondary-educated ones by more than 140%, and across 22 low- "
+        "and lower-middle-income countries the ILO finds unemployment among "
+        "tertiary-educated 15–29-year-olds FALLING 1.1 points over 2023–25 — four times "
+        "the improvement for secondary graduates. On the learning itself, the experiments "
+        "split exactly like the labour market: a Nigerian randomized evaluation of "
+        "supervised after-school AI tutoring delivered about +0.3 standard deviations in "
+        "six weeks — among the strongest cheap education interventions on record — while a "
+        "Turkish high-school experiment found students who practised with an unguarded "
+        "chatbot scored 17% WORSE on the unaided exam (a hint-giving tutor removed the "
+        "harm). Same tool, opposite outcomes, one variable: whether the human is still "
+        "doing the thinking.", body),
     Paragraph(
         "“Is university still worth it?” has different answers in London and "
         "Lagos. Where degrees are abundant, AI erodes the premium. Where degrees are "
@@ -449,6 +521,23 @@ story += [
         "becomes its de facto transformation officer, whatever the job title says. That is "
         "a promotion path no curriculum lists.", body),
 ]
+story += [
+    Paragraph("The vetting toolkit", h3),
+    Paragraph(
+        "Because \u201cchoose well\u201d is useless without a method: before paying anything, "
+        "compare three realistic programmes (including one vocational or lower-cost "
+        "route), read about 30 recent local vacancies for the occupations each leads to, "
+        "and talk to recent graduates and employers. Demand outcomes by course and year — "
+        "completion, time to first RELEVANT paid job, typical earnings — with the "
+        "denominator and response rate, because three smiling alumni can hide a cohort "
+        "that never found the profession. Stress-test the financing against twelve months "
+        "without a graduate job, using local starting-pay evidence rather than the salary "
+        "on the poster. And treat institutional AI-marketing as noise: a UNESCO survey of "
+        "200 universities across 19 Latin American and Caribbean countries found 87% using "
+        "AI somewhere but only 26% with any formal AI strategy. Ask instead how the "
+        "institution teaches AI use, examines UNAIDED competence, and trains its own "
+        "lecturers.", body),
+]
 
 # ================= 10 =================
 story += [
@@ -465,8 +554,10 @@ story += bullets([
     "<b>2. Don't train for the ladder being pulled up.</b> If BPO is the entry point "
     "available, take it — but climb immediately: quality assurance, team lead, workflow "
     "design, the parts that supervise the machine.",
-    "<b>3. Stack AI-fluency on any degree.</b> The tools are free and the multiplier "
-    "compounds for forty years. One hour a day is the cheapest career insurance ever sold.",
+    "<b>3. Stack AI-fluency on any degree — but keep unaided practice.</b> The tools "
+    "are free and the multiplier compounds for forty years. The Turkish experiment's "
+    "warning stands: students who let the chatbot do the thinking scored 17% worse "
+    "without it. Attempt first, ask for hints, verify, then solve the next one alone.",
     "<b>4. Build for a local problem before you graduate.</b> A shipped solution — however "
     "small — is a portfolio, a possible business and a visa-independent asset at once.",
     "<b>5. Treat university as network and lab, not paper.</b> The credential deflates; "
@@ -566,9 +657,10 @@ story += bullets([
     "exposure (34%/11% split, ~25% world, 3.3% highest-exposure, clerical concentration); "
     "OECD adoption surveys (20.2% of firms, 2025). Exposure measures technical potential, "
     "not realised job loss.",
-    "<b>Poverty:</b> World Bank $3.00/day (2021 PPP) line — 839 million in extreme "
-    "poverty, Sub-Saharan Africa near 46% of its population and a majority of the global "
-    "total. Line revisions changed levels, not trends.",
+    "<b>Poverty:</b> World Bank $3.00/day (2021 PPP) line, March 2026 update — 847 "
+    "million (10.4%) in 2024, model-based 10.0% nowcast for 2026; Sub-Saharan Africa near "
+    "46% of its population and a majority of the global total. Estimates are lagged model "
+    "updates, not live counts.",
     "<b>Labour markets:</b> ILO (85.3% African informality 2024; 408M global jobs gap; "
     "SSA youth unemployment ~8.4% with the insecurity caveat); AfDB (10–12M annual "
     "entrants vs ~3M formal jobs).",
@@ -579,8 +671,20 @@ story += bullets([
     "<b>Education:</b> Psacharopoulos & Patrinos, World Bank global compilation (SSA "
     "tertiary 21.9%, primary 13.4%, secondary 10.8%). Private returns estimated on past "
     "graduates; the forward-looking caveat is stated.",
-    "<b>Infrastructure:</b> IEA/World Bank — 600M Africans without electricity; Mission "
-    "300.",
+    "<b>Infrastructure and access:</b> SDG7 tracking update (June 2026) — 655M without "
+    "electricity in 2024, over 560M in Sub-Saharan Africa; Mission 300 as the response; "
+    "ITU Facts and Figures 2025 (23%/94% internet use, ~60% of low- and middle-income "
+    "countries failing the broadband affordability benchmark).",
+    "<b>2026 modelled and experimental evidence</b>, added from a member-shared dossier "
+    "whose primary citations we verified and cite: WDR 2026 automation/productivity split "
+    "(4.5%/16.2% vs 14.2%/18.7% — modelled potentials); ILO–World Bank Disruption without "
+    "Dividend (135 countries); World Bank South Asia Development Update (Lightcast "
+    "vacancies — advertised demand, not employment); KNBS Economic Survey 2026 (822,100 "
+    "Kenyan jobs in 2025, 87.2% informal); Otis et al., Management Science 2026 (Kenyan "
+    "GPT-4 RCT — null average, ~−10% weakest firms); IMF WP 2026/190; OECD Education at a "
+    "Glance 2025 (>140% premium, descriptive not causal); ILO youth trends 2026; the "
+    "Nigerian tutoring RCT (+0.3 SD, supervised) and Bastani et al., PNAS 2025 (−17% "
+    "unaided); UNESCO IESALC, ministerial and TVET publications; ITU 2025.",
     "<b>Softened or unverifiable:</b> country-level BPO automation counts; African "
     "data-centre shares (order of magnitude only); the $2/hour and $1,000–2,000 figures "
     "are journalistic and platform-reported ranges. All forward-looking sections are "
