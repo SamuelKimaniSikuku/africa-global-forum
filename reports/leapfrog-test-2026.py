@@ -125,7 +125,7 @@ def furniture(canvas, doc):
     canvas.setFillColor(MUTED)
     canvas.setFont("Helvetica", 7)
     canvas.drawString(20 * mm, 10 * mm,
-                      "africaglobalforum.com  ·  Data as at 15 September 2026  ·  Free to read and share")
+                      "africaglobalforum.com  ·  Data as at 17 September 2026  ·  Free to read and share")
     canvas.drawRightString(A4[0] - 20 * mm, 10 * mm, f"Page {doc.page}")
     canvas.restoreState()
 
@@ -290,6 +290,18 @@ story += [
         "overstated — the debate itself is the point). What gets pulled up is not Africa's "
         "existing jobs; it is Africa's NEXT jobs.", body),
     Paragraph(
+        "Update (September 2026): the warning stopped being theoretical. In India, the "
+        "largest IT firms — an industry now counting around six million workers — added "
+        "almost no net employees in the first nine months of fiscal 2026, and one major "
+        "provider made its largest-ever staff reduction: a collapse in entry-level "
+        "recruitment, not mass dismissal. In the Philippines, more than two-thirds of "
+        "BPO association members are running AI pilots, clients press for AI-driven "
+        "cost cuts, and investment has slowed. And freelance work flowing to developing "
+        "economies fell sharply in 2025 (platform data cited by the World Bank; sector "
+        "figures are industry-reported, flagged as such in Method). For Nairobi, Accra "
+        "and Kigali this is the most relevant early-warning system on earth: watch "
+        "Manila's and Bengaluru's headcounts the way farmers watch the sky.", body),
+    Paragraph(
         "One counter-current: the QJE field experiment found support agents 15% more "
         "productive with an AI assistant, the largest gains going to the least experienced — "
         "in a Philippine-staffed operation. Read one way, automation in slow motion. Read "
@@ -344,6 +356,17 @@ story += [
         "tracks earnings, hours and job quality, not a rate that can FALL when discouraged "
         "people stop searching.", body),
 ]
+story += [
+    Paragraph(
+        "The youth bulge multiplies every number here. Africa holds about 532 million "
+        "people aged 15–35, and roughly 90% of employed young Africans work informally "
+        "(Mastercard Foundation, 2026). In Eastern and Southern Africa alone, about 8 "
+        "million enter the labour market yearly and fewer than one million secure waged "
+        "jobs (World Bank). Whatever AI does to entry-level hiring lands on this cohort "
+        "— which is why the composition of losses matters more than the count: a "
+        "country can lose few jobs overall and still close the door that graduates, "
+        "and especially young women, were relying on.", body),
+]
 
 # ================= 05 =================
 story += [
@@ -378,6 +401,17 @@ story += [
         "exists — a credible estimate needs household incomes, affected occupations, "
         "replacement work, prices and transfers, and multiplying an exposure rate by a "
         "population is not it. This report refuses to invent one.", body),
+]
+story += [
+    Paragraph(
+        "And one channel the first edition under-weighted: the lost graduate job "
+        "impoverishes households even when the graduate was never poor. One salaried "
+        "earner often supports several dependants and pays siblings' school fees; when "
+        "that income falls, local-shop spending drops, remittances to rural relatives "
+        "stop, and children's education is the first cost cut. A short shock to one "
+        "person becomes a long-term loss for a family. The offsets do not reach the "
+        "same people automatically: extreme-poverty budgets are dominated by food, "
+        "fuel, rent and transport — none of which AI meaningfully cheapens.", body),
 ]
 
 # ================= 06 =================
@@ -442,6 +476,21 @@ story += [
         "Africans to electricity by 2030, is the scale required — get the leapfrog. The "
         "countries that do not will consume AI as an import, and the value will flow the way "
         "it always has.", body),
+    Paragraph(
+        "Update (September 2026) — and, for the first time in this report, a position. "
+        "The revised member dossier behind this update argues, and we agree after "
+        "checking its citations, that current evidence most resembles CONCENTRATED "
+        "GAINS in middle-income and urban economies (falling entry vacancies beside "
+        "stable experienced hiring — the South Asian postings data, India's junior "
+        "freeze and the Kenyan advice trial all point this way) combined with SLOW "
+        "ADOPTION in low-income and rural ones, with broad access confined so far to "
+        "sectors governments deliberately fund, such as health and agricultural "
+        "extension. A judgement, not a forecast — test it by watching: the ratio of "
+        "entry to experienced vacancies; median real earnings of workers under 30; BPO "
+        "and IT headcounts (and the share of outsourcing revenue from AI-augmented "
+        "versus labour-based contracts); and the poverty rate among urban households "
+        "with a tertiary-educated head — which, in the concentrated-gains future, "
+        "rises even while national poverty falls.", body),
 ]
 
 # ================= 08 =================
@@ -481,6 +530,15 @@ story += [
         "chatbot scored 17% WORSE on the unaided exam (a hint-giving tutor removed the "
         "harm). Same tool, opposite outcomes, one variable: whether the human is still "
         "doing the thinking.", body),
+    Paragraph(
+        "The certificate point, one level sharper: AI does not change the value of "
+        "knowledge; it changes the value of the certificate as a SIGNAL. When anyone "
+        "can produce a polished essay or working code in minutes, a submitted document "
+        "proves less about its author. Employers respond by raising credential "
+        "requirements or shifting to practical tests, oral examinations and portfolios "
+        "of supervised work — and both responses reward the same thing: demonstrable "
+        "competence that survives being questioned. A degree that builds that is worth "
+        "more than before; a degree that provides only the paper is worth less.", body),
     Paragraph(
         "“Is university still worth it?” has different answers in London and "
         "Lagos. Where degrees are abundant, AI erodes the premium. Where degrees are "
@@ -527,10 +585,14 @@ story += [
         "Because \u201cchoose well\u201d is useless without a method: before paying anything, "
         "compare three realistic programmes (including one vocational or lower-cost "
         "route), read about 30 recent local vacancies for the occupations each leads to, "
-        "and talk to recent graduates and employers. Demand outcomes by course and year — "
-        "completion, time to first RELEVANT paid job, typical earnings — with the "
-        "denominator and response rate, because three smiling alumni can hide a cohort "
-        "that never found the profession. Stress-test the financing against twelve months "
+        "and talk to recent graduates and employers. Then the method that works when no "
+        "outcome data is published — and in most developing-country universities none "
+        "is: find five recent graduates of each shortlisted programme and ask two "
+        "questions: what are you doing now, and how long did it take? Five honest "
+        "answers beat any brochure. Put three questions to the institution — which "
+        "employers take placements, how is UNAIDED work assessed, is the qualification "
+        "recognised by the professional body — because a vague answer is itself the "
+        "data. Stress-test the financing against twelve months "
         "without a graduate job, using local starting-pay evidence rather than the salary "
         "on the poster. And treat institutional AI-marketing as noise: a UNESCO survey of "
         "200 universities across 19 Latin American and Caribbean countries found 87% using "
@@ -538,12 +600,27 @@ story += [
         "institution teaches AI use, examines UNAIDED competence, and trains its own "
         "lecturers.", body),
 ]
+story += [
+    fig("fields.png",
+        "Fig 8 — Exposure by field: how much of each field's ENTRY-LEVEL tasks current "
+        "AI can do (dossier assessment built on World Bank task categories, vacancy "
+        "evidence and sector reporting; * = low direct, high indirect). Not a "
+        "statistical ranking.", max_h=190 * mm),
+    Paragraph(
+        "Three patterns matter more than any row. The licence is the moat — "
+        "accounting, law, health and certified trades keep the protected core even "
+        "where routine work automates. Software is safe for those who can build and "
+        "verify, not those who can only prompt — the distinction India's junior freeze "
+        "is teaching in real time. And humanities are a route problem, not a subject "
+        "problem: paired with teaching, research or a sector they work; aimed at "
+        "generic office work they walk into the two HIGH rows.", body),
+]
 
 # ================= 10 =================
 story += [
     Paragraph("10 · Ten Rules for the Class of 2030", h2),
     fig("rules.png",
-        "Fig 8 — The first five rules; the second five below. Written for the student in "
+        "Fig 9 — The first five rules; the second five below. Written for the student in "
         "the developing country — the mirror of the ten we wrote for the student leaving.",
         max_h=150 * mm),
 ]
@@ -689,6 +766,16 @@ story += bullets([
     "data-centre shares (order of magnitude only); the $2/hour and $1,000–2,000 figures "
     "are journalistic and platform-reported ranges. All forward-looking sections are "
     "analysis, not measurement.",
+    "<b>Revised-dossier additions (17 Sep):</b> WDR 2026 high-risk task categories; "
+    "Philippine/Indian sector signals via industry reporting (IBPAP pilots, India IT "
+    "~6M with near-zero net adds in FY2026's first nine months, largest-ever "
+    "reduction at one provider, 2025 fall in freelance flows) — industry-reported, "
+    "flagged as such; Mastercard Foundation Africa Youth Employment Outlook 2026 "
+    "(~532M aged 15–35, ~90% informal youth employment) and World Bank E/S-Africa "
+    "data (~8M entrants vs <1M waged); the exposure-by-field table (author "
+    "assessment); the household-transmission channel; the concentrated-gains "
+    "judgement with test indicators. The five-graduates vetting method replaces our "
+    "survey-denominator advice, which the dossier rightly calls unrealistic.",
     "<b>AI use in production:</b> drafted, charted and fact-checked with AI assistance "
     "under editorial control — the same tools it analyses. Every load-bearing number was "
     "verified against the primary source; the interpretation and errors are ours.",
