@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the AGF report PDF: The Visa Treadmill — What It Costs to Stay Legal (2026)."""
+"""Generate the AGF report PDF: The Envy Economy — Social Comparison (2026)."""
 
 import os
 from reportlab.lib.pagesizes import A4
@@ -125,7 +125,7 @@ def furniture(canvas, doc):
     canvas.setFillColor(MUTED)
     canvas.setFont("Helvetica", 7)
     canvas.drawString(20 * mm, 10 * mm,
-                      "africaglobalforum.com  ·  Data as at 31 August 2026  ·  Free to read and share")
+                      "africaglobalforum.com  ·  Research graphs updated 22 September 2026  ·  Free to read and share")
     canvas.drawRightString(A4[0] - 20 * mm, 10 * mm, f"Page {doc.page}")
     canvas.restoreState()
 
@@ -156,8 +156,8 @@ story += [
         "Every African abroad is measured in two mirrors at once: rich in the one facing home, "
         "behind in the one facing the host country — on the same salary, on the same day. This "
         "report is about the machinery inside that double reflection: the brain that prices "
-        "everything relatively, the half of humanity that would take half the salary to come "
-        "first, the neighbour's win that sends you to the moneylender — and what the science says "
+        "everything relatively, the survey respondents willing to trade income for relative "
+        "position, the neighbour's win that sends you to the moneylender — and what the science says "
         "about living between mirrors without being broken by either.", lede),
     Spacer(1, 2 * mm),
 ]
@@ -374,12 +374,19 @@ story += [
         "including yours.", body),
 ]
 
+story += [
+    PageBreak(),
+    Paragraph('07 · Research in Numbers', h2),
+    Paragraph('A 2026 meta-analysis combined <b>54 independent samples (36,583 participants)</b>. Its predominantly cross-sectional evidence links upward comparison to poorer psychological outcomes. The graph shows associations, not causal effects or percentages.', body),
+    fig('comparison-associations.png', 'Fig 7 - <link href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1825169/full" color="#C8421A">Lei et al. (2026), section 3.4</link>. Combined model; wellbeing and self-esteem reverse-coded.'),
+]
+
 # ================= 08 =================
 story += [
     PageBreak(),
     Paragraph("08 · The Price of Keeping Up", h2),
     fig("keeping_up.png",
-        "Fig 7 — The envy ledger. Comparison borrows, spends, and bills you later.",
+        "Fig 8 — The envy ledger. Comparison borrows, spends, and bills you later.",
         max_h=100 * mm),
     Paragraph(
         "If envy were only a feeling, this would be a wellness essay. It is a balance-sheet "
@@ -394,7 +401,7 @@ story += [
         "is the comparison pool; the December homecoming performance — the shipped car, the "
         "rounds for the whole bar, two weeks of display costing three months of margin; the plot "
         "bought because an age-mate bought one, unseen and gone. None of this is stupidity. When "
-        "half of humanity will pay half its income for relative position, a visible-status "
+        "respondents in that survey would trade income for relative position, a visible-status "
         "purchase is not irrational — it is just expensive. The colder question: <b>who exactly "
         "is the audience for this purchase, and what do they contribute to your actual life?</b>",
         body),
@@ -424,6 +431,10 @@ story += [
         "the only people who truly know you. The envy economy's cruellest trade: <b>both mirrors "
         "polishing their fictions at each other, both sides paying interest on images.</b>", body),
 
+    Paragraph("The employment context", h3),
+    Paragraph('Qualifications do not guarantee comparable opportunities abroad. In EU data, <b>47% of tertiary-educated immigrants were overqualified or not employed, versus 30% of native-born adults</b>. These figures cover all immigrant origins, not Africans specifically; they describe employment conditions, not envy.', body),
+    fig("employment-context.png", 'Fig 9 - <link href="https://www.oecd.org/content/dam/oecd/en/publications/support-materials/2023/06/indicators-of-immigrant-integration-2023_70d202c4/indicators-of-immigrant-integration-settling-in-main-indicators-2023-brochure.pdf" color="#C8421A">OECD/European Commission (2023), brochure p. 12</link>. The combined measure includes overqualification and non-employment.'),
+    PageBreak(),
     Paragraph("10 · The Double Bill", h2),
 ]
 story += bullets([
@@ -478,7 +489,7 @@ story += [
     PageBreak(),
     Paragraph("12 · Comparing Wisely", h2),
     fig("compare_wisely.png",
-        "Fig 8 — The rebuild. The goal is not to stop comparing — it is to choose the mirrors "
+        "Fig 10 — The rebuild. The goal is not to stop comparing — it is to choose the mirrors "
         "and the questions.", max_h=110 * mm),
     Paragraph(
         "Suppressing comparison fails; the instinct is older than language. What works is "
@@ -495,6 +506,13 @@ story += [
         "your mirror is waiting for exactly that permission. <b>And read your envy as a "
         "compass</b> — the sting marks what you actually value; sometimes it is a goal to chase, "
         "sometimes a value you have been outsourcing to other people's scoreboards.", body),
+]
+
+story += [
+    PageBreak(),
+    Paragraph('12 · A Trial in Numbers', h2),
+    Paragraph('In a trial of <b>143 undergraduates</b>, the limited-use group was assigned 10 minutes daily per platform on Facebook, Instagram and Snapchat for three weeks after a baseline week. The graph covers only participants with higher initial depressive symptoms; it does not establish a universal time limit.', body),
+    fig('social-media-trial.png', 'Fig 11 - <link href="https://www.researchgate.net/publication/328838624_No_More_FOMO_Limiting_Social_Media_Decreases_Loneliness_and_Depression" color="#C8421A">Hunt et al. (2018), pp. 761-762</link>. Subgroup baseline BDI-II &gt;= 14; not the full sample.'),
 ]
 
 # ================= 13 =================
@@ -534,7 +552,10 @@ story += [
     PageBreak(),
     Paragraph("14 · Method &amp; Limits", h2),
     Paragraph("This report combines social-comparison research, neuroscience, behavioural "
-              "economics and migration studies, as at 31 August 2026.", body),
+              "economics and migration studies. The original synthesis dates to 31 August 2026; "
+              "three sourced research graphs were added on 22 September 2026. Each identifies "
+              "its population, measure and source. None estimates the prevalence of "
+              "comparison-related distress among Africans abroad.", body),
 ]
 story += bullets([
     "<b>The core psychology is the replicated canon</b> — Festinger (1954), Tesser's "
@@ -567,7 +588,21 @@ story += bullets([
     "depression, anxiety or rumination deserves a professional conversation, not a better feed.",
 ])
 story += [
-    Paragraph("Principal sources", h3),
+    PageBreak(),
+    Paragraph("Sources &amp; Report Details", h2),
+    Paragraph("Sources for the research graphs", h3),
+    Paragraph('Fig 7: Lei, Y., Hu, S., Sun, Y., &amp; Zheng, L. (2026). '
+              '<i>“Looking up” linked to feeling down: a meta-analysis of online upward social '
+              'comparison and psychological maladjustment.</i> Frontiers in Psychology, 17, 1825169. '
+              '<link href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1825169/full" color="#C8421A">Journal article</link>.', body),
+    Paragraph('Fig 9: OECD/European Commission. (2023). <i>Indicators of Immigrant Integration '
+              '2023: Settling In.</i> Main-indicators brochure, pp. 12-13; 2021 data. '
+              '<link href="https://www.oecd.org/content/dam/oecd/en/publications/support-materials/2023/06/indicators-of-immigrant-integration-2023_70d202c4/indicators-of-immigrant-integration-settling-in-main-indicators-2023-brochure.pdf" color="#C8421A">Official brochure</link>.', body),
+    Paragraph('Fig 11: Hunt, M. G., Marx, R., Lipson, C., &amp; Young, J. (2018). '
+              '<i>No More FOMO: Limiting Social Media Decreases Loneliness and Depression.</i> '
+              'Journal of Social and Clinical Psychology, 37(10), 751-768. '
+              '<link href="https://www.researchgate.net/publication/328838624_No_More_FOMO_Limiting_Social_Media_Decreases_Loneliness_and_Depression" color="#C8421A">Author-uploaded paper</link>.', body),
+    Paragraph("Other principal sources", h3),
     Paragraph(
         "Festinger (1954), A Theory of Social Comparison Processes; Tesser (1988) on "
         "self-evaluation maintenance; Van de Ven, Zeelenberg &amp; Pieters (2009) on benign and "

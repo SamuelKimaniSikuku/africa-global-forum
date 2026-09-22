@@ -1,0 +1,36 @@
+/* Sourced research figures: scoped to this report. */
+.research-figure img { height: auto; }
+.research-data {
+  margin: -12px 0 32px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.research-data summary {
+  color: var(--rust);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 12px 0;
+}
+.research-data summary:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 4px;
+}
+.research-table-wrap { overflow-x: auto; }
+.research-data table { width: 100%; border-collapse: collapse; }
+.research-data caption { text-align: left; padding: 8px 0 12px; color: var(--rust); }
+.research-data th, .research-data td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+}
+.research-data thead { background: var(--paper-warm); }
+.research-data tbody th { font-weight: 500; }
+.research-data td { font-variant-numeric: tabular-nums; white-space: nowrap; }
+@media (max-width: 600px) {
+  .research-data { font-size: 13px; }
+  .research-data th, .research-data td { padding: 9px 6px; }
+}
+@media print {
+  .research-data { display: none; }
+}

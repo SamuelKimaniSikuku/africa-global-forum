@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="338.4pt" viewBox="0 0 576 338.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 338.4 
+L 576 338.4 
+L 576 0 
+L 0 0 
+z
+" style="fill: #f4efe6"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 172.8 243.648 
+L 524.16 243.648 
+L 524.16 104.904 
+L 172.8 104.904 
+z
+" style="fill: #f4efe6"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 172.8 243.648 
+L 172.8 104.904 
+" clip-path="url(#pc4e6ed731f)" style="fill: none; stroke: #d9cfc1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0e0b08" x="172.8" y="262.525969" transform="rotate(-0 172.8 262.525969)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 260.64 243.648 
+L 260.64 104.904 
+" clip-path="url(#pc4e6ed731f)" style="fill: none; stroke: #d9cfc1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0e0b08" x="260.64" y="262.525969" transform="rotate(-0 260.64 262.525969)">25%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 348.48 243.648 
+L 348.48 104.904 
+" clip-path="url(#pc4e6ed731f)" style="fill: none; stroke: #d9cfc1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0e0b08" x="348.48" y="262.525969" transform="rotate(-0 348.48 262.525969)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 436.32 243.648 
+L 436.32 104.904 
+" clip-path="url(#pc4e6ed731f)" style="fill: none; stroke: #d9cfc1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0e0b08" x="436.32" y="262.525969" transform="rotate(-0 436.32 262.525969)">75%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 524.16 243.648 
+L 524.16 104.904 
+" clip-path="url(#pc4e6ed731f)" style="fill: none; stroke: #d9cfc1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0e0b08" x="524.16" y="262.525969" transform="rotate(-0 524.16 262.525969)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0e0b08" x="163.8" y="147.839063" transform="rotate(-0 163.8 147.839063)">Immigrants</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0e0b08" x="163.8" y="206.879063" transform="rotate(-0 163.8 206.879063)">Native-born adults</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 172.8 129.1104 
+L 337.9392 129.1104 
+L 337.9392 157.4496 
+L 172.8 157.4496 
+z
+" clip-path="url(#pc4e6ed731f)" style="fill: #c8421a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 172.8 188.1504 
+L 278.208 188.1504 
+L 278.208 216.4896 
+L 172.8 216.4896 
+z
+" clip-path="url(#pc4e6ed731f)" style="fill: #2a3d2a"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0e0b08" x="344.9664" y="147.970938" transform="rotate(-0 344.9664 147.970938)">47%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0e0b08" x="285.2352" y="207.010938" transform="rotate(-0 285.2352 207.010938)">30%</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0e0b08" x="25.92" y="37.192875" transform="rotate(-0 25.92 37.192875)">Qualifications meet unequal conditions</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b635a" x="25.92" y="60.945825" transform="rotate(-0 25.92 60.945825)">EU adults with tertiary education  |  2021 data</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0e0b08" x="172.8" y="274.104" transform="rotate(-0 172.8 274.104)">Overqualified or not employed</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #6b635a" transform="translate(25.92 304.962922)">Source: OECD/European Commission (2023), brochure p. 12.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #6b635a" transform="translate(25.92 319.788)">All immigrant origins; labour-market context, not a measure of envy.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc4e6ed731f">
+   <rect x="172.8" y="104.904" width="351.36" height="138.744"/>
+  </clipPath>
+ </defs>
+</svg>
