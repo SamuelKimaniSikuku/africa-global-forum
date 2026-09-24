@@ -9,7 +9,7 @@
     <description>Free research from Africa Global Forum on the Africa ⇄ Abroad corridor — remittance, migration, capital, entrepreneurship, culture and industrialisation.</description>
     <language>en</language>
     <copyright>Africa Global Forum</copyright>
-    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
@@ -17,6 +17,16 @@
       <title>Africa Global Forum — Reports</title>
       <link>https://africaglobalforum.com/</link>
     </image>
+    <item>
+      <title>The Next Leap — How Developing Economies Adapted to the Internet and How AI May Change Them Next (2026)</title>
+      <link>https://africaglobalforum.com/reports/next-leap-2026/</link>
+      <guid isPermaLink="true">https://africaglobalforum.com/reports/next-leap-2026/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>How India, Brazil, Indonesia, Bangladesh, Nigeria and Kenya adapted to the internet &amp;mdash; and how AI may change growth, jobs, public services and domestic value capture next. With GDP, employment, connectivity and payment-system data.</description>
+      <dc:creator>Africa Global Forum</dc:creator>
+      <category>Technology</category>
+      <category>Economic development</category>
+    </item>
     <item>
       <title>Twenty Countries Listen. Four of Them Pay.</title>
       <link>https://africaglobalforum.com/reports/who-pays-for-african-music-2026</link>

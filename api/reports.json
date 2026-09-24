@@ -11,9 +11,20 @@
     "contact": "admin@africaglobalforum.com"
   },
   "license": "CC-BY-4.0 (attribution to Africa Global Forum)",
-  "generated": "2026-08-12T00:00:00Z",
-  "count": 43,
+  "generated": "2026-09-24T00:00:00Z",
+  "count": 44,
   "reports": [
+    {
+      "title": "The Next Leap — How Developing Economies Adapted to the Internet and How AI May Change Them Next (2026)",
+      "url": "https://africaglobalforum.com/reports/next-leap-2026/",
+      "date": "2026-09-24",
+      "type": "Article",
+      "format": "text/html",
+      "pdf": "https://africaglobalforum.com/reports/next-leap-2026.pdf",
+      "description": "How India, Brazil, Indonesia, Bangladesh, Nigeria and Kenya adapted to the internet — and how AI may change growth, jobs, public services and domestic value capture next. With GDP, employment, connectivity and payment-system data.",
+      "isAccessibleForFree": true,
+      "publisher": "Africa Global Forum"
+    },
     {
       "title": "Twenty Countries Listen. Four of Them Pay.",
       "url": "https://africaglobalforum.com/reports/who-pays-for-african-music-2026/",

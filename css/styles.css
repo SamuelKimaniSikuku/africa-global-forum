@@ -1955,5 +1955,6 @@ footer{
 .report-thumb-uncounted { background: linear-gradient(140deg, #6B2A10 0%, #C8421A 45%, #D89B2C 100%); }
 .report-thumb-algo { background: linear-gradient(140deg, #0E0B08 0%, #2A3D2A 45%, #D89B2C 100%); }
 .report-thumb-leapfrog { background: linear-gradient(140deg, #2A3D2A 0%, #C8421A 50%, #D89B2C 100%); }
+.report-thumb-next-leap { background: linear-gradient(140deg, #18362F 0%, #2A5A4A 42%, #D89B2C 100%); }
 .report-thumb-board { background: linear-gradient(140deg, #0E0B08 0%, #C8421A 45%, #B8862F 100%); }
 .report-thumb-fire { background: linear-gradient(140deg, #6B2A10 0%, #C8421A 40%, #D89B2C 100%); }
