@@ -11,9 +11,20 @@
     "contact": "admin@africaglobalforum.com"
   },
   "license": "CC-BY-4.0 (attribution to Africa Global Forum)",
-  "generated": "2026-09-24T00:00:00Z",
-  "count": 44,
+  "generated": "2026-09-28T00:00:00Z",
+  "count": 45,
   "reports": [
+    {
+      "title": "AI and African Students Abroad (2026)",
+      "url": "https://africaglobalforum.com/reports/ai-and-african-students-abroad-2026/",
+      "date": "2026-09-28",
+      "type": "Article",
+      "format": "text/html",
+      "pdf": "https://africaglobalforum.com/reports/ai-and-african-students-abroad-2026.pdf",
+      "description": "A complete guide to AI, overseas study and work for African students and families: learning, graduate jobs, visas, money, scams, unequal access and the consequences for African economies.",
+      "isAccessibleForFree": true,
+      "publisher": "Africa Global Forum"
+    },
     {
       "title": "The Next Leap — How Developing Economies Adapted to the Internet and How AI May Change Them Next (2026)",
       "url": "https://africaglobalforum.com/reports/next-leap-2026/",

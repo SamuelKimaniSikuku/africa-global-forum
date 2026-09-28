@@ -9,7 +9,7 @@
     <description>Free research from Africa Global Forum on the Africa ⇄ Abroad corridor — remittance, migration, capital, entrepreneurship, culture and industrialisation.</description>
     <language>en</language>
     <copyright>Africa Global Forum</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
@@ -17,6 +17,13 @@
       <title>Africa Global Forum — Reports</title>
       <link>https://africaglobalforum.com/</link>
     </image>
+    <item>
+      <title>AI and African Students Abroad (2026)</title><link>https://africaglobalforum.com/reports/ai-and-african-students-abroad-2026/</link><guid isPermaLink="true">https://africaglobalforum.com/reports/ai-and-african-students-abroad-2026/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <description>A complete guide to AI, overseas study and work for African students and families: learning, graduate jobs, visas, money, scams, unequal access and the consequences for African economies.</description><dc:creator>Africa Global Forum</dc:creator>
+      <category>Migration</category><category>Education</category><category>Artificial intelligence</category>
+      <enclosure url="https://africaglobalforum.com/reports/ai-and-african-students-abroad-2026.pdf" length="677419" type="application/pdf"/>
+    </item>
     <item>
       <title>The Next Leap — How Developing Economies Adapted to the Internet and How AI May Change Them Next (2026)</title>
       <link>https://africaglobalforum.com/reports/next-leap-2026/</link>
