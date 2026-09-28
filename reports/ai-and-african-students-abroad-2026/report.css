@@ -1,6 +1,11 @@
+.ai-students-report .report-back { display: flex; width: fit-content; }
+.ai-students-report .chart-download { font-family: 'Manrope', sans-serif; margin: -15px 0 45px; font-size: 14px; line-height: 1.8; }
+.ai-students-report .chart-download a, .ai-students-report .figure-open { color: var(--rust); text-decoration: underline; }
+.ai-students-report .report-figure { scroll-margin-top: 115px; }
+.ai-students-report .report-figure figcaption { font-family: 'Manrope', sans-serif; font-size: 14px; letter-spacing: 0; line-height: 1.7; text-align: left; color: #514b43; }
+.ai-students-report .figure-open { display: inline-block; margin-left: .3em; white-space: nowrap; }
 .ai-students-report .report-grid { grid-template-columns: 240px minmax(0, 1fr); gap: 60px; }
 .ai-students-report .report-body-content { min-width: 0; }
-.ai-students-report .report-back { display: flex; width: fit-content; }
 .ai-students-report .report-toc { max-height: calc(100vh - 140px); overflow-y: auto; padding-right: 10px; }
 .ai-students-report .report-toc a::before { display: none; }
 .ai-students-report .report-toc a { font-size: 13px; }
