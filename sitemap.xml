@@ -3,7 +3,7 @@
         xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/0.9">
   <url>
     <loc>https://africaglobalforum.com/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -856,4 +856,6 @@
   </url>
   <url><loc>https://africaglobalforum.com/reports/ai-and-africans-living-abroad-2026/</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://africaglobalforum.com/reports/ai-and-africans-living-abroad-2026.pdf</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026/</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026.pdf</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

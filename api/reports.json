@@ -11,9 +11,20 @@
     "contact": "admin@africaglobalforum.com"
   },
   "license": "CC-BY-4.0 (attribution to Africa Global Forum)",
-  "generated": "2026-09-28T00:00:00Z",
-  "count": 45,
+  "generated": "2026-09-29T00:00:00Z",
+  "count": 46,
   "reports": [
+    {
+      "title": "Building Family Wealth for Africans Abroad (2026)",
+      "url": "https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026/",
+      "date": "2026-09-29",
+      "type": "Article",
+      "format": "text/html",
+      "pdf": "https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026.pdf",
+      "description": "Social media, digital businesses, investments and inheritance for Africans abroad. A 31-page guide to income, ownership, risk and passing assets to children, with nine figures and 42 sources.",
+      "isAccessibleForFree": true,
+      "publisher": "Africa Global Forum"
+    },
     {
       "title": "AI and Africans Living Abroad (2026)",
       "url": "https://africaglobalforum.com/reports/ai-and-africans-living-abroad-2026/",

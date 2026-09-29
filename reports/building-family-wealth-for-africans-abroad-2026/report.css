@@ -1,0 +1,27 @@
+.family-wealth-report .report-back { display: flex; width: fit-content; }
+.family-wealth-report .chart-download { font-family: 'Manrope', sans-serif; margin: -15px 0 45px; font-size: 14px; line-height: 1.8; }
+.family-wealth-report .chart-download a, .family-wealth-report .figure-open { color: var(--rust); text-decoration: underline; }
+.family-wealth-report .report-figure { scroll-margin-top: 115px; }
+.family-wealth-report .report-figure figcaption { font-family: 'Manrope', sans-serif; font-size: 14px; letter-spacing: 0; line-height: 1.7; text-align: left; color: #514b43; }
+.family-wealth-report .figure-open { display: inline-block; margin-left: .3em; white-space: nowrap; }
+.family-wealth-report .report-grid { grid-template-columns: 240px minmax(0, 1fr); gap: 60px; }
+.family-wealth-report .report-body-content { min-width: 0; }
+.family-wealth-report .report-toc { max-height: calc(100vh - 140px); overflow-y: auto; padding-right: 10px; }
+.family-wealth-report .report-toc a::before { display: none; }
+.family-wealth-report .report-toc a { font-size: 13px; }
+.family-wealth-report .toc-number { font-family: 'JetBrains Mono', monospace; color: var(--terracotta); font-size: 10px; min-width: 18px; }
+.family-wealth-report summary { cursor: pointer; }
+.family-wealth-report .source-ref { color: var(--terracotta); white-space: nowrap; }
+.family-wealth-report .source-list { padding-left: 1.8rem; font-size: 14px; line-height: 1.65; }
+.family-wealth-report .source-list li { padding-left: .35rem; margin-bottom: 1.3rem; scroll-margin-top: 110px; }
+.family-wealth-report .source-list li:target { background: var(--paper-warm); outline: 2px solid var(--ochre); outline-offset: 5px; }
+.family-wealth-report .source-list span { display: block; margin-top: .25rem; }
+.family-wealth-report .source-list a { color: var(--rust); overflow-wrap: anywhere; }
+.family-wealth-report .table-wrap:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 3px; }
+.family-wealth-report .data-table td:first-child { min-width: 100px; }
+.family-wealth-report .report-body-content a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 3px; }
+@media (max-width: 980px) {
+ .family-wealth-report .report-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+ .family-wealth-report .report-toc { position: static; max-height: 55vh; }
+}
+@media print { .family-wealth-report .report-grid { grid-template-columns: minmax(0, 1fr); } }
