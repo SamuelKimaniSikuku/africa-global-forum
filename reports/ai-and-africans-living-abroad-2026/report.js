@@ -10,5 +10,5 @@
       else link.removeAttribute('aria-current');
     });
   }), {rootMargin: '-20% 0px -60% 0px'});
-  document.querySelectorAll('.report-body-content section').forEach(section => observer.observe(section));
+  document.querySelectorAll('.report-summary, .report-body-content section').forEach(section => observer.observe(section));
 })();

@@ -1,4 +1,18 @@
 .ai-diaspora-report .report-back { display: flex; width: fit-content; }
+.ai-diaspora-report .report-summary { max-width: 1100px; margin: 0 auto 48px; padding: clamp(24px, 4vw, 44px); background: var(--paper-warm); border-top: 3px solid var(--terracotta); scroll-margin-top: 110px; color: var(--ink); font-family: 'Manrope', sans-serif; }
+.ai-diaspora-report .summary-eyebrow { margin: 0 0 12px; font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.6; letter-spacing: .1em; text-transform: uppercase; color: var(--rust); }
+.ai-diaspora-report .report-summary h2 { margin: 0 0 18px; font-family: 'Fraunces', serif; font-size: clamp(28px, 3.5vw, 42px); font-weight: 500; line-height: 1.15; letter-spacing: -.02em; }
+.ai-diaspora-report .summary-intro { max-width: 850px; margin: 0 0 28px; font-size: 18px; line-height: 1.65; }
+.ai-diaspora-report .summary-takeaways { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 36px; padding: 0; margin: 0 0 28px; list-style: none; }
+.ai-diaspora-report .summary-takeaways li { border-top: 1px solid rgba(14, 11, 8, .18); padding-top: 16px; }
+.ai-diaspora-report .summary-takeaways h3 { margin: 0 0 8px; font-family: 'Manrope', sans-serif; font-size: 17px; font-weight: 700; line-height: 1.4; }
+.ai-diaspora-report .summary-takeaways p { margin: 0; font-size: 16px; line-height: 1.65; }
+.ai-diaspora-report .summary-action { margin: 0; padding-top: 22px; border-top: 1px solid rgba(14, 11, 8, .18); font-size: 16px; line-height: 1.7; }
+.ai-diaspora-report .summary-links { display: flex; flex-wrap: wrap; gap: 14px 28px; margin-top: 22px; }
+.ai-diaspora-report .summary-links a { color: var(--rust); font-size: 14px; font-weight: 700; line-height: 1.5; text-decoration: underline; text-underline-offset: 4px; }
+.ai-diaspora-report .report-summary a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 5px; }
+.ai-diaspora-report .report-summary .reveal { opacity: 1; transform: none; transition: none; }
+@media (max-width: 640px) { .ai-diaspora-report .summary-takeaways { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
 .ai-diaspora-report .chart-download { font-family: 'Manrope', sans-serif; margin: -15px 0 45px; font-size: 14px; line-height: 1.8; }
 .ai-diaspora-report .chart-download a, .ai-diaspora-report .figure-open { color: var(--rust); text-decoration: underline; }
 .ai-diaspora-report .report-figure { scroll-margin-top: 115px; }
