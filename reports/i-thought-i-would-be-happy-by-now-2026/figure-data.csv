@@ -1,0 +1,18 @@
+figure,category,value,unit,evidence_type,source_or_assumption
+1,Global loneliness,16,percent approximately,reported,WHO; source 6; not African-specific
+1,Racial discrimination,34,percent,reported,FRA 2022; previous 12 months; source 5
+1,Overqualification,about one-third,share,reported approximate,OECD 2023 report; varying years; source 4
+2,Four areas of arrival,,,conceptual,AGF framework; no duration or scores assigned
+3,"Housing, bills, food and transport",1950,monthly currency units,illustration,Invented example; total take-home income 3000
+3,Support for family / loved ones,300,monthly currency units,illustration,Invented example; total take-home income 3000
+3,Debt repayment,200,monthly currency units,illustration,Invented example; total take-home income 3000
+3,Provision for irregular expenses,250,monthly currency units,illustration,Invented example; total take-home income 3000
+3,"Savings, social life and other needs",300,monthly currency units,illustration,Invented example; total take-home income 3000
+4,Sleep,56,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+4,Study,40,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+4,Paid work,20,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+4,Commuting,10,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+4,Meals / personal care,14,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+4,Chores / admin / caregiving,14,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+4,Everything else,14,hours per week,illustration,Invented example; total 168; not a work-permission recommendation
+5,Four kinds of support,,,conceptual,AGF discussion tool; not a validated intervention
