@@ -1,0 +1,47 @@
+.remittance-report .report-back { display: flex; width: fit-content; }
+.remittance-report .report-summary { max-width: 1100px; margin: 0 auto 48px; padding: clamp(24px, 4vw, 44px); background: var(--paper-warm); border-top: 3px solid var(--terracotta); scroll-margin-top: 110px; color: var(--ink); font-family: 'Manrope', sans-serif; }
+.remittance-report .summary-eyebrow { margin: 0 0 12px; font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.6; letter-spacing: .1em; text-transform: uppercase; color: var(--rust); }
+.remittance-report .report-summary h2 { margin: 0 0 18px; font-family: 'Fraunces', serif; font-size: clamp(28px, 3.5vw, 42px); font-weight: 500; line-height: 1.15; letter-spacing: -.02em; }
+.remittance-report .summary-intro { max-width: 850px; margin: 0 0 28px; font-size: 18px; line-height: 1.65; }
+.remittance-report .summary-takeaways { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 36px; padding: 0; margin: 0 0 28px; list-style: none; }
+.remittance-report .summary-takeaways li { border-top: 1px solid rgba(14, 11, 8, .18); padding-top: 16px; }
+.remittance-report .summary-takeaways h3 { margin: 0 0 8px; font-family: 'Manrope', sans-serif; font-size: 17px; font-weight: 700; line-height: 1.4; }
+.remittance-report .summary-takeaways p { margin: 0; font-size: 16px; line-height: 1.65; }
+.remittance-report .summary-action { margin: 0; padding-top: 22px; border-top: 1px solid rgba(14, 11, 8, .18); font-size: 16px; line-height: 1.7; }
+.remittance-report .summary-links { display: flex; flex-wrap: wrap; gap: 14px 28px; margin-top: 22px; }
+.remittance-report .summary-links a { color: var(--rust); font-size: 14px; font-weight: 700; line-height: 1.5; text-decoration: underline; text-underline-offset: 4px; }
+.remittance-report .report-summary a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 5px; }
+.remittance-report .report-summary .reveal { opacity: 1; transform: none; transition: none; }
+@media (max-width: 640px) { .remittance-report .summary-takeaways { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
+.remittance-report .chart-download { font-family: 'Manrope', sans-serif; margin: -15px 0 45px; font-size: 14px; line-height: 1.8; }
+.remittance-report .chart-download a, .remittance-report .figure-open { color: var(--rust); text-decoration: underline; }
+.remittance-report .report-figure { scroll-margin-top: 115px; }
+.remittance-report .report-figure figcaption { font-family: 'Manrope', sans-serif; font-size: 14px; letter-spacing: 0; line-height: 1.7; text-align: left; color: #514b43; }
+.remittance-report .figure-open { display: inline-block; margin-left: .3em; white-space: nowrap; }
+.remittance-report .report-grid { grid-template-columns: 240px minmax(0, 1fr); gap: 60px; }
+.remittance-report .report-body-content { min-width: 0; }
+.remittance-report .report-toc { max-height: calc(100vh - 140px); overflow-y: auto; padding-right: 10px; }
+.remittance-report .report-toc a::before { display: none; }
+.remittance-report .report-toc a { font-size: 13px; }
+.remittance-report .toc-number { font-family: 'JetBrains Mono', monospace; color: var(--terracotta); font-size: 10px; min-width: 18px; }
+.remittance-report summary { cursor: pointer; }
+.remittance-report .source-ref { color: var(--terracotta); white-space: nowrap; }
+.remittance-report .source-list { padding-left: 1.8rem; font-size: 14px; line-height: 1.65; }
+.remittance-report .source-list li { padding-left: .35rem; margin-bottom: 1.3rem; scroll-margin-top: 110px; }
+.remittance-report .source-list li:target { background: var(--paper-warm); outline: 2px solid var(--ochre); outline-offset: 5px; }
+.remittance-report .source-list span { display: block; margin-top: .25rem; }
+.remittance-report .source-list a { color: var(--rust); overflow-wrap: anywhere; }
+.remittance-report .table-wrap:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 3px; }
+.remittance-report .data-table td:first-child { min-width: 100px; }
+.remittance-report .report-body-content a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 3px; }
+@media (max-width: 980px) {
+ .remittance-report .report-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+ .remittance-report .report-toc { position: static; max-height: 55vh; }
+}
+@media print { .remittance-report .report-grid { grid-template-columns: minmax(0, 1fr); } }
+
+.remittance-report .report-summary > p:not(.summary-eyebrow) { margin: 0 0 17px; font-size: 16px; line-height: 1.75; }
+.remittance-report .report-summary > p:last-child { margin-bottom: 0; }
+.remittance-report .report-figure h3 { font-size: 18px; margin: 0 0 14px; }
+.remittance-report .report-summary .source-ref { font-size: 13px; }
+.remittance-report .report-body-content .report-figure { margin-left: 0; margin-right: 0; }

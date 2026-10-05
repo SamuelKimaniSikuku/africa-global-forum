@@ -1,0 +1,76 @@
+figure,series,period_or_category,value,units,type
+1,Remitly global send volume,2024,54.6,USD billions,reported; source 6
+1,Remitly global send volume,2025,74.9,USD billions,reported; source 6
+2,Cost to send USD 200,Global,6.36,percent,Q3 2025; source 2
+2,Cost to send USD 200,Sub-Saharan Africa,8.46,percent,Q3 2025; source 2
+2,Cost to send USD 200,Digital global,4.59,percent,Q3 2025; source 2
+2,Cost to send USD 200,Non-digital global,7.3,percent,Q3 2025; source 2
+3,Annual commitment,Original monthly plan,3600,currency units,illustration
+3,Annual commitment,Including weekly extras,4900,currency units,illustration
+3,Annual commitment,Including annual bill,5500,currency units,illustration
+4,Currency outcome,Starting capital,1000,EUR,illustration
+4,Currency outcome,After 20% local return if exchange rate stayed fixed,1200,EUR,illustration
+4,Currency outcome,After currency conversion at the assumed later rate,960,EUR,illustration
+5,0% annual effective net,0,0,currency units,illustration
+5,0% annual effective net,1,1200,currency units,illustration
+5,0% annual effective net,2,2400,currency units,illustration
+5,0% annual effective net,3,3600,currency units,illustration
+5,0% annual effective net,4,4800,currency units,illustration
+5,0% annual effective net,5,6000,currency units,illustration
+5,0% annual effective net,6,7200,currency units,illustration
+5,0% annual effective net,7,8400,currency units,illustration
+5,0% annual effective net,8,9600,currency units,illustration
+5,0% annual effective net,9,10800,currency units,illustration
+5,0% annual effective net,10,12000,currency units,illustration
+5,0% annual effective net,11,13200,currency units,illustration
+5,0% annual effective net,12,14400,currency units,illustration
+5,0% annual effective net,13,15600,currency units,illustration
+5,0% annual effective net,14,16800,currency units,illustration
+5,0% annual effective net,15,18000,currency units,illustration
+5,0% annual effective net,16,19200,currency units,illustration
+5,0% annual effective net,17,20400,currency units,illustration
+5,0% annual effective net,18,21600,currency units,illustration
+5,0% annual effective net,19,22800,currency units,illustration
+5,0% annual effective net,20,24000,currency units,illustration
+5,3% annual effective net,0,0.0,currency units,illustration
+5,3% annual effective net,1,1216.41,currency units,illustration
+5,3% annual effective net,2,2469.32,currency units,illustration
+5,3% annual effective net,3,3759.81,currency units,illustration
+5,3% annual effective net,4,5089.01,currency units,illustration
+5,3% annual effective net,5,6458.1,currency units,illustration
+5,3% annual effective net,6,7868.25,currency units,illustration
+5,3% annual effective net,7,9320.71,currency units,illustration
+5,3% annual effective net,8,10816.74,currency units,illustration
+5,3% annual effective net,9,12357.66,currency units,illustration
+5,3% annual effective net,10,13944.8,currency units,illustration
+5,3% annual effective net,11,15579.56,currency units,illustration
+5,3% annual effective net,12,17263.35,currency units,illustration
+5,3% annual effective net,13,18997.67,currency units,illustration
+5,3% annual effective net,14,20784.01,currency units,illustration
+5,3% annual effective net,15,22623.94,currency units,illustration
+5,3% annual effective net,16,24519.07,currency units,illustration
+5,3% annual effective net,17,26471.06,currency units,illustration
+5,3% annual effective net,18,28481.6,currency units,illustration
+5,3% annual effective net,19,30552.46,currency units,illustration
+5,3% annual effective net,20,32685.44,currency units,illustration
+5,5% annual effective net,0,0.0,currency units,illustration
+5,5% annual effective net,1,1227.26,currency units,illustration
+5,5% annual effective net,2,2515.88,currency units,illustration
+5,5% annual effective net,3,3868.93,currency units,illustration
+5,5% annual effective net,4,5289.63,currency units,illustration
+5,5% annual effective net,5,6781.37,currency units,illustration
+5,5% annual effective net,6,8347.7,currency units,illustration
+5,5% annual effective net,7,9992.34,currency units,illustration
+5,5% annual effective net,8,11719.22,currency units,illustration
+5,5% annual effective net,9,13532.44,currency units,illustration
+5,5% annual effective net,10,15436.32,currency units,illustration
+5,5% annual effective net,11,17435.39,currency units,illustration
+5,5% annual effective net,12,19534.42,currency units,illustration
+5,5% annual effective net,13,21738.4,currency units,illustration
+5,5% annual effective net,14,24052.57,currency units,illustration
+5,5% annual effective net,15,26482.46,currency units,illustration
+5,5% annual effective net,16,29033.84,currency units,illustration
+5,5% annual effective net,17,31712.79,currency units,illustration
+5,5% annual effective net,18,34525.69,currency units,illustration
+5,5% annual effective net,19,37479.23,currency units,illustration
+5,5% annual effective net,20,40580.45,currency units,illustration

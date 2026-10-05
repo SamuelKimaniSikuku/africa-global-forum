@@ -9,7 +9,7 @@
     <description>Free research from Africa Global Forum on the Africa ⇄ Abroad corridor — remittance, migration, capital, entrepreneurship, culture and industrialisation.</description>
     <language>en</language>
     <copyright>Africa Global Forum</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
     <image>
@@ -17,6 +17,7 @@
       <title>Africa Global Forum — Reports</title>
       <link>https://africaglobalforum.com/</link>
     </image>
+    <item><title>Remittance Apps and Black Tax (2026)</title><link>https://africaglobalforum.com/reports/remittance-apps-and-black-tax-2026/</link><guid isPermaLink="true">https://africaglobalforum.com/reports/remittance-apps-and-black-tax-2026/</guid><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><description>How remittance apps can reinforce financial obligations, and how African families can support loved ones while building savings, retirement security and investments. Seven country guides, five charts and 28 sources.</description><dc:creator>Africa Global Forum</dc:creator><category>Money</category><category>Remittances</category><category>Investing</category><enclosure url="https://africaglobalforum.com/reports/remittance-apps-and-black-tax-2026.pdf" length="488250" type="application/pdf"/></item>
     <item>
       <title>Building Family Wealth for Africans Abroad (2026)</title><link>https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026/</link><guid isPermaLink="true">https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026/</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>

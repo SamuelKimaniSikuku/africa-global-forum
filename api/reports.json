@@ -11,9 +11,20 @@
     "contact": "admin@africaglobalforum.com"
   },
   "license": "CC-BY-4.0 (attribution to Africa Global Forum)",
-  "generated": "2026-09-29T00:00:00Z",
-  "count": 46,
+  "generated": "2026-10-05T10:05:49Z",
+  "count": 47,
   "reports": [
+    {
+      "title": "Remittance Apps and Black Tax (2026)",
+      "url": "https://africaglobalforum.com/reports/remittance-apps-and-black-tax-2026/",
+      "date": "2026-10-05",
+      "type": "Article",
+      "format": "text/html",
+      "pdf": "https://africaglobalforum.com/reports/remittance-apps-and-black-tax-2026.pdf",
+      "description": "How remittance apps can reinforce financial obligations, and how African families can support loved ones while building savings, retirement security and investments. Seven country guides, five charts and 28 sources.",
+      "isAccessibleForFree": true,
+      "publisher": "Africa Global Forum"
+    },
     {
       "title": "Building Family Wealth for Africans Abroad (2026)",
       "url": "https://africaglobalforum.com/reports/building-family-wealth-for-africans-abroad-2026/",

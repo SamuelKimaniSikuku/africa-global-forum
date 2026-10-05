@@ -1,0 +1,198 @@
+[
+  {
+    "number": 1,
+    "organisation": "Development Southern Africa",
+    "title": "Black Tax: Understanding the financial transfers of the emerging black middle class",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/0376835X.2018.1516545",
+    "note": "2018. Publisher abstract; questionnaire of 118 people and six interviews in South Africa. Not a representative African diaspora survey or an app-impact study."
+  },
+  {
+    "number": 2,
+    "organisation": "World Bank",
+    "title": "Remittance Prices Worldwide, Issue 54",
+    "url": "https://remittanceprices.worldbank.org/sites/default/files/2026-04/RPW_main_report_and_annex_Q325.pdf",
+    "note": "Q3 2025 observations, accessed October 2026. Average cost of sending USD 200. Regional and service-type samples differ; these are not current individual quotes."
+  },
+  {
+    "number": 3,
+    "organisation": "Sendwave",
+    "title": "International money transfer homepage",
+    "url": "https://www.sendwave.com/en-us",
+    "note": "Public marketing checked 5 October 2026. Documents love/family framing and speed claims; neither a service test nor evidence of psychological harm."
+  },
+  {
+    "number": 4,
+    "organisation": "Wise",
+    "title": "What are scheduled transfers?",
+    "url": "https://wise.com/help/articles/2978063/what-are-scheduled-transfers",
+    "note": "Help documentation checked 5 October 2026. Describes frequency, end dates and execution-time exchange rates. Availability depends on account and currency."
+  },
+  {
+    "number": 5,
+    "organisation": "Remitly",
+    "title": "2025 Annual Report",
+    "url": "https://ir.remitly.com/static-files/809a2a3d-4288-4a74-8c47-43a7f0f7d919",
+    "note": "Company filing for 2025. Explains transaction fees and foreign-exchange spreads. Establishes business incentives, not abusive intent."
+  },
+  {
+    "number": 6,
+    "organisation": "Remitly",
+    "title": "Fourth quarter and full year 2025 results",
+    "url": "https://ir.remitly.com/news-releases/news-release-details/remitly-reports-fourth-quarter-and-full-year-2025-results-above",
+    "note": "18 February 2026. Global company-reported send volume and revenue; not African remittances, family-support expenditure or household outcomes."
+  },
+  {
+    "number": 7,
+    "organisation": "Ambler, Aycinena and Yang",
+    "title": "Remittance Responses to Temporary Discounts",
+    "url": "https://sites.lsa.umich.edu/deanyang/wp-content/uploads/sites/205/2014/12/ambler-aycinena-yang-remittance-price-1.pdf",
+    "note": "September 2014 research paper. Randomised 10-week fee discounts for Salvadoran and Guatemalan migrants. Persistence observed up to 20 weeks after expiry; not a study of African app users."
+  },
+  {
+    "number": 8,
+    "organisation": "J-PAL",
+    "title": "Testing Commitment Devices for Remittances among Filipino Migrants in Rome",
+    "url": "https://www.povertyactionlab.org/evaluation/testing-commitment-devices-remittances-among-filipino-migrants-rome",
+    "note": "Research summary of a lab-in-the-field experiment and product take-up. The over-15% labeling result concerns experimental remittance choices, not an Africa-wide effect."
+  },
+  {
+    "number": 9,
+    "organisation": "Innovations for Poverty Action",
+    "title": "The Impacts of Labeling Remittances on Migrants and Their Households in the Philippines",
+    "url": "https://poverty-action.org/study/impacts-labeling-remittances-migrants-and-their-households-philippines",
+    "note": "2018-2020 evaluation: 4,458 Filipino migrants in the UAE and 2,075 recipient households. Responses differed by baseline remittance activity."
+  },
+  {
+    "number": 10,
+    "organisation": "Ashraf, Aycinena, Martinez and Yang",
+    "title": "Savings in Transnational Households: A Field Experiment",
+    "url": "https://www.povertyactionlab.org/sites/default/files/research-paper/125_304%20Savings%20in%20El%20Salvador%20Published.pdf",
+    "note": "Study of Salvadoran transnational households. More migrant control raised savings at the partner bank; authors caution against assuming that control necessarily improves household welfare."
+  },
+  {
+    "number": 11,
+    "organisation": "US Securities and Exchange Commission",
+    "title": "Beginners guide to asset allocation, diversification and rebalancing",
+    "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset",
+    "note": "General principles on horizon, risk and diversification. US source; does not establish local eligibility or tax treatment for African or diaspora investors."
+  },
+  {
+    "number": 12,
+    "organisation": "US Securities and Exchange Commission",
+    "title": "Save for a rainy day",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/save-rainy-day",
+    "note": "Emergency-savings guidance. Deposit protection and account eligibility must be checked in the actual jurisdiction; no US coverage rule is generalised here."
+  },
+  {
+    "number": 13,
+    "organisation": "Central Bank of Kenya",
+    "title": "DhowCSD frequently asked questions",
+    "url": "https://www.centralbank.go.ke/wp-content/uploads/2025/12/DhowCSD-Frequently-Asked-Questions.pdf",
+    "note": "December 2025. Account-opening requirements and government-securities access. Auction notices control product-specific minimums and terms."
+  },
+  {
+    "number": 14,
+    "organisation": "Capital Markets Authority Kenya",
+    "title": "Licensees and approved schemes",
+    "url": "https://licensees.cma.or.ke/",
+    "note": "Live regulatory directory checked 5 October 2026. Verify the exact legal entity and scheme; registration does not guarantee returns."
+  },
+  {
+    "number": 15,
+    "organisation": "Debt Management Office Nigeria",
+    "title": "FGN Savings Bond subscription portal questions",
+    "url": "https://subscribedmo.dmo.gov.ng/page-beneficiary",
+    "note": "Checked 5 October 2026. NGN 5,000 minimum, two- and three-year offerings, CSCS account and quarterly coupons. Incomplete tax answers on the portal were not relied upon."
+  },
+  {
+    "number": 16,
+    "organisation": "Securities and Exchange Commission Nigeria",
+    "title": "Find a registered operator",
+    "url": "https://sec.gov.ng/for-investors/find-a-registered-operator/",
+    "note": "Directory checked 5 October 2026. Authorisation is activity-specific; confirm the scheme and custody arrangements separately."
+  },
+  {
+    "number": 17,
+    "organisation": "Securities and Exchange Commission Ghana",
+    "title": "Licensed mutual funds",
+    "url": "https://licensees.sec.gov.gh/licensees/MutualFunds.php",
+    "note": "Directory checked 5 October 2026, including fund managers and custodians/trustees. A listing is not a return or liquidity guarantee."
+  },
+  {
+    "number": 18,
+    "organisation": "Bank of Ghana",
+    "title": "Requirements and responsibilities of primary dealers and bond market specialists",
+    "url": "https://www.bog.gov.gh/notice/requirements-and-responsibilities-of-primary-dealers-and-bond-market-specialists/",
+    "note": "Notice displayed 17 September 2026. Describes authorised wholesale-auction participation. Individuals should establish their own eligible access route with a regulated institution."
+  },
+  {
+    "number": 19,
+    "organisation": "National Treasury South Africa",
+    "title": "About RSA Retail Savings Bonds",
+    "url": "https://secure.rsaretailbonds.gov.za/about.aspx",
+    "note": "Checked 5 October 2026. Eligible citizens/permanent residents need a valid South African identity number and a South African bank account. Product terms and early access differ."
+  },
+  {
+    "number": 20,
+    "organisation": "Financial Sector Conduct Authority South Africa",
+    "title": "Regulated entities",
+    "url": "https://www.fsca.co.za/Regulated-Entities/?collapse=collapseSupervisory&subCollapse=subCollapseSevenSupervisory",
+    "note": "Checked 5 October 2026. Includes collective investment schemes and regulated intermediaries. Does not settle an individual investor's tax residency."
+  },
+  {
+    "number": 21,
+    "organisation": "AMMC Morocco",
+    "title": "Collective investment funds (OPCVM)",
+    "url": "https://www.ammc.ma/fr/instruments-financiers/opcvm",
+    "note": "Official fund information and listings checked 5 October 2026. Review the information document, asset class, dealing frequency and charges."
+  },
+  {
+    "number": 22,
+    "organisation": "Office des Changes Morocco",
+    "title": "Instruction generale des operations de change 2026",
+    "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026_0.pdf",
+    "note": "2026 rules, notably articles 170-173. Foreign-currency funding and supporting conditions matter for investment transfer rights; no blanket promise for all accounts."
+  },
+  {
+    "number": 23,
+    "organisation": "UMOA-Titres",
+    "title": "Investing as an individual",
+    "url": "https://www.umoatitres.org/fr/particuliers/",
+    "note": "Checked 5 October 2026. Government securities through securities accounts with approved UEMOA banks or SGIs; individual issue notices set terms."
+  },
+  {
+    "number": 24,
+    "organisation": "BRVM",
+    "title": "How to invest in the BRVM",
+    "url": "https://www.brvm.org/en/node/64688",
+    "note": "Official investor guidance checked 5 October 2026. Securities account and authorised intermediary required; SGIs trade listed securities."
+  },
+  {
+    "number": 25,
+    "organisation": "Banque Misr",
+    "title": "Open Your Account in Egypt initiative for Egyptians working abroad",
+    "url": "https://www.banquemisr.com/en/Home/ABOUT-US/News/Banque-Misr-Participates-in-the-Open-Your-Account-in-Egypt-Initiative-for-Egyptians-Working-Abroad",
+    "note": "26 October 2025 announcement. Selected embassy/consulate routes, identity documents and banking services; current participation and eligibility require confirmation."
+  },
+  {
+    "number": 26,
+    "organisation": "Financial Regulatory Authority Egypt",
+    "title": "Capital market investor information",
+    "url": "https://fra.gov.eg/en/%D9%82%D8%B7%D8%A7%D8%B9-%D8%B3%D9%88%D9%82-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D9%85%D8%A7%D9%84/",
+    "note": "Checked 5 October 2026. Licensed brokers and investment-fund managers; independent registration checks remain necessary."
+  },
+  {
+    "number": 27,
+    "organisation": "MoneyHelper",
+    "title": "Workplace pensions",
+    "url": "https://www.moneyhelper.org.uk/en/pensions-and-retirement/pensions-basics/workplace-pensions",
+    "note": "UK guidance checked 5 October 2026. Illustrates employer contributions and pension features; not a universal rule for all destination countries."
+  },
+  {
+    "number": 28,
+    "organisation": "IFAD",
+    "title": "Remittances nearly doubled in a decade to reach USD 729 billion in 2025",
+    "url": "https://www.ifad.org/en/w/news/remittances-nearly-doubled-in-a-decade-to-reach-us-729-billion-in-2025-new-ifad-report-finds",
+    "note": "14 September 2026 release. USD 728.6 billion in 2025 refers to all low- and middle-income countries, not Africa alone."
+  }
+]
