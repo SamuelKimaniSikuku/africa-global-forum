@@ -3,7 +3,7 @@
         xmlns:image="http://www.sitemaps.org/schemas/sitemap-image/0.9">
   <url>
     <loc>https://africaglobalforum.com/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -862,4 +862,6 @@
   <url><loc>https://africaglobalforum.com/reports/remittance-apps-and-black-tax-2026.pdf</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://africaglobalforum.com/reports/i-thought-i-would-be-happy-by-now-2026/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://africaglobalforum.com/reports/i-thought-i-would-be-happy-by-now-2026.pdf</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://africaglobalforum.com/reports/change-without-losing-yourself-2026/</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://africaglobalforum.com/reports/change-without-losing-yourself-2026.pdf</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

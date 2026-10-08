@@ -1,0 +1,16 @@
+figure,category,value,unit,evidence_type,source_or_assumption
+cover,"Preserve, practise, reshape",,,conceptual,Original AGF framing
+1,Person and surrounding conditions,,,conceptual,AGF diagram informed by sources 1 and 2; not a validated instrument
+2,Sleep,56,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
+2,Work or study,45,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
+2,Commuting,10,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
+2,Meals / personal care,21,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
+2,Care / chores / administration,22,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
+2,Unallocated time,14,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
+3,Immigrants,47,percent,reported,"Source 5; EU highly educated, overqualified OR not in employment; 2023 report, not 2026 data"
+3,Native-born peers,30,percent,reported,"Source 5; EU highly educated, overqualified OR not in employment; 2023 report, not 2026 data"
+4,Minimum estimate,18,days,reported,"Source 4; modelled automaticity for simple behaviours, not migration"
+4,Maximum estimate,254,days,reported,"Source 4; modelled automaticity for simple behaviours, not migration"
+4,Observation window,84,days,reported,"Source 4; modelled automaticity for simple behaviours, not migration"
+5,"Name, prepare, try, review",,,planning suggestion,Original AGF tool informed by sources 2 and 15; not an evaluated intervention
+6,90-day plan,90,days,planning suggestion,Original AGF tool; no guaranteed timetable
