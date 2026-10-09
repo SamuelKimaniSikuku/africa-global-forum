@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T20:23:46.658984</dc:date>
+    <dc:date>2026-10-09T21:05:51.349976</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 17.47215 21.428352 17.47215 24.338952
 L 17.47215 102.808728 
 Q 17.47215 105.719328 20.6109 105.719328 
 z
-" clip-path="url(#p7d6fe3b4a3)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
+" clip-path="url(#pb2852c824c)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 146.1609 105.719328 
@@ -53,7 +53,7 @@ Q 143.02215 21.428352 143.02215 24.338952
 L 143.02215 102.808728 
 Q 143.02215 105.719328 146.1609 105.719328 
 z
-" clip-path="url(#p7d6fe3b4a3)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
+" clip-path="url(#pb2852c824c)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 271.7109 105.719328 
@@ -66,7 +66,7 @@ Q 268.57215 21.428352 268.57215 24.338952
 L 268.57215 102.808728 
 Q 268.57215 105.719328 271.7109 105.719328 
 z
-" clip-path="url(#p7d6fe3b4a3)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
+" clip-path="url(#pb2852c824c)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 397.2609 105.719328 
@@ -79,7 +79,7 @@ Q 394.12215 21.428352 394.12215 24.338952
 L 394.12215 102.808728 
 Q 394.12215 105.719328 397.2609 105.719328 
 z
-" clip-path="url(#p7d6fe3b4a3)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
+" clip-path="url(#pb2852c824c)" style="fill: #ffffff; stroke: #ded7cc; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- NAME -->
@@ -1101,7 +1101,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p7d6fe3b4a3">
+  <clipPath id="pb2852c824c">
    <rect x="15.84" y="15.84" width="502.2" height="116.424"/>
   </clipPath>
  </defs>

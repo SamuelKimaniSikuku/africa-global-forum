@@ -45,3 +45,4 @@
 .change-report .report-figure h3 { font-size: 18px; margin: 0 0 14px; }
 .change-report .report-summary .source-ref { font-size: 13px; }
 .change-report .report-body-content .report-figure { margin-left: 0; margin-right: 0; }
+.change-report .source-list { overflow-wrap: anywhere; }
