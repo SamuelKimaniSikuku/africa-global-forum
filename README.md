@@ -212,3 +212,18 @@ Modern evergreen browsers (Chrome, Firefox, Safari, Edge — last 2 versions). U
 ## Contributing
 
 PRs welcome. Keep it simple — no build tools, no frameworks. The whole point is that this is a static site anyone can edit.
+
+## AGF Videos
+
+The video landing page lives at `/videos/` in `videos/index.html`. Its homepage feature is the `#videos` section of `index.html`; both use `css/videos.css`. Main navigation, the footer, structured navigation data and `sitemap.xml` link to the page.
+
+The launch page accurately says **Coming soon**. The topic cards link to existing reports; they are not published episodes. Guest suggestions use the founder's existing email address.
+
+When the first video is ready:
+
+1. Replace the launch state with the real video title, description, thumbnail and verified watch URL. Add a keyboard-accessible play control if embedding a player; load third-party players only on interaction and never autoplay on page load.
+2. Include captions on the hosting platform and a transcript or written summary alongside the video.
+3. Update the homepage feature and page descriptions to reflect the actual release. Add `VideoObject` metadata only for real published videos, with accurate dates and durations.
+4. Add the verified channel link when available; update the launch status in `llms.txt` and the page's `lastmod` in `sitemap.xml`.
+
+Preview with a local HTTP server. Check both desktop and mobile layouts, navigation (including Escape to close the menu), video playback once available, and report links before publishing.
