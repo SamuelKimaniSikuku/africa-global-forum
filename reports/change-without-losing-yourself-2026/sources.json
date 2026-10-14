@@ -1,198 +1,142 @@
 [
   {
     "number": 1,
-    "organisation": "Solved with Mark Manson",
-    "title": "Your guide to Change / Change, Solved. (2026)",
-    "url": "https://solvedpodcast.com/change/",
-    "note": "Reader-supplied SOLVED-Change-Guide.pdf, 82 physical pages. Conceptual starting point, especially physical pages 14-18, 27-31, 41-44, 48-53 and 65-81. The guide describes its three-layer model as a simplification of personality research. This AGF report is an independent adaptation, not an endorsement by Solved."
+    "organisation": "Samuel Kimani Sikuku",
+    "title": "Two supplied migration drafts",
+    "url": "",
+    "note": "Why Moving Abroad Can Feel So Hard Substack Draft and Moving Abroad and Coping With Change. Same body; editorial framing, not independent research."
   },
   {
     "number": 2,
-    "organisation": "Michie, S., van Stralen, M. M. and West, R. (2011)",
-    "title": "The behaviour change wheel: A new method for characterising and designing behaviour change interventions",
-    "url": "https://doi.org/10.1186/1748-5908-6-42",
-    "note": "Implementation Science, 6, 42. Introduces COM-B: capability, opportunity and motivation as conditions for behaviour. A framework for analysing behaviour, not proof that the exercises in this report improve migrant outcomes."
+    "organisation": "Reader-supplied compilation",
+    "title": "Change Examples",
+    "url": "",
+    "note": "Thirteen pages. Selected, unverified online accounts and notes on Suzuki, Bonanno and Shankar; not a representative sample."
   },
   {
     "number": 3,
-    "organisation": "Roberts, B. W. et al. (2017)",
-    "title": "A systematic review of personality trait change through intervention",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/",
-    "note": "Psychological Bulletin, 143(2), 117-141. Review of 207 studies, primarily clinical interventions. Changes in trait measures were observed; designs and populations varied. Does not establish a universal timetable or guarantee change from self-help."
+    "organisation": "WHO (2025)",
+    "title": "Refugee and migrant mental health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-mental-health",
+    "note": "Conditions, access to services and community support across diverse migrant populations."
   },
   {
     "number": 4,
-    "organisation": "Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W. and Wardle, J. (2010)",
-    "title": "How are habits formed: Modelling habit formation in the real world",
-    "url": "https://doi.org/10.1002/ejsp.674",
-    "note": "European Journal of Social Psychology, 40, 998-1009; first published online in 2009. 96 volunteers, 12 weeks; 82 provided sufficient data, models fitted for 62 and fitted well for 39. The 18-254-day range concerns modelled time to 95% of an automaticity plateau, not observed completion of life transitions."
+    "organisation": "John Cacioppo / Big Think",
+    "title": "How to cope with loneliness",
+    "url": "https://bigthink.com/videos/john-cacioppo-on-how-to-cope-with-loneliness/",
+    "note": "Read alongside the supplied nine-page Loneliness and Human Connection compilation of six interviews."
   },
   {
     "number": 5,
-    "organisation": "OECD / European Commission (2023)",
-    "title": "Indicators of Immigrant Integration 2023: Settling In, section 3.12",
-    "url": "https://www.oecd.org/en/publications/2023/06/indicators-of-immigrant-integration-2023_70d202c4/full-report/component-8.html",
-    "note": "EU-wide, 47% of highly educated immigrants were overqualified or not in employment, compared with 30% of native-born peers. Combined indicator; not an unemployment rate, not an African-specific estimate and not 2026 data. The report primarily describes conditions around 2021, with source-year variation."
+    "organisation": "WHO (2025)",
+    "title": "Social connection",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+    "note": "Distinguishes social isolation, loneliness and relationship quality."
   },
   {
     "number": 6,
-    "organisation": "World Health Organization (2023)",
-    "title": "Mental health of refugees and migrants: risk and protective factors and access to care",
-    "url": "https://www.who.int/publications/i/item/9789240081840",
-    "note": "Global Evidence Review on Health and Migration. Reviews identity, community, security, adversity, cultural understandings and access to care. Diverse migrant and refugee populations; circumstances and service availability differ."
+    "organisation": "Solved with Mark Manson (2026)",
+    "title": "Change",
+    "url": "https://solvedpodcast.com/change/",
+    "note": "Supplied 82-page SOLVED Change Guide and 451-page Change Solve transcript. Practical concepts; unsupported absolutes and sponsor claims excluded."
   },
   {
     "number": 7,
-    "organisation": "World Health Organization (2022)",
-    "title": "World report on the health of refugees and migrants",
-    "url": "https://www.who.int/publications/i/item/9789240054462",
-    "note": "Documents legal, administrative, language, financial and discrimination-related barriers affecting health and access. Supports attention to institutions and conditions, rather than attributing difficulties solely to personal motivation."
+    "organisation": "Roberts et al. (2017)",
+    "title": "A systematic review of personality trait change through intervention",
+    "url": "https://doi.org/10.1037/bul0000088",
+    "note": "207 studies, mainly clinical interventions. Changes in trait measures do not establish a universal self-help prescription."
   },
   {
     "number": 8,
-    "organisation": "Letsoalo, T. S., Chigeza, S. and Wilson Fadiji, A. (2024)",
-    "title": "An exploration of the relational well-being of African international students at a South African university",
-    "url": "https://doi.org/10.20853/38-4-5745",
-    "note": "South African Journal of Higher Education, 38(4). Qualitative interviews with 16 students at one university. Highlights relationships and institutional spaces; an account of experiences, not a representative prevalence estimate or causal trial."
+    "organisation": "Laajaj et al. (2019)",
+    "title": "Challenges to capture the Big Five personality traits in non-WEIRD populations",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31309152/",
+    "note": "Measurement and administration challenges; not evidence that any population lacks personality traits."
   },
   {
     "number": 9,
-    "organisation": "International Organization for Migration (2024)",
-    "title": "World Migration Report 2024: Chapter 3 key findings",
-    "url": "https://worldmigrationreport.iom.int/sites/g/files/tmzbdl1691/files/documents/2024-05/wmr2024-key-findings-ch3-en.pdf",
-    "note": "Reports approximately 21 million intraregional international migrants in Africa in 2020 using UN DESA data. Historical stock, not annual migration, not all African migration and not a current 2026 count."
-  },
-  {
-    "number": 10,
-    "organisation": "Miao, F. and Holmes, W. / UNESCO (2023)",
-    "title": "Guidance for generative AI in education and research",
-    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-    "note": "Guidance on human agency, privacy and responsible educational use. Supports the safeguards in the technology section; the practical prompts are original AGF suggestions, not evaluated interventions."
-  },
-  {
-    "number": 11,
-    "organisation": "Solved with Mark Manson, reader-supplied transcript",
-    "title": "Change episode: Change - Solve.pdf",
-    "url": "https://solvedpodcast.com/change/",
-    "note": "451 physical pages, supplied by the reader. Relevant passages: pp. 93-109 on labels; 169-177 and 198-213 on learned patterns and their consequences; 265-269 on checklists; 289-295 on starting small; 418-435 on relationships and maintenance; 440-448 on reasons for change. Transcription errors, anecdotes and sponsor messages are not treated as research evidence. Concepts are independently adapted and checked where used."
-  },
-  {
-    "number": 12,
-    "organisation": "Soto, C. J. and John, O. P. (2017)",
-    "title": "The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power",
-    "url": "https://doi.org/10.1037/pspp0000096",
-    "note": "Journal of Personality and Social Psychology, 113(1), 117-143. Development and validation of a dimensional personality questionnaire with five broad domains and 15 facets. A research instrument, not a diagnosis, complete identity or universal guide to careers and relationships."
-  },
-  {
-    "number": 13,
-    "organisation": "Laajaj, R. et al. (2019)",
-    "title": "Challenges to capture the big five personality traits in non-WEIRD populations",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/31309152/",
-    "note": "Science Advances, 5(7), eaaw5226. Analysed 29 face-to-face surveys with 94,751 respondents in 23 low- and middle-income countries and additional internet data. Found substantial measurement challenges in the face-to-face surveys. Results concern instrument performance and administration; they do not show that Africans lack personality traits or that all translated instruments are invalid."
-  },
-  {
-    "number": 14,
-    "organisation": "Wood, W. and Neal, D. T. (2007)",
-    "title": "A new look at habits and the habit-goal interface",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/17907866/",
-    "note": "Psychological Review, 114(4), 843-863. Theoretical synthesis of habit learning, context cues and goals. Supports attention to recurring contexts. Applications to visits home, changing shifts and cross-border routines in this report are AGF interpretations, not outcomes tested by this paper."
-  },
-  {
-    "number": 15,
-    "organisation": "Gollwitzer, P. M. and Sheeran, P. (2006)",
-    "title": "Implementation intentions and goal achievement: A meta-analysis of effects and processes",
-    "url": "https://doi.org/10.1016/S0065-2601(06)38002-1",
-    "note": "Advances in Experimental Social Psychology, 38, 69-119. Reviews plans specifying when, where and how to act. Supports using an if-then plan; it does not validate the AGF worksheets or guarantee results where resources, safety or permission are missing."
-  },
-  {
-    "number": 16,
-    "organisation": "Pronovost, P. et al. (2006)",
-    "title": "An intervention to decrease catheter-related bloodstream infections in the ICU",
-    "url": "https://doi.org/10.1056/NEJMoa061115",
-    "note": "New England Journal of Medicine, 355, 2725-2732. Multicomponent hospital safety intervention: education, supplies, a checklist, stopping non-emergency procedures when practices were missed, catheter review and feedback. Reported infection reductions cannot be attributed to the checklist alone. AGF draws an organisational analogy, not a numerical prediction for migrant services."
-  },
-  {
-    "number": 17,
-    "organisation": "George A. Bonanno / Big Think, reader-supplied transcript",
-    "title": "Why forcing positivity after trauma does not build resilience",
-    "url": "https://bigthink.com/series/full-interview/myths-of-trauma/",
-    "note": "Trauma_Resilience_Transcript.docx. Relevant sections: 09:28 on varied responses to adversity; 26:20 and 31:27 on flexibility; 37:00 on matching strategies to situations; 1:00:54 and 1:03:31 on grief. Interview themes are paraphrased, not treated as a diagnostic manual. The report does not apply the interview's trajectory percentages to African migrants."
-  },
-  {
-    "number": 18,
-    "organisation": "Wendy Suzuki / Big Think, reader-supplied transcript",
-    "title": "Move your body, grow your brain: the science of hippocampal neurogenesis",
-    "url": "https://bigthink.com/series/full-interview/wendy-suzuki/",
-    "note": "Exercise_Anxiety_Brain_Transcript_by_Topic.docx. Uses the practical themes of enjoyable movement, starting small and responding to everyday worry. The interview distinguishes everyday from clinical anxiety and acknowledges limitations in human evidence. Animal findings and brain-growth metaphors are not converted into guarantees about memory, dementia or migrant adjustment."
-  },
-  {
-    "number": 19,
-    "organisation": "Reader-supplied compilation",
-    "title": "Change Examples.pdf",
-    "url": "",
-    "note": "13 physical pages. Pages 1-10 contain selected online accounts and replies about separation, loneliness, language, racism, restricted work and returning home; pp. 10-13 contain notes on Suzuki, Bonanno and Maya Shankar. These are unverified, self-selected accounts, including non-African experiences, not a representative sample. Themes informed original scenarios. No usernames, identifying quotations, individual diagnoses, country rankings or commenters' treatment and immigration advice are reproduced."
-  },
-  {
-    "number": 20,
-    "organisation": "John Cacioppo / Big Think, reader-supplied edited paraphrase",
-    "title": "John Cacioppo on Loneliness and Human Connection",
-    "url": "https://bigthink.com/videos/john-cacioppo-on-how-to-cope-with-loneliness/",
-    "note": "John_Cacioppo_Loneliness_and_Human_Connection.pdf, 9 physical pages, summarising six Big Think interviews. Uses pp. 1-2 on connection versus contact, pp. 4-5 on mutual activity and relationship quality, and pp. 6-7 on technology and different social preferences. The link leads to the original coping interview. Historical prevalence figures and biological claims are not presented as current diaspora data."
-  },
-  {
-    "number": 21,
-    "organisation": "Bonanno, G. A. and Burton, C. L. (2013)",
-    "title": "Regulatory flexibility: An individual differences perspective on coping and emotion regulation",
-    "url": "https://doi.org/10.1177/1745691613504116",
-    "note": "Perspectives on Psychological Science, 8(6), 591-612. A conceptual review of context sensitivity, a repertoire of strategies and responsiveness to feedback. Supports flexible selection rather than one universally effective coping technique. The report's migration examples and worksheet are AGF applications, not clinically validated treatment."
-  },
-  {
-    "number": 22,
-    "organisation": "World Health Organization (2020)",
-    "title": "WHO guidelines on physical activity and sedentary behaviour",
-    "url": "https://www.who.int/publications/i/item/9789240015128",
-    "note": "Adult guidance: 150-300 minutes of moderate-intensity aerobic activity weekly, or 75-150 minutes vigorous, or an equivalent combination; muscle strengthening involving major muscle groups on at least two days. Some activity is better than none. Includes guidance for disability and chronic conditions. Figure 4 illustrates scheduling arithmetic, not a treatment dose or a personalised prescription."
-  },
-  {
-    "number": 23,
-    "organisation": "World Health Organization (2026)",
-    "title": "Post-traumatic stress disorder",
-    "url": "https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder",
-    "note": "Fact sheet dated 11 September 2026. Distinguishes distress after potentially traumatic events from PTSD; describes symptoms, varied risks, support and effective treatments. Clinical assessment is necessary; this report does not diagnose readers or advise them to conduct exposure therapy on themselves."
-  },
-  {
-    "number": 24,
-    "organisation": "NHS Every Mind Matters",
-    "title": "Tackling your worries",
-    "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-worries/",
-    "note": "Public self-help guidance on recording worries, distinguishing actionable problems from hypothetical worries, making a plan and setting aside a short period to reflect. The immigration, family and employment examples in this report are original applications, not legal advice or a substitute for clinical care."
-  },
-  {
-    "number": 25,
-    "organisation": "World Health Organization (2025)",
-    "title": "Social connection: questions and answers",
-    "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
-    "note": "30 June 2025. Distinguishes the structure, function and quality of relationships, social isolation and loneliness. The report uses these distinctions without estimating loneliness prevalence among Africans abroad."
-  },
-  {
-    "number": 26,
-    "organisation": "US National Institute of Mental Health",
-    "title": "My Mental Health: Do I Need Help?",
-    "url": "https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help",
-    "note": "Public guidance on symptoms, interference with daily life and when to seek professional or immediate help. This report gives a general help-seeking route for readers in many countries; US-only telephone numbers and eligibility assumptions are not generalised internationally."
-  },
-  {
-    "number": 27,
-    "organisation": "World Health Organization (2020)",
-    "title": "Doing What Matters in Times of Stress: An Illustrated Guide",
-    "url": "https://www.who.int/publications/i/item/9789240003927",
-    "note": "Evidence-informed and field-tested stress-management guide with practical exercises and multiple language editions, including Amharic, Arabic and French. Offered as an optional resource. The AGF plan itself has not been evaluated as an intervention."
-  },
-  {
-    "number": 28,
     "organisation": "Maya Shankar / TED (2023)",
     "title": "Why change is so scary and how to unlock its potential",
     "url": "https://www.ted.com/talks/maya_shankar_why_change_is_so_scary_and_how_to_unlock_its_potential",
-    "note": "Talk exploring capabilities, values and identity through unwanted change. Used as a reflection prompt alongside the notes in Change Examples.pdf, not as evidence that adversity is necessary for growth or that a change of career is equally available to everyone."
+    "note": "Reflection on capabilities, values and identity; also included in the supplied examples."
+  },
+  {
+    "number": 10,
+    "organisation": "George Bonanno / Big Think",
+    "title": "Why forcing positivity after trauma does not build resilience",
+    "url": "https://bigthink.com/series/full-interview/myths-of-trauma/",
+    "note": "Supplied Trauma Resilience transcript, especially flexibility at 31:27 and grief from 1:00:54."
+  },
+  {
+    "number": 11,
+    "organisation": "Bonanno and Burton (2013)",
+    "title": "Regulatory flexibility",
+    "url": "https://doi.org/10.1177/1745691613504116",
+    "note": "Conceptual review of context sensitivity, strategy repertoire and feedback; migration examples are AGF adaptations."
+  },
+  {
+    "number": 12,
+    "organisation": "Wendy Suzuki / Big Think",
+    "title": "Move your body grow your brain",
+    "url": "https://bigthink.com/series/full-interview/wendy-suzuki/",
+    "note": "Supplied Exercise Anxiety Brain transcript. Everyday versus clinical anxiety; enjoyable movement and small starts."
+  },
+  {
+    "number": 13,
+    "organisation": "WHO (2020)",
+    "title": "Guidelines on physical activity and sedentary behaviour",
+    "url": "https://www.who.int/publications/i/item/9789240015128",
+    "note": "Adult activity guidance, including disability and chronic conditions. Figure 3 is illustrative scheduling."
+  },
+  {
+    "number": 14,
+    "organisation": "NHS Every Mind Matters",
+    "title": "Tackling your worries",
+    "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-worries/",
+    "note": "Practical versus hypothetical worries and choosing a next action."
+  },
+  {
+    "number": 15,
+    "organisation": "WHO (2026)",
+    "title": "Post-traumatic stress disorder",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder",
+    "note": "Distress, symptoms and treatment; a move alone does not establish a diagnosis."
+  },
+  {
+    "number": 16,
+    "organisation": "US National Institute of Mental Health",
+    "title": "My Mental Health Do I Need Help",
+    "url": "https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help",
+    "note": "Symptoms and functioning. US crisis numbers are not generalised to other countries."
+  },
+  {
+    "number": 17,
+    "organisation": "WHO (2020)",
+    "title": "Doing What Matters in Times of Stress",
+    "url": "https://www.who.int/publications/i/item/9789240003927",
+    "note": "Illustrated stress-management guide with multiple language editions."
+  },
+  {
+    "number": 18,
+    "organisation": "Michie et al. (2011)",
+    "title": "The behaviour change wheel",
+    "url": "https://doi.org/10.1186/1748-5908-6-42",
+    "note": "COM-B: capability, opportunity and motivation."
+  },
+  {
+    "number": 19,
+    "organisation": "Gollwitzer and Sheeran (2006)",
+    "title": "Implementation intentions and goal achievement",
+    "url": "https://doi.org/10.1016/S0065-2601(06)38002-1",
+    "note": "Meta-analysis of plans specifying when, where and how to act."
+  },
+  {
+    "number": 20,
+    "organisation": "Lally et al. (2010)",
+    "title": "How are habits formed",
+    "url": "https://doi.org/10.1002/ejsp.674",
+    "note": "Habit automaticity developed at different rates. The study does not provide a timetable for migrant adjustment."
   }
 ]

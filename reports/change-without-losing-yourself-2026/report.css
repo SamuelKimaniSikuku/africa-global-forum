@@ -46,3 +46,7 @@
 .change-report .report-summary .source-ref { font-size: 13px; }
 .change-report .report-body-content .report-figure { margin-left: 0; margin-right: 0; }
 .change-report .source-list { overflow-wrap: anywhere; }
+
+/* Compact October 2026 edition. */
+.change-report .legacy-anchor { display:block; height:0; scroll-margin-top:115px; }
+.change-report .report-body-content section { scroll-margin-top:110px; }

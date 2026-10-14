@@ -1,20 +1,7 @@
 figure,category,value,unit,evidence_type,source_or_assumption
-cover,"Preserve, practise, reshape",,,conceptual,Original AGF framing
-1,Person and surrounding conditions,,,conceptual,AGF diagram informed by sources 1 and 2; not a validated instrument
-2,Sleep,56,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
-2,Work or study,45,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
-2,Commuting,10,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
-2,Meals / personal care,21,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
-2,Care / chores / administration,22,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
-2,Unallocated time,14,hours,illustrative,Invented week; total 168; not typical or legally permitted work hours
-3,Immigrants,47,percent,reported,"Source 5; EU highly educated, overqualified OR not in employment; 2023 report, not 2026 data"
-3,Native-born peers,30,percent,reported,"Source 5; EU highly educated, overqualified OR not in employment; 2023 report, not 2026 data"
-4,30 minutes x 1 x 5 days,150,moderate aerobic minutes/week,illustrative schedule,"Source 22; WHO adult guidance 150-300 moderate or 75-150 vigorous minutes/week or equivalent, plus strengthening at least 2 days; not a starting requirement or treatment dose"
-4,15 minutes x 2 x 5 days,150,moderate aerobic minutes/week,illustrative schedule,"Source 22; WHO adult guidance 150-300 moderate or 75-150 vigorous minutes/week or equivalent, plus strengthening at least 2 days; not a starting requirement or treatment dose"
-4,10 minutes x 3 x 5 days,150,moderate aerobic minutes/week,illustrative schedule,"Source 22; WHO adult guidance 150-300 moderate or 75-150 vigorous minutes/week or equivalent, plus strengthening at least 2 days; not a starting requirement or treatment dose"
-5,"Read situation, choose response, check result",,,conceptual application,"Sources 17 and 21; original migration application, not a validated intervention"
-6,Minimum estimate,18,days,reported,"Source 4; modelled automaticity for simple behaviours, not migration"
-6,Maximum estimate,254,days,reported,"Source 4; modelled automaticity for simple behaviours, not migration"
-6,Observation window,84,days,reported,"Source 4; modelled automaticity for simple behaviours, not migration"
-7,"Name, prepare, try, review",,,planning suggestion,Original AGF tool informed by sources 2 and 15; not an evaluated intervention
-8,90-day plan,90,days,planning suggestion,Original AGF tool; no guaranteed timetable
+1,Person and surrounding conditions,,,conceptual,Sources 6 and 18; not a validated assessment
+2,"Read situation, choose response, check result",,,conceptual application,Sources 10 and 11; migration examples are AGF applications
+3,30 minutes x 1 x 5 days,150,moderate aerobic minutes/week,illustrative schedule,Source 13; WHO adult guidance; also strength work at least 2 days; not a starting requirement or treatment dose
+3,15 minutes x 2 x 5 days,150,moderate aerobic minutes/week,illustrative schedule,Source 13; WHO adult guidance; also strength work at least 2 days; not a starting requirement or treatment dose
+3,10 minutes x 3 x 5 days,150,moderate aerobic minutes/week,illustrative schedule,Source 13; WHO adult guidance; also strength work at least 2 days; not a starting requirement or treatment dose
+4,"This week, at your review, when life changes",,,planning suggestion,Original AGF prompts; no fixed adjustment timetable
