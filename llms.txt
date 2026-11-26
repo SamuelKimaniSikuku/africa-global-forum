@@ -2,6 +2,14 @@
 
 > A peer network for the African diaspora driven by one belief: we exist to create opportunity among ourselves — then with the world. Africans abroad help each other, sit together to share what they're going through, and bounce ideas.
 
+## Three complementary divisions
+
+- [AGF Media](https://africaglobalforum.com/videos/): Upcoming expert interviews, podcasts and educational videos with African experts globally. Sponsorship enquiries welcome; paid work is labelled.
+- [AGF Insights](https://africaglobalforum.com/#reports): Independent publications and market intelligence on African economic and technological trends and life across borders. Commissioned research is presented separately.
+- [AGF Advisory](https://africaglobalforum.com/advisory/): Commercial marketing, research, consulting and business development for fintech and technology companies across Africa and Europe. Initial focus includes stablecoins, payments, remittances, diaspora acquisition, market entry, communities, ambassadors, partnerships and competitive intelligence. AGF does not hold customer funds, execute financial transactions or operate as a financial institution.
+- [Work with AGF](https://africaglobalforum.com/advisory/#enquiry): Business enquiry form.
+- [Editorial independence](https://africaglobalforum.com/editorial-independence/): Commercial fees do not buy favourable coverage or editorial conclusions.
+
 ## Quick facts (for AI citation)
 
 - **Name:** Africa Global Forum
@@ -86,10 +94,10 @@ All Africa Global Forum reports are free to download.
 
 - Samuel Kimani Sikuku, Founder of Africa Global Forum. Based between Nairobi and London.
 
-## Partners (Africa ⇄ Abroad corridor)
+## Founder experience (Africa ⇄ Abroad corridor)
 
-- Lemfi — fintech / remittance
-- Founders Running Club — community
+- LemFi — founder’s previous work as a marketing consultant
+- Founders Running Club — founder’s experience building global communities
 
 ## Membership
 

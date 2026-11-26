@@ -5,28 +5,7 @@
 (function () {
   'use strict';
 
-  // ---------- Mobile menu ----------
-  const toggle = document.getElementById('menuToggle');
-  const links = document.getElementById('navLinks');
-  if (toggle && links) {
-    function setMenuOpen(open) {
-      links.classList.toggle('open', open);
-      toggle.setAttribute('aria-expanded', String(open));
-      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-    }
-    toggle.setAttribute('aria-controls', 'navLinks');
-    setMenuOpen(false);
-    toggle.addEventListener('click', () => setMenuOpen(!links.classList.contains('open')));
-    links.addEventListener('click', (e) => {
-      if (e.target.closest('a')) setMenuOpen(false);
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && links.classList.contains('open')) {
-        setMenuOpen(false);
-        toggle.focus();
-      }
-    });
-  }
+  // Shared navigation is handled by navigation.js.
 
   // ---------- Reveal on scroll ----------
   if ('IntersectionObserver' in window) {
