@@ -151,3 +151,21 @@
  .agf-eyebrow{font-size:14px;letter-spacing:.02em}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto} .division-page *{transition:none!important}}
+
+/* Personal founder audience: dated snapshots supplied by the founder, not live counters. */
+.founder-audience{margin-top:32px;max-width:620px;text-align:left}
+.founder-audience .founder-audience-title{font-family:'JetBrains Mono',monospace;font-size:14px;line-height:1.6;font-weight:400;letter-spacing:.05em;text-transform:uppercase;color:var(--rust);margin:0 0 16px}
+.founder-audience-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-block:1px solid var(--line)}
+.founder-audience .audience-stat{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:20px 24px 22px 0;text-decoration:none;color:var(--ink);min-width:0;transition:color .2s}
+.founder-audience .audience-stat+.audience-stat{border-left:1px solid var(--line);padding-left:24px;padding-right:0}
+.founder-audience .audience-platform{font-size:14px;font-weight:600;line-height:1.6;overflow-wrap:anywhere}
+.founder-audience .audience-stat strong{font-family:'Fraunces',serif;font-size:42px;font-weight:400;line-height:1.2;letter-spacing:-.025em}
+.founder-audience .audience-caption{font-size:14px;line-height:1.5;color:#585149}
+.founder-audience .audience-stat:hover{color:var(--rust)}
+.founder-audience .audience-stat:focus-visible{outline:3px solid var(--rust);outline-offset:4px}
+.founder-audience p.founder-audience-note{font-size:14px;line-height:1.7;color:#585149;margin:12px 0 0;max-width:none}
+@media(max-width:420px){
+ .founder-audience .audience-stat{padding-right:14px}
+ .founder-audience .audience-stat+.audience-stat{padding-left:14px}
+ .founder-audience .audience-stat strong{font-size:34px}
+}

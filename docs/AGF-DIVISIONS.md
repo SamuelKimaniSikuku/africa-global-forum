@@ -43,3 +43,7 @@ The website deploys through the existing GitHub Pages workflow on `main`. Databa
 For future endpoint changes, deploy the versioned contents of `supabase/functions/advisory-enquiry/` with JWT verification enabled. Keep the anonymous table/RPC grants revoked. Recheck valid submissions, duplicate protection and public access denial before shipping.
 
 No client testimonials, client roster, partner endorsements, commercial results or performance metrics were created.
+
+## Founder audience update — 26 November 2026
+
+The homepage founder section and Advisory founder section display the personal profile counts supplied in the founder’s screenshots: **13,354 LinkedIn followers** and **12.5K X followers**, with X linked to `https://x.com/SKimani544`. X’s displayed rounded count is retained rather than represented as an exact number. Each platform links to the personal profile, and both sections include the snapshot date. These are separate platform counts, not a combined unique audience or AGF company-page following. Counts are static snapshots; update both HTML sections and their dates when new figures are supplied.
