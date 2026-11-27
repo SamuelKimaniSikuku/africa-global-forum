@@ -73,6 +73,11 @@
 .enquiry-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
 .enquiry-intro p:not(.agf-eyebrow){font-size:17px;line-height:1.8;margin:24px 0;color:#585149}
 .enquiry-intro>a{overflow-wrap:anywhere}
+.advisory-booking{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 0;margin:28px 0}
+.advisory-booking h3{font-size:28px}
+.enquiry-intro .advisory-booking p{margin:16px 0 22px}
+.enquiry-intro .advisory-booking .agf-note{margin:16px 0 0}
+.advisory-booking .btn-primary{max-width:100%;text-align:center}
 .enquiry-form{background:var(--paper-warm);padding:32px;min-width:0;position:relative}
 .enquiry-form>.agf-note{margin-bottom:22px}
 .enquiry-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 20px}

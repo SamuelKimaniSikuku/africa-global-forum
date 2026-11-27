@@ -47,3 +47,12 @@ No client testimonials, client roster, partner endorsements, commercial results 
 ## Founder audience update — 26 November 2026
 
 The homepage founder section and Advisory founder section display the personal profile counts supplied in the founder’s screenshots: **13,354 LinkedIn followers** and **12.5K X followers**, with X linked to `https://x.com/SKimani544`. X’s displayed rounded count is retained rather than represented as an exact number. Each platform links to the personal profile, and both sections include the snapshot date. These are separate platform counts, not a combined unique audience or AGF company-page following. Counts are static snapshots; update both HTML sections and their dates when new figures are supplied.
+
+
+## Discovery-call booking — 27 November 2026
+
+The Advisory hero and enquiry section, plus the homepage footer, link to the public **AGF Growth Discovery Call** Google appointment schedule: https://calendar.app.google/NzKcx4zccWTxscd66. The existing enquiry form and email route remain. Links open in a new tab and load no Google booking scripts on AGF.
+
+The schedule offers 30-minute Google Meet calls on Tuesdays and Thursdays, 10:00–17:00 in Europe/Paris, with calendar conflict checking enabled. It retains Google’s initial 60-day booking window and four-hour minimum notice. The booking form requests name and email, optional company/website, and a required markets-and-goals question. Google generates the meeting details after a booking.
+
+Manage hours, meeting details and questions in Google Calendar → Booking pages → AGF Growth Discovery Call → Edit. Update the hours shown in `advisory/index.html` if the weekly schedule changes. If replacing the booking page, update its link in both `advisory/index.html` and the homepage `index.html`. No test appointment was submitted.
